@@ -1,0 +1,554 @@
+[
+  {
+    "model": "llama3-8b",
+    "ratio": 0.25,
+    "task": "single",
+    "recall": 0.61,
+    "n": 100,
+    "cosine_sim": 0.3992818609625101
+  },
+  {
+    "model": "llama3-8b",
+    "ratio": 0.4,
+    "task": "single",
+    "recall": 0.45,
+    "n": 100,
+    "cosine_sim": 0.33011226542294025
+  },
+  {
+    "model": "llama3-8b",
+    "ratio": 0.5,
+    "task": "single",
+    "recall": 0.54,
+    "n": 100,
+    "cosine_sim": 0.3642632235586643
+  },
+  {
+    "model": "llama3-8b",
+    "ratio": 0.6,
+    "task": "single",
+    "recall": 0.6,
+    "n": 100,
+    "cosine_sim": 0.3817640074621886
+  },
+  {
+    "model": "llama3-8b",
+    "ratio": 0.75,
+    "task": "single",
+    "recall": 0.63,
+    "n": 100,
+    "cosine_sim": 0.3988522846996784
+  },
+  {
+    "model": "llama3-8b",
+    "ratio": 0.9,
+    "task": "single",
+    "recall": 0.7,
+    "n": 100,
+    "cosine_sim": 0.44761745266616343
+  },
+  {
+    "model": "llama3-8b",
+    "ratio": 0.95,
+    "task": "single",
+    "recall": 0.73,
+    "n": 100,
+    "cosine_sim": 0.4434447190351784
+  },
+  {
+    "model": "llama3-8b",
+    "ratio": 0.99,
+    "task": "single",
+    "recall": 0.73,
+    "n": 100,
+    "cosine_sim": 0.44600925166159866
+  },
+  {
+    "model": "mistral-7b",
+    "ratio": 0.25,
+    "task": "single",
+    "recall": 0.89,
+    "n": 100,
+    "cosine_sim": 0.5272079142928123
+  },
+  {
+    "model": "mistral-7b",
+    "ratio": 0.4,
+    "task": "single",
+    "recall": 0.97,
+    "n": 100,
+    "cosine_sim": 0.5465093687176704
+  },
+  {
+    "model": "mistral-7b",
+    "ratio": 0.5,
+    "task": "single",
+    "recall": 0.93,
+    "n": 100,
+    "cosine_sim": 0.5403960838913917
+  },
+  {
+    "model": "mistral-7b",
+    "ratio": 0.6,
+    "task": "single",
+    "recall": 0.91,
+    "n": 100,
+    "cosine_sim": 0.5199697898328304
+  },
+  {
+    "model": "mistral-7b",
+    "ratio": 0.75,
+    "task": "single",
+    "recall": 0.96,
+    "n": 100,
+    "cosine_sim": 0.557930683195591
+  },
+  {
+    "model": "mistral-7b",
+    "ratio": 0.9,
+    "task": "single",
+    "recall": 0.96,
+    "n": 100,
+    "cosine_sim": 0.5676839658617974
+  },
+  {
+    "model": "mistral-7b",
+    "ratio": 0.95,
+    "task": "single",
+    "recall": 0.93,
+    "n": 100,
+    "cosine_sim": 0.5488223889470101
+  },
+  {
+    "model": "mistral-7b",
+    "ratio": 0.99,
+    "task": "single",
+    "recall": 0.96,
+    "n": 100,
+    "cosine_sim": 0.5561647462844849
+  },
+  {
+    "model": "phi3-mini",
+    "ratio": 0.25,
+    "task": "single",
+    "recall": 0.95,
+    "n": 100,
+    "cosine_sim": 0.8941427713632584
+  },
+  {
+    "model": "phi3-mini",
+    "ratio": 0.4,
+    "task": "single",
+    "recall": 0.95,
+    "n": 100,
+    "cosine_sim": 0.8840215623378753
+  },
+  {
+    "model": "phi3-mini",
+    "ratio": 0.5,
+    "task": "single",
+    "recall": 0.97,
+    "n": 100,
+    "cosine_sim": 0.6815229892730713
+  },
+  {
+    "model": "phi3-mini",
+    "ratio": 0.6,
+    "task": "single",
+    "recall": 0.98,
+    "n": 100,
+    "cosine_sim": 0.6582434538006783
+  },
+  {
+    "model": "phi3-mini",
+    "ratio": 0.75,
+    "task": "single",
+    "recall": 0.97,
+    "n": 100,
+    "cosine_sim": 0.6421278551220894
+  },
+  {
+    "model": "phi3-mini",
+    "ratio": 0.9,
+    "task": "single",
+    "recall": 0.95,
+    "n": 100,
+    "cosine_sim": 0.6726744735240936
+  },
+  {
+    "model": "phi3-mini",
+    "ratio": 0.95,
+    "task": "single",
+    "recall": 0.95,
+    "n": 100,
+    "cosine_sim": 0.6801451036334037
+  },
+  {
+    "model": "phi3-mini",
+    "ratio": 0.99,
+    "task": "single",
+    "recall": 0.95,
+    "n": 100,
+    "cosine_sim": 0.6590611958503723
+  },
+  {
+    "model": "llama3-8b",
+    "ratio": 0.25,
+    "task": "multi",
+    "recall": 0.53,
+    "n": 20,
+    "cosine_sim": 0.43344855308532715
+  },
+  {
+    "model": "llama3-8b",
+    "ratio": 0.4,
+    "task": "multi",
+    "recall": 0.45,
+    "n": 20,
+    "cosine_sim": 0.4207362584769726
+  },
+  {
+    "model": "llama3-8b",
+    "ratio": 0.5,
+    "task": "multi",
+    "recall": 0.4700000000000001,
+    "n": 20,
+    "cosine_sim": 0.42369421720504763
+  },
+  {
+    "model": "llama3-8b",
+    "ratio": 0.6,
+    "task": "multi",
+    "recall": 0.6100000000000001,
+    "n": 20,
+    "cosine_sim": 0.4449027381837368
+  },
+  {
+    "model": "llama3-8b",
+    "ratio": 0.75,
+    "task": "multi",
+    "recall": 0.36000000000000004,
+    "n": 20,
+    "cosine_sim": 0.40710914731025694
+  },
+  {
+    "model": "llama3-8b",
+    "ratio": 0.9,
+    "task": "multi",
+    "recall": 0.54,
+    "n": 20,
+    "cosine_sim": 0.4406499095261097
+  },
+  {
+    "model": "llama3-8b",
+    "ratio": 0.95,
+    "task": "multi",
+    "recall": 0.42000000000000004,
+    "n": 20,
+    "cosine_sim": 0.4089148283004761
+  },
+  {
+    "model": "llama3-8b",
+    "ratio": 0.99,
+    "task": "multi",
+    "recall": 0.4600000000000001,
+    "n": 20,
+    "cosine_sim": 0.43611581325531007
+  },
+  {
+    "model": "mistral-7b",
+    "ratio": 0.25,
+    "task": "multi",
+    "recall": 0.8800000000000001,
+    "n": 20,
+    "cosine_sim": 0.7429428189992905
+  },
+  {
+    "model": "mistral-7b",
+    "ratio": 0.4,
+    "task": "multi",
+    "recall": 0.8400000000000001,
+    "n": 20,
+    "cosine_sim": 0.7304192923009396
+  },
+  {
+    "model": "mistral-7b",
+    "ratio": 0.5,
+    "task": "multi",
+    "recall": 0.9200000000000002,
+    "n": 20,
+    "cosine_sim": 0.7769524857401848
+  },
+  {
+    "model": "mistral-7b",
+    "ratio": 0.6,
+    "task": "multi",
+    "recall": 0.96,
+    "n": 20,
+    "cosine_sim": 0.7555555090308189
+  },
+  {
+    "model": "mistral-7b",
+    "ratio": 0.75,
+    "task": "multi",
+    "recall": 0.9400000000000001,
+    "n": 20,
+    "cosine_sim": 0.838616831600666
+  },
+  {
+    "model": "mistral-7b",
+    "ratio": 0.9,
+    "task": "multi",
+    "recall": 0.93,
+    "n": 20,
+    "cosine_sim": 0.8722493648529053
+  },
+  {
+    "model": "mistral-7b",
+    "ratio": 0.95,
+    "task": "multi",
+    "recall": 0.9600000000000002,
+    "n": 20,
+    "cosine_sim": 0.7120481058955193
+  },
+  {
+    "model": "mistral-7b",
+    "ratio": 0.99,
+    "task": "multi",
+    "recall": 0.95,
+    "n": 20,
+    "cosine_sim": 0.7952830642461777
+  },
+  {
+    "model": "phi3-mini",
+    "ratio": 0.25,
+    "task": "multi",
+    "recall": 0.9200000000000002,
+    "n": 20,
+    "cosine_sim": 0.9004788190126419
+  },
+  {
+    "model": "phi3-mini",
+    "ratio": 0.4,
+    "task": "multi",
+    "recall": 0.9100000000000001,
+    "n": 20,
+    "cosine_sim": 0.9034252047538758
+  },
+  {
+    "model": "phi3-mini",
+    "ratio": 0.5,
+    "task": "multi",
+    "recall": 0.93,
+    "n": 20,
+    "cosine_sim": 0.874168136715889
+  },
+  {
+    "model": "phi3-mini",
+    "ratio": 0.6,
+    "task": "multi",
+    "recall": 0.9200000000000002,
+    "n": 20,
+    "cosine_sim": 0.906139463186264
+  },
+  {
+    "model": "phi3-mini",
+    "ratio": 0.75,
+    "task": "multi",
+    "recall": 0.9200000000000002,
+    "n": 20,
+    "cosine_sim": 0.9010960787534714
+  },
+  {
+    "model": "phi3-mini",
+    "ratio": 0.9,
+    "task": "multi",
+    "recall": 0.9000000000000001,
+    "n": 20,
+    "cosine_sim": 0.8899685248732567
+  },
+  {
+    "model": "phi3-mini",
+    "ratio": 0.95,
+    "task": "multi",
+    "recall": 0.9200000000000002,
+    "n": 20,
+    "cosine_sim": 0.9046865910291672
+  },
+  {
+    "model": "phi3-mini",
+    "ratio": 0.99,
+    "task": "multi",
+    "recall": 0.8800000000000001,
+    "n": 20,
+    "cosine_sim": 0.9129263550043106
+  },
+  {
+    "model": "llama3-8b",
+    "ratio": 0.25,
+    "task": "reasoning",
+    "recall": 1.0,
+    "n": 30
+  },
+  {
+    "model": "llama3-8b",
+    "ratio": 0.4,
+    "task": "reasoning",
+    "recall": 0.9666666666666667,
+    "n": 30
+  },
+  {
+    "model": "llama3-8b",
+    "ratio": 0.5,
+    "task": "reasoning",
+    "recall": 0.9666666666666667,
+    "n": 30
+  },
+  {
+    "model": "llama3-8b",
+    "ratio": 0.6,
+    "task": "reasoning",
+    "recall": 1.0,
+    "n": 30
+  },
+  {
+    "model": "llama3-8b",
+    "ratio": 0.75,
+    "task": "reasoning",
+    "recall": 1.0,
+    "n": 30
+  },
+  {
+    "model": "llama3-8b",
+    "ratio": 0.9,
+    "task": "reasoning",
+    "recall": 1.0,
+    "n": 30
+  },
+  {
+    "model": "llama3-8b",
+    "ratio": 0.95,
+    "task": "reasoning",
+    "recall": 1.0,
+    "n": 30
+  },
+  {
+    "model": "llama3-8b",
+    "ratio": 0.99,
+    "task": "reasoning",
+    "recall": 1.0,
+    "n": 30
+  },
+  {
+    "model": "mistral-7b",
+    "ratio": 0.25,
+    "task": "reasoning",
+    "recall": 0.9333333333333333,
+    "n": 30
+  },
+  {
+    "model": "mistral-7b",
+    "ratio": 0.4,
+    "task": "reasoning",
+    "recall": 0.9,
+    "n": 30
+  },
+  {
+    "model": "mistral-7b",
+    "ratio": 0.5,
+    "task": "reasoning",
+    "recall": 0.9666666666666667,
+    "n": 30
+  },
+  {
+    "model": "mistral-7b",
+    "ratio": 0.6,
+    "task": "reasoning",
+    "recall": 0.9666666666666667,
+    "n": 30
+  },
+  {
+    "model": "mistral-7b",
+    "ratio": 0.75,
+    "task": "reasoning",
+    "recall": 1.0,
+    "n": 30
+  },
+  {
+    "model": "mistral-7b",
+    "ratio": 0.9,
+    "task": "reasoning",
+    "recall": 1.0,
+    "n": 30
+  },
+  {
+    "model": "mistral-7b",
+    "ratio": 0.95,
+    "task": "reasoning",
+    "recall": 1.0,
+    "n": 30
+  },
+  {
+    "model": "mistral-7b",
+    "ratio": 0.99,
+    "task": "reasoning",
+    "recall": 1.0,
+    "n": 30
+  },
+  {
+    "model": "phi3-mini",
+    "ratio": 0.25,
+    "task": "reasoning",
+    "recall": 0.8333333333333334,
+    "n": 30
+  },
+  {
+    "model": "phi3-mini",
+    "ratio": 0.4,
+    "task": "reasoning",
+    "recall": 0.9,
+    "n": 30
+  },
+  {
+    "model": "phi3-mini",
+    "ratio": 0.5,
+    "task": "reasoning",
+    "recall": 0.9333333333333333,
+    "n": 30
+  },
+  {
+    "model": "phi3-mini",
+    "ratio": 0.6,
+    "task": "reasoning",
+    "recall": 0.9333333333333333,
+    "n": 30
+  },
+  {
+    "model": "phi3-mini",
+    "ratio": 0.75,
+    "task": "reasoning",
+    "recall": 1.0,
+    "n": 30
+  },
+  {
+    "model": "phi3-mini",
+    "ratio": 0.9,
+    "task": "reasoning",
+    "recall": 0.9666666666666667,
+    "n": 30
+  },
+  {
+    "model": "phi3-mini",
+    "ratio": 0.95,
+    "task": "reasoning",
+    "recall": 0.9666666666666667,
+    "n": 30
+  },
+  {
+    "model": "phi3-mini",
+    "ratio": 0.99,
+    "task": "reasoning",
+    "recall": 0.9666666666666667,
+    "n": 30
+  }
+]

@@ -1,0 +1,4962 @@
+[
+  {
+    "group_idx": 0,
+    "ratio": 0.25,
+    "questions": [
+      "What is the boiling point of helium?",
+      "What is the average distance from Earth to the Moon?",
+      "How long is the Tigris River?",
+      "What is the diameter of the Moon?",
+      "What is the surface area of Lake Superior?"
+    ],
+    "answers": [
+      "minus 268.93 degrees Celsius",
+      "384,400 kilometers",
+      "1,850 kilometers",
+      "3,474 kilometers",
+      "82,100 square kilometers"
+    ],
+    "needles": [
+      "Helium has a boiling point of minus 268.93 degrees Celsius.",
+      "The average distance from Earth to the Moon is 384,400 kilometers.",
+      "The Tigris River is 1,850 kilometers long.",
+      "The diameter of the Moon is 3,474 kilometers.",
+      "Lake Superior has a surface area of 82,100 square kilometers."
+    ],
+    "response": "1. Minus 268.93 degrees Celsius\n2. 384,400 kilometers\n3. 1,850 kilometers\n4. 3,474 kilometers\n5. 82,100 square kilometers",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 1,
+    "ratio": 0.25,
+    "questions": [
+      "What is the melting point of tungsten?",
+      "What is the boiling point of mercury?",
+      "How long is the Panama Canal?",
+      "How tall is Mount Kilimanjaro?",
+      "What area does the Indian Ocean cover?"
+    ],
+    "answers": [
+      "3,422 degrees Celsius",
+      "356.73 degrees Celsius",
+      "82 kilometers",
+      "5,895 meters",
+      "70.56 million square kilometers"
+    ],
+    "needles": [
+      "Tungsten has the highest melting point of any element at 3,422 degrees Celsius.",
+      "The boiling point of mercury is 356.73 degrees Celsius.",
+      "The Panama Canal is 82 kilometers long.",
+      "Mount Kilimanjaro stands at 5,895 meters above sea level.",
+      "The Indian Ocean covers approximately 70.56 million square kilometers."
+    ],
+    "response": "1. 3,422 degrees Celsius\n2. 356.73 degrees Celsius\n3. 82 kilometers\n4. 5,895 meters\n5. Approximately 70.56 million square kilometers",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 2,
+    "ratio": 0.25,
+    "questions": [
+      "What is the surface pressure on Venus compared to Earth?",
+      "How much does the Eiffel Tower weigh?",
+      "How long is the Pan-American Highway?",
+      "What is the density of Earth?",
+      "How long is the Ob River?"
+    ],
+    "answers": [
+      "92 times that of Earth",
+      "7,300 metric tons",
+      "30,000 kilometers",
+      "5.51 grams per cubic centimeter",
+      "3,650 kilometers"
+    ],
+    "needles": [
+      "The surface pressure on Venus is 92 times that of Earth.",
+      "The Eiffel Tower weighs approximately 7,300 metric tons.",
+      "The Pan-American Highway stretches approximately 30,000 kilometers.",
+      "The density of Earth is 5.51 grams per cubic centimeter.",
+      "The Ob River has a length of 3,650 kilometers."
+    ],
+    "response": "1. 92 times that of Earth\n2. Approximately 7,300 metric tons\n3. Approximately 30,000 kilometers\n4. 5.51 grams per cubic centimeter\n5. Not provided in the context",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 3,
+    "ratio": 0.25,
+    "questions": [
+      "What area does the Gobi Desert cover?",
+      "What is the drainage basin area of the Mississippi River?",
+      "What is the average rainfall in the Amazon basin?",
+      "How long is the Trans-Siberian Railway?",
+      "How far below sea level is the Dead Sea?"
+    ],
+    "answers": [
+      "1,295,000 square kilometers",
+      "2,981,076 square kilometers",
+      "2,300 millimeters per year",
+      "9,289 kilometers",
+      "430 meters"
+    ],
+    "needles": [
+      "The Gobi Desert covers approximately 1,295,000 square kilometers.",
+      "The Mississippi River has a drainage basin of 2,981,076 square kilometers.",
+      "The average rainfall in the Amazon basin is 2,300 millimeters per year.",
+      "The Trans-Siberian Railway spans 9,289 kilometers.",
+      "The Dead Sea lies at 430 meters below sea level."
+    ],
+    "response": "1. The Gobi Desert covers approximately 1,295,000 square kilometers.\n2. The Mississippi River has a drainage basin of 2,981,076 square kilometers.\n3. The average rainfall in the Amazon basin is 2,300 millimeters per year.\n4. The Trans-Siberian Railway spans 9,289 kilometers.\n5. The Dead Sea lies at 430 meters below sea level.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 4,
+    "ratio": 0.25,
+    "questions": [
+      "What is the escape velocity of Earth?",
+      "How much precipitation does Antarctica receive per year?",
+      "What is the volume of the Caspian Sea?",
+      "How long is the Zambezi River?",
+      "How long is the Mekong River?"
+    ],
+    "answers": [
+      "11.186 kilometers per second",
+      "166 millimeters",
+      "78,200 cubic kilometers",
+      "2,574 kilometers",
+      "4,350 kilometers"
+    ],
+    "needles": [
+      "The escape velocity of Earth is 11.186 kilometers per second.",
+      "Antarctica receives only 166 millimeters of precipitation per year on average.",
+      "The Caspian Sea has a volume of 78,200 cubic kilometers.",
+      "The Zambezi River is 2,574 kilometers long.",
+      "The Mekong River is 4,350 kilometers long."
+    ],
+    "response": "1. The escape velocity of Earth is not provided in the context.\n2. Antarctica receives 166 millimeters of precipitation per year on average.\n3. The volume of the Caspian Sea is not provided in the context.\n4. The Zambezi River is 2,574 kilometers long.\n5. The Mekong River is 4,350 kilometers long.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 3,
+    "total": 5,
+    "recall": 0.6
+  },
+  {
+    "group_idx": 5,
+    "ratio": 0.25,
+    "questions": [
+      "What is the radius of the Sun?",
+      "How wide is the Strait of Gibraltar at its narrowest point?",
+      "What is the total area of Greenland?",
+      "How long is the Rhine River?",
+      "How long does it take Neptune to orbit the Sun?"
+    ],
+    "answers": [
+      "696,340 kilometers",
+      "14.3 kilometers",
+      "2,166,086 square kilometers",
+      "1,230 kilometers",
+      "164.8 Earth years"
+    ],
+    "needles": [
+      "The radius of the Sun is 696,340 kilometers.",
+      "The Strait of Gibraltar is 14.3 kilometers wide at its narrowest point.",
+      "Greenland has a total area of 2,166,086 square kilometers.",
+      "The Rhine River is 1,230 kilometers long.",
+      "Neptune takes 164.8 Earth years to orbit the Sun."
+    ],
+    "response": "1. The radius of the Sun is not provided in the context.\n2. The Strait of Gibraltar is 14.3 kilometers wide at its narrowest point.\n3. The total area of Greenland is not provided in the context.\n4. The Rhine River is 1,230 kilometers long.\n5. Neptune takes 164.8 Earth years to orbit the Sun.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 3,
+    "total": 5,
+    "recall": 0.6
+  },
+  {
+    "group_idx": 6,
+    "ratio": 0.25,
+    "questions": [
+      "What is the discharge rate of the Amazon River?",
+      "What is the specific heat capacity of water?",
+      "How long does it take Io to orbit Jupiter?",
+      "How long is the Suez Canal?",
+      "What is the area of the Bay of Bengal?"
+    ],
+    "answers": [
+      "209,000 cubic meters per second",
+      "4.186 joules per gram per degree Celsius",
+      "1.77 Earth days",
+      "193 kilometers",
+      "2,172,000 square kilometers"
+    ],
+    "needles": [
+      "The Amazon River discharges approximately 209,000 cubic meters of water per second.",
+      "The specific heat capacity of water is 4.186 joules per gram per degree Celsius.",
+      "Io orbits Jupiter once every 1.77 Earth days.",
+      "The Suez Canal is 193 kilometers long.",
+      "The Bay of Bengal has an area of 2,172,000 square kilometers."
+    ],
+    "response": "1. Approximately 209,000 cubic meters of water per second.\n2. 4.186 joules per gram per degree Celsius.\n3. Io orbits Jupiter once every 1.77 Earth days.\n4. The Suez Canal is 193 kilometers long.\n5. The Bay of Bengal has an area of 2,172,000 square kilometers.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 7,
+    "ratio": 0.25,
+    "questions": [
+      "What is the magnetic field strength of Earth at the surface?",
+      "What is the boiling point of nitrogen?",
+      "What is the orbital velocity of the International Space Station?",
+      "What is the maximum depth of Lake Malawi?",
+      "What area does the Sahara Desert cover?"
+    ],
+    "answers": [
+      "50 microteslas",
+      "minus 195.79 degrees Celsius",
+      "7.66 kilometers per second",
+      "706 meters",
+      "9.2 million square kilometers"
+    ],
+    "needles": [
+      "The magnetic field strength of Earth at the surface is approximately 50 microteslas.",
+      "The boiling point of nitrogen is minus 195.79 degrees Celsius.",
+      "The orbital velocity of the International Space Station is 7.66 kilometers per second.",
+      "Lake Malawi has a maximum depth of 706 meters.",
+      "The Sahara Desert covers an area of approximately 9.2 million square kilometers."
+    ],
+    "response": "1. 50 microteslas\n2. Minus 195.79 degrees Celsius\n3. 7.66 kilometers per second\n4. Not provided in the context\n5. Approximately 9.2 million square kilometers",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 8,
+    "ratio": 0.25,
+    "questions": [
+      "What is the surface gravity of Mars?",
+      "What area does the Pacific Ocean cover?",
+      "What is the solubility of table salt in water at 25 degrees Celsius?",
+      "How long is the Yangtze River?",
+      "What is the half-life of carbon-14?"
+    ],
+    "answers": [
+      "3.72 meters per second squared",
+      "165.25 million square kilometers",
+      "360 grams per liter",
+      "6,300 kilometers",
+      "5,730 years"
+    ],
+    "needles": [
+      "The surface gravity of Mars is 3.72 meters per second squared.",
+      "The Pacific Ocean covers approximately 165.25 million square kilometers.",
+      "The solubility of table salt in water at 25 degrees Celsius is 360 grams per liter.",
+      "The Yangtze River is 6,300 kilometers long.",
+      "The half-life of carbon-14 is 5,730 years."
+    ],
+    "response": "1. The surface gravity of Mars is not mentioned in the provided context.\n2. The Pacific Ocean covers approximately 165.25 million square kilometers.\n3. The solubility of table salt in water at 25 degrees Celsius is 360 grams per liter.\n4. The length of the Yangtze River is not mentioned in the provided context.\n5. The half-life of carbon-14 is 5,730 years.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 3,
+    "total": 5,
+    "recall": 0.6
+  },
+  {
+    "group_idx": 9,
+    "ratio": 0.25,
+    "questions": [
+      "What is the tilt of Earth's axis?",
+      "How long are the Appalachian Mountains?",
+      "What is the average salt concentration in ocean water?",
+      "What is the melting point of gold?",
+      "What is the viscosity of honey at room temperature?"
+    ],
+    "answers": [
+      "23.44 degrees",
+      "2,400 kilometers",
+      "35 grams per liter",
+      "1,064 degrees Celsius",
+      "10,000 centipoise"
+    ],
+    "needles": [
+      "The tilt of Earth's axis is 23.44 degrees.",
+      "The Appalachian Mountains stretch approximately 2,400 kilometers.",
+      "The concentration of salt in ocean water averages 35 grams per liter.",
+      "The melting point of gold is 1,064 degrees Celsius.",
+      "The viscosity of honey at room temperature is approximately 10,000 centipoise."
+    ],
+    "response": "1. The tilt of Earth's axis is not provided in the context.\n2. The Appalachian Mountains stretch approximately 2,400 kilometers.\n3. The average salt concentration in ocean water is approximately 35 grams per liter.\n4. The melting point of gold is 1,064 degrees Celsius.\n5. The viscosity of honey at room temperature is approximately 10,000 centipoise.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 10,
+    "ratio": 0.25,
+    "questions": [
+      "What is the circumference of Earth at the equator?",
+      "How long does it take Mercury to orbit the Sun?",
+      "How long is the Great Wall of China?",
+      "How much rain does the Atacama Desert receive per year?",
+      "What is the density of osmium?"
+    ],
+    "answers": [
+      "40,075 kilometers",
+      "88 Earth days",
+      "21,196 kilometers",
+      "less than 15 millimeters",
+      "22.59 grams per cubic centimeter"
+    ],
+    "needles": [
+      "The circumference of Earth at the equator is 40,075 kilometers.",
+      "Mercury orbits the Sun in 88 Earth days.",
+      "The Great Wall of China spans approximately 21,196 kilometers.",
+      "The Atacama Desert receives less than 15 millimeters of rain per year.",
+      "The density of osmium is 22.59 grams per cubic centimeter."
+    ],
+    "response": "1. 40,075 kilometers\n2. 88 Earth days\n3. Approximately 21,196 kilometers\n4. Less than 15 millimeters of rain per year\n5. 22.59 grams per cubic centimeter",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 11,
+    "ratio": 0.25,
+    "questions": [
+      "What is the diameter of Pluto?",
+      "What is the albedo of fresh snow?",
+      "How long is the Andes mountain range?",
+      "What is the speed of light in a vacuum?",
+      "What is the average surface temperature of the Sun?"
+    ],
+    "answers": [
+      "2,377 kilometers",
+      "0.9",
+      "7,000 kilometers",
+      "299,792,458 meters per second",
+      "5,500 degrees Celsius"
+    ],
+    "needles": [
+      "Pluto has a diameter of 2,377 kilometers.",
+      "The albedo of fresh snow is approximately 0.9.",
+      "The Andes mountain range stretches 7,000 kilometers.",
+      "The speed of light in a vacuum is 299,792,458 meters per second.",
+      "The average surface temperature of the Sun is 5,500 degrees Celsius."
+    ],
+    "response": "1. 2,377 kilometers\n2. Approximately 0.9\n3. 7,000 kilometers\n4. The speed of light in a vacuum is 299,792,458 meters per second.\n5. The average surface temperature of the Sun is 5,500 degrees Celsius.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 12,
+    "ratio": 0.25,
+    "questions": [
+      "What is the tensile strength of spider silk?",
+      "How many bones does an adult human body contain?",
+      "What is the maximum depth of the Mariana Trench?",
+      "What is the thermal expansion coefficient of steel?",
+      "What is the melting point of titanium?"
+    ],
+    "answers": [
+      "1.3 gigapascals",
+      "206 bones",
+      "10,994 meters",
+      "12 times ten to the negative sixth per degree Celsius",
+      "1,668 degrees Celsius"
+    ],
+    "needles": [
+      "The tensile strength of spider silk is approximately 1.3 gigapascals.",
+      "The human body contains approximately 206 bones at adulthood.",
+      "The Mariana Trench reaches a maximum depth of 10,994 meters.",
+      "The thermal expansion coefficient of steel is 12 times ten to the negative sixth per degree Celsius.",
+      "The melting point of titanium is 1,668 degrees Celsius."
+    ],
+    "response": "1. The tensile strength of spider silk is approximately 1.3 gigapascals.\n2. The human body contains approximately 206 bones at adulthood.\n3. The Mariana Trench reaches a maximum depth of 10,994 meters.\n4. The thermal expansion coefficient of steel is 12 times ten to the negative sixth per degree Celsius.\n5. The melting point of titanium is 1,668 degrees Celsius.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 13,
+    "ratio": 0.25,
+    "questions": [
+      "What is the mass of Jupiter?",
+      "What is the compressive strength of granite?",
+      "How long is the Great Barrier Reef?",
+      "What is the ionization energy of hydrogen?",
+      "What is the total length of the Nile River?"
+    ],
+    "answers": [
+      "1.898 times ten to the 27th kilograms",
+      "200 megapascals",
+      "2,300 kilometers",
+      "13.6 electron volts",
+      "6,650 kilometers"
+    ],
+    "needles": [
+      "Jupiter has a mass of 1.898 times ten to the 27th kilograms.",
+      "The compressive strength of granite is approximately 200 megapascals.",
+      "The Great Barrier Reef stretches for 2,300 kilometers.",
+      "The ionization energy of hydrogen is 13.6 electron volts.",
+      "The Nile River spans a total length of 6,650 kilometers."
+    ],
+    "response": "1. 1.898 times ten to the 27th kilograms\n2. Approximately 200 megapascals\n3. 2,300 kilometers\n4. 13.6 electron volts\n5. 6,650 kilometers",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 14,
+    "ratio": 0.25,
+    "questions": [
+      "What is the average depth of Lake Baikal?",
+      "What is the mass of an electron?",
+      "How long is the Volga River?",
+      "What is the Mohs hardness of quartz?",
+      "What is the maximum depth of Lake Tanganyika?"
+    ],
+    "answers": [
+      "744.4 meters",
+      "9.109 times ten to the negative 31st kilograms",
+      "3,530 kilometers",
+      "7",
+      "1,470 meters"
+    ],
+    "needles": [
+      "The average depth of Lake Baikal is 744.4 meters.",
+      "The mass of an electron is 9.109 times ten to the negative 31st kilograms.",
+      "The Volga River is 3,530 kilometers long.",
+      "The Mohs hardness of quartz is 7.",
+      "Lake Tanganyika reaches a maximum depth of 1,470 meters."
+    ],
+    "response": "1. 744.4 meters\n2. 9.109 times ten to the negative 31st kilograms\n3. 3,530 kilometers\n4. 7\n5. 1,470 meters",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 15,
+    "ratio": 0.25,
+    "questions": [
+      "How long is the Strait of Malacca?",
+      "What is the electrical resistivity of copper?",
+      "What is the refractive index of glass?",
+      "What is the orbital eccentricity of Earth?",
+      "What is the rotation period of Saturn?"
+    ],
+    "answers": [
+      "800 kilometers",
+      "1.68 times ten to the negative eighth ohm meters",
+      "1.52",
+      "0.0167",
+      "10.7 hours"
+    ],
+    "needles": [
+      "The Strait of Malacca is 800 kilometers long.",
+      "The electrical resistivity of copper is 1.68 times ten to the negative eighth ohm meters.",
+      "The refractive index of glass is approximately 1.52.",
+      "The orbital eccentricity of Earth is 0.0167.",
+      "The rotation period of Saturn is 10.7 hours."
+    ],
+    "response": "1. 800 kilometers\n2. 1.68 times ten to the negative eighth ohm meters\n3. Approximately 1.52\n4. 0.0167\n5. 10.7 hours",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 16,
+    "ratio": 0.25,
+    "questions": [
+      "What is the half-life of plutonium-239?",
+      "What is the surface area of Lake Victoria?",
+      "What is the orbital period of Mars?",
+      "What is the average orbital speed of Earth?",
+      "What is the average distance from the Sun to Mars?"
+    ],
+    "answers": [
+      "24,100 years",
+      "68,800 square kilometers",
+      "687 Earth days",
+      "29.78 kilometers per second",
+      "227.9 million kilometers"
+    ],
+    "needles": [
+      "The half-life of plutonium-239 is 24,100 years.",
+      "Lake Victoria has a surface area of 68,800 square kilometers.",
+      "The orbital period of Mars is 687 Earth days.",
+      "The average orbital speed of Earth is 29.78 kilometers per second.",
+      "The average distance from the Sun to Mars is 227.9 million kilometers."
+    ],
+    "response": "1. 24,100 years\n2. 68,800 square kilometers\n3. 687 Earth days\n4. 29.78 kilometers per second\n5. 227.9 million kilometers",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 17,
+    "ratio": 0.25,
+    "questions": [
+      "What is the speed of sound in water?",
+      "What is the speed of sound in air at sea level?",
+      "What is the electronegativity of fluorine?",
+      "What is the wavelength of red light?",
+      "What is the luminosity of the Sun?"
+    ],
+    "answers": [
+      "1,480 meters per second",
+      "343 meters per second",
+      "3.98",
+      "700 nanometers",
+      "3.828 times ten to the 26th watts"
+    ],
+    "needles": [
+      "The speed of sound in water is approximately 1,480 meters per second.",
+      "The speed of sound in air at sea level is 343 meters per second.",
+      "The electronegativity of fluorine is 3.98 on the Pauling scale.",
+      "The wavelength of red light is approximately 700 nanometers.",
+      "The luminosity of the Sun is 3.828 times ten to the 26th watts."
+    ],
+    "response": "1. 1,480 meters per second\n2. 343 meters per second\n3. 3.98 on the Pauling scale\n4. Approximately 700 nanometers\n5. 3.828 times ten to the 26th watts",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 18,
+    "ratio": 0.25,
+    "questions": [
+      "What is the Young's modulus of aluminum?",
+      "How long does it take Venus to rotate once on its axis?",
+      "How long is the Congo River?",
+      "What is the freezing point of ethanol?",
+      "What is the thermal conductivity of diamond?"
+    ],
+    "answers": [
+      "69 gigapascals",
+      "243 Earth days",
+      "4,700 kilometers",
+      "minus 114 degrees Celsius",
+      "2,200 watts per meter kelvin"
+    ],
+    "needles": [
+      "The Young's modulus of aluminum is 69 gigapascals.",
+      "Venus completes one rotation on its axis every 243 Earth days.",
+      "The Congo River has a length of 4,700 kilometers.",
+      "The freezing point of ethanol is minus 114 degrees Celsius.",
+      "The thermal conductivity of diamond is 2,200 watts per meter kelvin."
+    ],
+    "response": "1. The Young's modulus of aluminum is not provided in the context.\n2. Venus completes one rotation on its axis every 243 Earth days.\n3. The Congo River has a length of 4,700 kilometers.\n4. The freezing point of ethanol is minus 114 degrees Celsius.\n5. The thermal conductivity of diamond is 2,200 watts per meter kelvin.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 19,
+    "ratio": 0.25,
+    "questions": [
+      "How many countries does the Danube River flow through?",
+      "How wide is the English Channel at its narrowest point?",
+      "What is the surface temperature of Titan?",
+      "What is the atomic number of uranium?",
+      "What is the average depth of the Atlantic Ocean?"
+    ],
+    "answers": [
+      "10 countries",
+      "34 kilometers",
+      "minus 179 degrees Celsius",
+      "92",
+      "3,646 meters"
+    ],
+    "needles": [
+      "The Danube River flows through 10 different countries.",
+      "The English Channel is 34 kilometers wide at its narrowest point.",
+      "Saturn's moon Titan has a surface temperature of minus 179 degrees Celsius.",
+      "The atomic number of uranium is 92.",
+      "The average depth of the Atlantic Ocean is 3,646 meters."
+    ],
+    "response": "1. 10\n2. 34 kilometers\n3. Minus 179 degrees Celsius\n4. 92\n5. 3,646 meters",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 0,
+    "ratio": 0.4,
+    "questions": [
+      "What is the boiling point of helium?",
+      "What is the average distance from Earth to the Moon?",
+      "How long is the Tigris River?",
+      "What is the diameter of the Moon?",
+      "What is the surface area of Lake Superior?"
+    ],
+    "answers": [
+      "minus 268.93 degrees Celsius",
+      "384,400 kilometers",
+      "1,850 kilometers",
+      "3,474 kilometers",
+      "82,100 square kilometers"
+    ],
+    "needles": [
+      "Helium has a boiling point of minus 268.93 degrees Celsius.",
+      "The average distance from Earth to the Moon is 384,400 kilometers.",
+      "The Tigris River is 1,850 kilometers long.",
+      "The diameter of the Moon is 3,474 kilometers.",
+      "Lake Superior has a surface area of 82,100 square kilometers."
+    ],
+    "response": "1. The context does not provide information about the boiling point of helium.\n2. The average distance from Earth to the Moon is 384,400 kilometers.\n3. The context does not provide information about the length of the Tigris River.\n4. The diameter of the Moon is 3,474 kilometers.\n5. Lake Superior has a surface area of 82,100 square kilometers.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 3,
+    "total": 5,
+    "recall": 0.6
+  },
+  {
+    "group_idx": 1,
+    "ratio": 0.4,
+    "questions": [
+      "What is the melting point of tungsten?",
+      "What is the boiling point of mercury?",
+      "How long is the Panama Canal?",
+      "How tall is Mount Kilimanjaro?",
+      "What area does the Indian Ocean cover?"
+    ],
+    "answers": [
+      "3,422 degrees Celsius",
+      "356.73 degrees Celsius",
+      "82 kilometers",
+      "5,895 meters",
+      "70.56 million square kilometers"
+    ],
+    "needles": [
+      "Tungsten has the highest melting point of any element at 3,422 degrees Celsius.",
+      "The boiling point of mercury is 356.73 degrees Celsius.",
+      "The Panama Canal is 82 kilometers long.",
+      "Mount Kilimanjaro stands at 5,895 meters above sea level.",
+      "The Indian Ocean covers approximately 70.56 million square kilometers."
+    ],
+    "response": "1. 3,422 degrees Celsius\n2. 356.73 degrees Celsius\n3. 82 kilometers\n4. 5,895 meters above sea level\n5. Approximately 70.56 million square kilometers.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 2,
+    "ratio": 0.4,
+    "questions": [
+      "What is the surface pressure on Venus compared to Earth?",
+      "How much does the Eiffel Tower weigh?",
+      "How long is the Pan-American Highway?",
+      "What is the density of Earth?",
+      "How long is the Ob River?"
+    ],
+    "answers": [
+      "92 times that of Earth",
+      "7,300 metric tons",
+      "30,000 kilometers",
+      "5.51 grams per cubic centimeter",
+      "3,650 kilometers"
+    ],
+    "needles": [
+      "The surface pressure on Venus is 92 times that of Earth.",
+      "The Eiffel Tower weighs approximately 7,300 metric tons.",
+      "The Pan-American Highway stretches approximately 30,000 kilometers.",
+      "The density of Earth is 5.51 grams per cubic centimeter.",
+      "The Ob River has a length of 3,650 kilometers."
+    ],
+    "response": "1. 92 times that of Earth\n2. Approximately 7,300 metric tons\n3. Approximately 30,000 kilometers\n4. 5.51 grams per cubic centimeter\n5. Not provided in the context",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 3,
+    "ratio": 0.4,
+    "questions": [
+      "What area does the Gobi Desert cover?",
+      "What is the drainage basin area of the Mississippi River?",
+      "What is the average rainfall in the Amazon basin?",
+      "How long is the Trans-Siberian Railway?",
+      "How far below sea level is the Dead Sea?"
+    ],
+    "answers": [
+      "1,295,000 square kilometers",
+      "2,981,076 square kilometers",
+      "2,300 millimeters per year",
+      "9,289 kilometers",
+      "430 meters"
+    ],
+    "needles": [
+      "The Gobi Desert covers approximately 1,295,000 square kilometers.",
+      "The Mississippi River has a drainage basin of 2,981,076 square kilometers.",
+      "The average rainfall in the Amazon basin is 2,300 millimeters per year.",
+      "The Trans-Siberian Railway spans 9,289 kilometers.",
+      "The Dead Sea lies at 430 meters below sea level."
+    ],
+    "response": "1. The Gobi Desert covers approximately 1,295,000 square kilometers.\n2. The Mississippi River has a drainage basin of 2,981,076 square kilometers.\n3. The average rainfall in the Amazon basin is 2,300 millimeters per year.\n4. The Trans-Siberian Railway spans 9,289 kilometers.\n5. The Dead Sea lies at 430 meters below sea level.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 4,
+    "ratio": 0.4,
+    "questions": [
+      "What is the escape velocity of Earth?",
+      "How much precipitation does Antarctica receive per year?",
+      "What is the volume of the Caspian Sea?",
+      "How long is the Zambezi River?",
+      "How long is the Mekong River?"
+    ],
+    "answers": [
+      "11.186 kilometers per second",
+      "166 millimeters",
+      "78,200 cubic kilometers",
+      "2,574 kilometers",
+      "4,350 kilometers"
+    ],
+    "needles": [
+      "The escape velocity of Earth is 11.186 kilometers per second.",
+      "Antarctica receives only 166 millimeters of precipitation per year on average.",
+      "The Caspian Sea has a volume of 78,200 cubic kilometers.",
+      "The Zambezi River is 2,574 kilometers long.",
+      "The Mekong River is 4,350 kilometers long."
+    ],
+    "response": "1. The escape velocity of Earth is not provided in the context.\n2. Antarctica receives only 166 millimeters of precipitation per year on average.\n3. The volume of the Caspian Sea is not provided in the context.\n4. The Zambezi River is 2,574 kilometers long.\n5. The Mekong River is 4,350 kilometers long.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 3,
+    "total": 5,
+    "recall": 0.6
+  },
+  {
+    "group_idx": 5,
+    "ratio": 0.4,
+    "questions": [
+      "What is the radius of the Sun?",
+      "How wide is the Strait of Gibraltar at its narrowest point?",
+      "What is the total area of Greenland?",
+      "How long is the Rhine River?",
+      "How long does it take Neptune to orbit the Sun?"
+    ],
+    "answers": [
+      "696,340 kilometers",
+      "14.3 kilometers",
+      "2,166,086 square kilometers",
+      "1,230 kilometers",
+      "164.8 Earth years"
+    ],
+    "needles": [
+      "The radius of the Sun is 696,340 kilometers.",
+      "The Strait of Gibraltar is 14.3 kilometers wide at its narrowest point.",
+      "Greenland has a total area of 2,166,086 square kilometers.",
+      "The Rhine River is 1,230 kilometers long.",
+      "Neptune takes 164.8 Earth years to orbit the Sun."
+    ],
+    "response": "1. The radius of the Sun is not mentioned in the provided context.\n2. The Strait of Gibraltar is 14.3 kilometers wide at its narrowest point.\n3. Greenland has a total area of 2,166,086 square kilometers.\n4. The Rhine River is 1,230 kilometers long.\n5. The time it takes Neptune to orbit the Sun is not mentioned in the provided context.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 3,
+    "total": 5,
+    "recall": 0.6
+  },
+  {
+    "group_idx": 6,
+    "ratio": 0.4,
+    "questions": [
+      "What is the discharge rate of the Amazon River?",
+      "What is the specific heat capacity of water?",
+      "How long does it take Io to orbit Jupiter?",
+      "How long is the Suez Canal?",
+      "What is the area of the Bay of Bengal?"
+    ],
+    "answers": [
+      "209,000 cubic meters per second",
+      "4.186 joules per gram per degree Celsius",
+      "1.77 Earth days",
+      "193 kilometers",
+      "2,172,000 square kilometers"
+    ],
+    "needles": [
+      "The Amazon River discharges approximately 209,000 cubic meters of water per second.",
+      "The specific heat capacity of water is 4.186 joules per gram per degree Celsius.",
+      "Io orbits Jupiter once every 1.77 Earth days.",
+      "The Suez Canal is 193 kilometers long.",
+      "The Bay of Bengal has an area of 2,172,000 square kilometers."
+    ],
+    "response": "1. The context does not provide information about the discharge rate of the Amazon River.\n2. The specific heat capacity of water is 4.186 joules per gram per degree Celsius.\n3. Io orbits Jupiter once every 1.77 Earth days.\n4. The Suez Canal is 193 kilometers long.\n5. The Bay of Bengal has an area of 2,172,000 square kilometers.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 7,
+    "ratio": 0.4,
+    "questions": [
+      "What is the magnetic field strength of Earth at the surface?",
+      "What is the boiling point of nitrogen?",
+      "What is the orbital velocity of the International Space Station?",
+      "What is the maximum depth of Lake Malawi?",
+      "What area does the Sahara Desert cover?"
+    ],
+    "answers": [
+      "50 microteslas",
+      "minus 195.79 degrees Celsius",
+      "7.66 kilometers per second",
+      "706 meters",
+      "9.2 million square kilometers"
+    ],
+    "needles": [
+      "The magnetic field strength of Earth at the surface is approximately 50 microteslas.",
+      "The boiling point of nitrogen is minus 195.79 degrees Celsius.",
+      "The orbital velocity of the International Space Station is 7.66 kilometers per second.",
+      "Lake Malawi has a maximum depth of 706 meters.",
+      "The Sahara Desert covers an area of approximately 9.2 million square kilometers."
+    ],
+    "response": "1. 50 microteslas\n2. -195.79 degrees Celsius\n3. 7.66 kilometers per second\n4. 706 meters\n5. Approximately 9.2 million square kilometers",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 8,
+    "ratio": 0.4,
+    "questions": [
+      "What is the surface gravity of Mars?",
+      "What area does the Pacific Ocean cover?",
+      "What is the solubility of table salt in water at 25 degrees Celsius?",
+      "How long is the Yangtze River?",
+      "What is the half-life of carbon-14?"
+    ],
+    "answers": [
+      "3.72 meters per second squared",
+      "165.25 million square kilometers",
+      "360 grams per liter",
+      "6,300 kilometers",
+      "5,730 years"
+    ],
+    "needles": [
+      "The surface gravity of Mars is 3.72 meters per second squared.",
+      "The Pacific Ocean covers approximately 165.25 million square kilometers.",
+      "The solubility of table salt in water at 25 degrees Celsius is 360 grams per liter.",
+      "The Yangtze River is 6,300 kilometers long.",
+      "The half-life of carbon-14 is 5,730 years."
+    ],
+    "response": "1. 3.72 meters per second squared\n2. Approximately 165.25 million square kilometers\n3. 360 grams per liter\n4. 6,300 kilometers\n5. 5,730 years",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 9,
+    "ratio": 0.4,
+    "questions": [
+      "What is the tilt of Earth's axis?",
+      "How long are the Appalachian Mountains?",
+      "What is the average salt concentration in ocean water?",
+      "What is the melting point of gold?",
+      "What is the viscosity of honey at room temperature?"
+    ],
+    "answers": [
+      "23.44 degrees",
+      "2,400 kilometers",
+      "35 grams per liter",
+      "1,064 degrees Celsius",
+      "10,000 centipoise"
+    ],
+    "needles": [
+      "The tilt of Earth's axis is 23.44 degrees.",
+      "The Appalachian Mountains stretch approximately 2,400 kilometers.",
+      "The concentration of salt in ocean water averages 35 grams per liter.",
+      "The melting point of gold is 1,064 degrees Celsius.",
+      "The viscosity of honey at room temperature is approximately 10,000 centipoise."
+    ],
+    "response": "1. 23.44 degrees\n2. Approximately 2,400 kilometers\n3. 35 grams per liter\n4. 1,064 degrees Celsius\n5. Approximately 10,000 centipoise",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 10,
+    "ratio": 0.4,
+    "questions": [
+      "What is the circumference of Earth at the equator?",
+      "How long does it take Mercury to orbit the Sun?",
+      "How long is the Great Wall of China?",
+      "How much rain does the Atacama Desert receive per year?",
+      "What is the density of osmium?"
+    ],
+    "answers": [
+      "40,075 kilometers",
+      "88 Earth days",
+      "21,196 kilometers",
+      "less than 15 millimeters",
+      "22.59 grams per cubic centimeter"
+    ],
+    "needles": [
+      "The circumference of Earth at the equator is 40,075 kilometers.",
+      "Mercury orbits the Sun in 88 Earth days.",
+      "The Great Wall of China spans approximately 21,196 kilometers.",
+      "The Atacama Desert receives less than 15 millimeters of rain per year.",
+      "The density of osmium is 22.59 grams per cubic centimeter."
+    ],
+    "response": "1. 40,075 kilometers\n2. 88 Earth days\n3. Approximately 21,196 kilometers\n4. Less than 15 millimeters of rain per year\n5. 22.59 grams per cubic centimeter",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 11,
+    "ratio": 0.4,
+    "questions": [
+      "What is the diameter of Pluto?",
+      "What is the albedo of fresh snow?",
+      "How long is the Andes mountain range?",
+      "What is the speed of light in a vacuum?",
+      "What is the average surface temperature of the Sun?"
+    ],
+    "answers": [
+      "2,377 kilometers",
+      "0.9",
+      "7,000 kilometers",
+      "299,792,458 meters per second",
+      "5,500 degrees Celsius"
+    ],
+    "needles": [
+      "Pluto has a diameter of 2,377 kilometers.",
+      "The albedo of fresh snow is approximately 0.9.",
+      "The Andes mountain range stretches 7,000 kilometers.",
+      "The speed of light in a vacuum is 299,792,458 meters per second.",
+      "The average surface temperature of the Sun is 5,500 degrees Celsius."
+    ],
+    "response": "1. 2,377 kilometers\n2. Approximately 0.9\n3. 7,000 kilometers\n4. 299,792,458 meters per second\n5. 5,500 degrees Celsius",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 12,
+    "ratio": 0.4,
+    "questions": [
+      "What is the tensile strength of spider silk?",
+      "How many bones does an adult human body contain?",
+      "What is the maximum depth of the Mariana Trench?",
+      "What is the thermal expansion coefficient of steel?",
+      "What is the melting point of titanium?"
+    ],
+    "answers": [
+      "1.3 gigapascals",
+      "206 bones",
+      "10,994 meters",
+      "12 times ten to the negative sixth per degree Celsius",
+      "1,668 degrees Celsius"
+    ],
+    "needles": [
+      "The tensile strength of spider silk is approximately 1.3 gigapascals.",
+      "The human body contains approximately 206 bones at adulthood.",
+      "The Mariana Trench reaches a maximum depth of 10,994 meters.",
+      "The thermal expansion coefficient of steel is 12 times ten to the negative sixth per degree Celsius.",
+      "The melting point of titanium is 1,668 degrees Celsius."
+    ],
+    "response": "1. 1.3 gigapascals\n2. 206\n3. 10,994 meters\n4. 12 times ten to the negative sixth per degree Celsius\n5. 1,668 degrees Celsius",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 13,
+    "ratio": 0.4,
+    "questions": [
+      "What is the mass of Jupiter?",
+      "What is the compressive strength of granite?",
+      "How long is the Great Barrier Reef?",
+      "What is the ionization energy of hydrogen?",
+      "What is the total length of the Nile River?"
+    ],
+    "answers": [
+      "1.898 times ten to the 27th kilograms",
+      "200 megapascals",
+      "2,300 kilometers",
+      "13.6 electron volts",
+      "6,650 kilometers"
+    ],
+    "needles": [
+      "Jupiter has a mass of 1.898 times ten to the 27th kilograms.",
+      "The compressive strength of granite is approximately 200 megapascals.",
+      "The Great Barrier Reef stretches for 2,300 kilometers.",
+      "The ionization energy of hydrogen is 13.6 electron volts.",
+      "The Nile River spans a total length of 6,650 kilometers."
+    ],
+    "response": "1. The mass of Jupiter is 1.898 times ten to the 27th kilograms.\n2. The compressive strength of granite is approximately 200 megapascals.\n3. The Great Barrier Reef stretches for 2,300 kilometers.\n4. The ionization energy of hydrogen is 13.6 electron volts.\n5. The Nile River spans a total length of 6,650 kilometers.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 14,
+    "ratio": 0.4,
+    "questions": [
+      "What is the average depth of Lake Baikal?",
+      "What is the mass of an electron?",
+      "How long is the Volga River?",
+      "What is the Mohs hardness of quartz?",
+      "What is the maximum depth of Lake Tanganyika?"
+    ],
+    "answers": [
+      "744.4 meters",
+      "9.109 times ten to the negative 31st kilograms",
+      "3,530 kilometers",
+      "7",
+      "1,470 meters"
+    ],
+    "needles": [
+      "The average depth of Lake Baikal is 744.4 meters.",
+      "The mass of an electron is 9.109 times ten to the negative 31st kilograms.",
+      "The Volga River is 3,530 kilometers long.",
+      "The Mohs hardness of quartz is 7.",
+      "Lake Tanganyika reaches a maximum depth of 1,470 meters."
+    ],
+    "response": "1. 744.4 meters\n2. 9.109 times ten to the negative 31st kilograms\n3. 3,530 kilometers\n4. 7\n5. 1,470 meters",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 15,
+    "ratio": 0.4,
+    "questions": [
+      "How long is the Strait of Malacca?",
+      "What is the electrical resistivity of copper?",
+      "What is the refractive index of glass?",
+      "What is the orbital eccentricity of Earth?",
+      "What is the rotation period of Saturn?"
+    ],
+    "answers": [
+      "800 kilometers",
+      "1.68 times ten to the negative eighth ohm meters",
+      "1.52",
+      "0.0167",
+      "10.7 hours"
+    ],
+    "needles": [
+      "The Strait of Malacca is 800 kilometers long.",
+      "The electrical resistivity of copper is 1.68 times ten to the negative eighth ohm meters.",
+      "The refractive index of glass is approximately 1.52.",
+      "The orbital eccentricity of Earth is 0.0167.",
+      "The rotation period of Saturn is 10.7 hours."
+    ],
+    "response": "1. 800 kilometers\n2. 1.68 times ten to the negative eighth ohm meters\n3. Approximately 1.52\n4. 0.0167\n5. 10.7 hours",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 16,
+    "ratio": 0.4,
+    "questions": [
+      "What is the half-life of plutonium-239?",
+      "What is the surface area of Lake Victoria?",
+      "What is the orbital period of Mars?",
+      "What is the average orbital speed of Earth?",
+      "What is the average distance from the Sun to Mars?"
+    ],
+    "answers": [
+      "24,100 years",
+      "68,800 square kilometers",
+      "687 Earth days",
+      "29.78 kilometers per second",
+      "227.9 million kilometers"
+    ],
+    "needles": [
+      "The half-life of plutonium-239 is 24,100 years.",
+      "Lake Victoria has a surface area of 68,800 square kilometers.",
+      "The orbital period of Mars is 687 Earth days.",
+      "The average orbital speed of Earth is 29.78 kilometers per second.",
+      "The average distance from the Sun to Mars is 227.9 million kilometers."
+    ],
+    "response": "1. 24,100 years\n2. 68,800 square kilometers\n3. 687 Earth days\n4. 29.78 kilometers per second\n5. 227.9 million kilometers",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 17,
+    "ratio": 0.4,
+    "questions": [
+      "What is the speed of sound in water?",
+      "What is the speed of sound in air at sea level?",
+      "What is the electronegativity of fluorine?",
+      "What is the wavelength of red light?",
+      "What is the luminosity of the Sun?"
+    ],
+    "answers": [
+      "1,480 meters per second",
+      "343 meters per second",
+      "3.98",
+      "700 nanometers",
+      "3.828 times ten to the 26th watts"
+    ],
+    "needles": [
+      "The speed of sound in water is approximately 1,480 meters per second.",
+      "The speed of sound in air at sea level is 343 meters per second.",
+      "The electronegativity of fluorine is 3.98 on the Pauling scale.",
+      "The wavelength of red light is approximately 700 nanometers.",
+      "The luminosity of the Sun is 3.828 times ten to the 26th watts."
+    ],
+    "response": "1. The speed of sound in water is approximately 1,480 meters per second.\n2. The speed of sound in air at sea level is 343 meters per second.\n3. The electronegativity of fluorine is 3.98 on the Pauling scale.\n4. The wavelength of red light is approximately 700 nanometers.\n5. The luminosity of the Sun is 3.828 times ten to the 26th watts.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 18,
+    "ratio": 0.4,
+    "questions": [
+      "What is the Young's modulus of aluminum?",
+      "How long does it take Venus to rotate once on its axis?",
+      "How long is the Congo River?",
+      "What is the freezing point of ethanol?",
+      "What is the thermal conductivity of diamond?"
+    ],
+    "answers": [
+      "69 gigapascals",
+      "243 Earth days",
+      "4,700 kilometers",
+      "minus 114 degrees Celsius",
+      "2,200 watts per meter kelvin"
+    ],
+    "needles": [
+      "The Young's modulus of aluminum is 69 gigapascals.",
+      "Venus completes one rotation on its axis every 243 Earth days.",
+      "The Congo River has a length of 4,700 kilometers.",
+      "The freezing point of ethanol is minus 114 degrees Celsius.",
+      "The thermal conductivity of diamond is 2,200 watts per meter kelvin."
+    ],
+    "response": "1. The context does not provide information about the Young's modulus of aluminum.\n2. The context does not provide information about the rotation period of Venus.\n3. The context does not provide information about the length of the Congo River.\n4. The context does not provide information about the freezing point of ethanol.\n5. The context does not provide information about the thermal conductivity of diamond.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 0,
+    "total": 5,
+    "recall": 0.0
+  },
+  {
+    "group_idx": 19,
+    "ratio": 0.4,
+    "questions": [
+      "How many countries does the Danube River flow through?",
+      "How wide is the English Channel at its narrowest point?",
+      "What is the surface temperature of Titan?",
+      "What is the atomic number of uranium?",
+      "What is the average depth of the Atlantic Ocean?"
+    ],
+    "answers": [
+      "10 countries",
+      "34 kilometers",
+      "minus 179 degrees Celsius",
+      "92",
+      "3,646 meters"
+    ],
+    "needles": [
+      "The Danube River flows through 10 different countries.",
+      "The English Channel is 34 kilometers wide at its narrowest point.",
+      "Saturn's moon Titan has a surface temperature of minus 179 degrees Celsius.",
+      "The atomic number of uranium is 92.",
+      "The average depth of the Atlantic Ocean is 3,646 meters."
+    ],
+    "response": "1. 10\n2. 34 kilometers\n3. Minus 179 degrees Celsius\n4. 92\n5. 3,646 meters",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 0,
+    "ratio": 0.5,
+    "questions": [
+      "What is the boiling point of helium?",
+      "What is the average distance from Earth to the Moon?",
+      "How long is the Tigris River?",
+      "What is the diameter of the Moon?",
+      "What is the surface area of Lake Superior?"
+    ],
+    "answers": [
+      "minus 268.93 degrees Celsius",
+      "384,400 kilometers",
+      "1,850 kilometers",
+      "3,474 kilometers",
+      "82,100 square kilometers"
+    ],
+    "needles": [
+      "Helium has a boiling point of minus 268.93 degrees Celsius.",
+      "The average distance from Earth to the Moon is 384,400 kilometers.",
+      "The Tigris River is 1,850 kilometers long.",
+      "The diameter of the Moon is 3,474 kilometers.",
+      "Lake Superior has a surface area of 82,100 square kilometers."
+    ],
+    "response": "1. Minus 268.93 degrees Celsius\n2. 384,400 kilometers\n3. 1,850 kilometers\n4. 3,474 kilometers\n5. 82,100 square kilometers",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 1,
+    "ratio": 0.5,
+    "questions": [
+      "What is the melting point of tungsten?",
+      "What is the boiling point of mercury?",
+      "How long is the Panama Canal?",
+      "How tall is Mount Kilimanjaro?",
+      "What area does the Indian Ocean cover?"
+    ],
+    "answers": [
+      "3,422 degrees Celsius",
+      "356.73 degrees Celsius",
+      "82 kilometers",
+      "5,895 meters",
+      "70.56 million square kilometers"
+    ],
+    "needles": [
+      "Tungsten has the highest melting point of any element at 3,422 degrees Celsius.",
+      "The boiling point of mercury is 356.73 degrees Celsius.",
+      "The Panama Canal is 82 kilometers long.",
+      "Mount Kilimanjaro stands at 5,895 meters above sea level.",
+      "The Indian Ocean covers approximately 70.56 million square kilometers."
+    ],
+    "response": "1. 3,422 degrees Celsius\n2. 356.73 degrees Celsius\n3. 82 kilometers\n4. 5,895 meters above sea level\n5. Approximately 70.56 million square kilometers",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 2,
+    "ratio": 0.5,
+    "questions": [
+      "What is the surface pressure on Venus compared to Earth?",
+      "How much does the Eiffel Tower weigh?",
+      "How long is the Pan-American Highway?",
+      "What is the density of Earth?",
+      "How long is the Ob River?"
+    ],
+    "answers": [
+      "92 times that of Earth",
+      "7,300 metric tons",
+      "30,000 kilometers",
+      "5.51 grams per cubic centimeter",
+      "3,650 kilometers"
+    ],
+    "needles": [
+      "The surface pressure on Venus is 92 times that of Earth.",
+      "The Eiffel Tower weighs approximately 7,300 metric tons.",
+      "The Pan-American Highway stretches approximately 30,000 kilometers.",
+      "The density of Earth is 5.51 grams per cubic centimeter.",
+      "The Ob River has a length of 3,650 kilometers."
+    ],
+    "response": "1. 92 times that of Earth\n2. Approximately 7,300 metric tons\n3. Approximately 30,000 kilometers\n4. 5.51 grams per cubic centimeter\n5. Not specified in the context",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 3,
+    "ratio": 0.5,
+    "questions": [
+      "What area does the Gobi Desert cover?",
+      "What is the drainage basin area of the Mississippi River?",
+      "What is the average rainfall in the Amazon basin?",
+      "How long is the Trans-Siberian Railway?",
+      "How far below sea level is the Dead Sea?"
+    ],
+    "answers": [
+      "1,295,000 square kilometers",
+      "2,981,076 square kilometers",
+      "2,300 millimeters per year",
+      "9,289 kilometers",
+      "430 meters"
+    ],
+    "needles": [
+      "The Gobi Desert covers approximately 1,295,000 square kilometers.",
+      "The Mississippi River has a drainage basin of 2,981,076 square kilometers.",
+      "The average rainfall in the Amazon basin is 2,300 millimeters per year.",
+      "The Trans-Siberian Railway spans 9,289 kilometers.",
+      "The Dead Sea lies at 430 meters below sea level."
+    ],
+    "response": "1. The Gobi Desert covers approximately 1,295,000 square kilometers.\n2. The Mississippi River has a drainage basin of 2,981,076 square kilometers.\n3. The average rainfall in the Amazon basin is 2,300 millimeters per year.\n4. The Trans-Siberian Railway spans 9,289 kilometers.\n5. The Dead Sea lies at 430 meters below sea level.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 4,
+    "ratio": 0.5,
+    "questions": [
+      "What is the escape velocity of Earth?",
+      "How much precipitation does Antarctica receive per year?",
+      "What is the volume of the Caspian Sea?",
+      "How long is the Zambezi River?",
+      "How long is the Mekong River?"
+    ],
+    "answers": [
+      "11.186 kilometers per second",
+      "166 millimeters",
+      "78,200 cubic kilometers",
+      "2,574 kilometers",
+      "4,350 kilometers"
+    ],
+    "needles": [
+      "The escape velocity of Earth is 11.186 kilometers per second.",
+      "Antarctica receives only 166 millimeters of precipitation per year on average.",
+      "The Caspian Sea has a volume of 78,200 cubic kilometers.",
+      "The Zambezi River is 2,574 kilometers long.",
+      "The Mekong River is 4,350 kilometers long."
+    ],
+    "response": "1. The escape velocity of Earth is not provided in the context.\n2. Antarctica receives only 166 millimeters of precipitation per year on average.\n3. The volume of the Caspian Sea is not provided in the context.\n4. The Zambezi River is 2,574 kilometers long.\n5. The Mekong River is 4,350 kilometers long.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 3,
+    "total": 5,
+    "recall": 0.6
+  },
+  {
+    "group_idx": 5,
+    "ratio": 0.5,
+    "questions": [
+      "What is the radius of the Sun?",
+      "How wide is the Strait of Gibraltar at its narrowest point?",
+      "What is the total area of Greenland?",
+      "How long is the Rhine River?",
+      "How long does it take Neptune to orbit the Sun?"
+    ],
+    "answers": [
+      "696,340 kilometers",
+      "14.3 kilometers",
+      "2,166,086 square kilometers",
+      "1,230 kilometers",
+      "164.8 Earth years"
+    ],
+    "needles": [
+      "The radius of the Sun is 696,340 kilometers.",
+      "The Strait of Gibraltar is 14.3 kilometers wide at its narrowest point.",
+      "Greenland has a total area of 2,166,086 square kilometers.",
+      "The Rhine River is 1,230 kilometers long.",
+      "Neptune takes 164.8 Earth years to orbit the Sun."
+    ],
+    "response": "1. The radius of the Sun is not mentioned in the provided context.\n2. The Strait of Gibraltar is 14.3 kilometers wide at its narrowest point.\n3. The total area of Greenland is 2,166,086 square kilometers.\n4. The Rhine River is 1,230 kilometers long.\n5. The time it takes Neptune to orbit the Sun is not mentioned in the provided context.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 3,
+    "total": 5,
+    "recall": 0.6
+  },
+  {
+    "group_idx": 6,
+    "ratio": 0.5,
+    "questions": [
+      "What is the discharge rate of the Amazon River?",
+      "What is the specific heat capacity of water?",
+      "How long does it take Io to orbit Jupiter?",
+      "How long is the Suez Canal?",
+      "What is the area of the Bay of Bengal?"
+    ],
+    "answers": [
+      "209,000 cubic meters per second",
+      "4.186 joules per gram per degree Celsius",
+      "1.77 Earth days",
+      "193 kilometers",
+      "2,172,000 square kilometers"
+    ],
+    "needles": [
+      "The Amazon River discharges approximately 209,000 cubic meters of water per second.",
+      "The specific heat capacity of water is 4.186 joules per gram per degree Celsius.",
+      "Io orbits Jupiter once every 1.77 Earth days.",
+      "The Suez Canal is 193 kilometers long.",
+      "The Bay of Bengal has an area of 2,172,000 square kilometers."
+    ],
+    "response": "1. Approximately 209,000 cubic meters of water per second.\n2. 4.186 joules per gram per degree Celsius.\n3. Io orbits Jupiter once every 1.77 Earth days.\n4. The Suez Canal is 193 kilometers long.\n5. The Bay of Bengal has an area of 2,172,000 square kilometers.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 7,
+    "ratio": 0.5,
+    "questions": [
+      "What is the magnetic field strength of Earth at the surface?",
+      "What is the boiling point of nitrogen?",
+      "What is the orbital velocity of the International Space Station?",
+      "What is the maximum depth of Lake Malawi?",
+      "What area does the Sahara Desert cover?"
+    ],
+    "answers": [
+      "50 microteslas",
+      "minus 195.79 degrees Celsius",
+      "7.66 kilometers per second",
+      "706 meters",
+      "9.2 million square kilometers"
+    ],
+    "needles": [
+      "The magnetic field strength of Earth at the surface is approximately 50 microteslas.",
+      "The boiling point of nitrogen is minus 195.79 degrees Celsius.",
+      "The orbital velocity of the International Space Station is 7.66 kilometers per second.",
+      "Lake Malawi has a maximum depth of 706 meters.",
+      "The Sahara Desert covers an area of approximately 9.2 million square kilometers."
+    ],
+    "response": "1. 50 microteslas\n2. Minus 195.79 degrees Celsius\n3. 7.66 kilometers per second\n4. 706 meters\n5. Approximately 9.2 million square kilometers",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 8,
+    "ratio": 0.5,
+    "questions": [
+      "What is the surface gravity of Mars?",
+      "What area does the Pacific Ocean cover?",
+      "What is the solubility of table salt in water at 25 degrees Celsius?",
+      "How long is the Yangtze River?",
+      "What is the half-life of carbon-14?"
+    ],
+    "answers": [
+      "3.72 meters per second squared",
+      "165.25 million square kilometers",
+      "360 grams per liter",
+      "6,300 kilometers",
+      "5,730 years"
+    ],
+    "needles": [
+      "The surface gravity of Mars is 3.72 meters per second squared.",
+      "The Pacific Ocean covers approximately 165.25 million square kilometers.",
+      "The solubility of table salt in water at 25 degrees Celsius is 360 grams per liter.",
+      "The Yangtze River is 6,300 kilometers long.",
+      "The half-life of carbon-14 is 5,730 years."
+    ],
+    "response": "1. The surface gravity of Mars is 3.72 meters per second squared.\n2. The Pacific Ocean covers approximately 165.25 million square kilometers.\n3. The solubility of table salt in water at 25 degrees Celsius is 360 grams per liter.\n4. The Yangtze River is 6,300 kilometers long.\n5. The half-life of carbon-14 is 5,730 years.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 9,
+    "ratio": 0.5,
+    "questions": [
+      "What is the tilt of Earth's axis?",
+      "How long are the Appalachian Mountains?",
+      "What is the average salt concentration in ocean water?",
+      "What is the melting point of gold?",
+      "What is the viscosity of honey at room temperature?"
+    ],
+    "answers": [
+      "23.44 degrees",
+      "2,400 kilometers",
+      "35 grams per liter",
+      "1,064 degrees Celsius",
+      "10,000 centipoise"
+    ],
+    "needles": [
+      "The tilt of Earth's axis is 23.44 degrees.",
+      "The Appalachian Mountains stretch approximately 2,400 kilometers.",
+      "The concentration of salt in ocean water averages 35 grams per liter.",
+      "The melting point of gold is 1,064 degrees Celsius.",
+      "The viscosity of honey at room temperature is approximately 10,000 centipoise."
+    ],
+    "response": "1. 23.44 degrees\n2. Approximately 2,400 kilometers\n3. 35 grams per liter\n4. 1,064 degrees Celsius\n5. Approximately 10,000 centipoise",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 10,
+    "ratio": 0.5,
+    "questions": [
+      "What is the circumference of Earth at the equator?",
+      "How long does it take Mercury to orbit the Sun?",
+      "How long is the Great Wall of China?",
+      "How much rain does the Atacama Desert receive per year?",
+      "What is the density of osmium?"
+    ],
+    "answers": [
+      "40,075 kilometers",
+      "88 Earth days",
+      "21,196 kilometers",
+      "less than 15 millimeters",
+      "22.59 grams per cubic centimeter"
+    ],
+    "needles": [
+      "The circumference of Earth at the equator is 40,075 kilometers.",
+      "Mercury orbits the Sun in 88 Earth days.",
+      "The Great Wall of China spans approximately 21,196 kilometers.",
+      "The Atacama Desert receives less than 15 millimeters of rain per year.",
+      "The density of osmium is 22.59 grams per cubic centimeter."
+    ],
+    "response": "1. 40,075 kilometers\n2. 88 Earth days\n3. Approximately 21,196 kilometers\n4. Less than 15 millimeters\n5. 22.59 grams per cubic centimeter",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 11,
+    "ratio": 0.5,
+    "questions": [
+      "What is the diameter of Pluto?",
+      "What is the albedo of fresh snow?",
+      "How long is the Andes mountain range?",
+      "What is the speed of light in a vacuum?",
+      "What is the average surface temperature of the Sun?"
+    ],
+    "answers": [
+      "2,377 kilometers",
+      "0.9",
+      "7,000 kilometers",
+      "299,792,458 meters per second",
+      "5,500 degrees Celsius"
+    ],
+    "needles": [
+      "Pluto has a diameter of 2,377 kilometers.",
+      "The albedo of fresh snow is approximately 0.9.",
+      "The Andes mountain range stretches 7,000 kilometers.",
+      "The speed of light in a vacuum is 299,792,458 meters per second.",
+      "The average surface temperature of the Sun is 5,500 degrees Celsius."
+    ],
+    "response": "1. 2,377 kilometers\n2. Approximately 0.9\n3. 7,000 kilometers\n4. 299,792,458 meters per second\n5. 5,500 degrees Celsius",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 12,
+    "ratio": 0.5,
+    "questions": [
+      "What is the tensile strength of spider silk?",
+      "How many bones does an adult human body contain?",
+      "What is the maximum depth of the Mariana Trench?",
+      "What is the thermal expansion coefficient of steel?",
+      "What is the melting point of titanium?"
+    ],
+    "answers": [
+      "1.3 gigapascals",
+      "206 bones",
+      "10,994 meters",
+      "12 times ten to the negative sixth per degree Celsius",
+      "1,668 degrees Celsius"
+    ],
+    "needles": [
+      "The tensile strength of spider silk is approximately 1.3 gigapascals.",
+      "The human body contains approximately 206 bones at adulthood.",
+      "The Mariana Trench reaches a maximum depth of 10,994 meters.",
+      "The thermal expansion coefficient of steel is 12 times ten to the negative sixth per degree Celsius.",
+      "The melting point of titanium is 1,668 degrees Celsius."
+    ],
+    "response": "1. 1.3 gigapascals\n2. 206 bones\n3. 10,994 meters\n4. 12 times ten to the negative sixth per degree Celsius\n5. 1,668 degrees Celsius",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 13,
+    "ratio": 0.5,
+    "questions": [
+      "What is the mass of Jupiter?",
+      "What is the compressive strength of granite?",
+      "How long is the Great Barrier Reef?",
+      "What is the ionization energy of hydrogen?",
+      "What is the total length of the Nile River?"
+    ],
+    "answers": [
+      "1.898 times ten to the 27th kilograms",
+      "200 megapascals",
+      "2,300 kilometers",
+      "13.6 electron volts",
+      "6,650 kilometers"
+    ],
+    "needles": [
+      "Jupiter has a mass of 1.898 times ten to the 27th kilograms.",
+      "The compressive strength of granite is approximately 200 megapascals.",
+      "The Great Barrier Reef stretches for 2,300 kilometers.",
+      "The ionization energy of hydrogen is 13.6 electron volts.",
+      "The Nile River spans a total length of 6,650 kilometers."
+    ],
+    "response": "1. Jupiter has a mass of 1.898 times ten to the 27th kilograms.\n2. The compressive strength of granite is approximately 200 megapascals.\n3. The Great Barrier Reef stretches for 2,300 kilometers.\n4. The ionization energy of hydrogen is 13.6 electron volts.\n5. The Nile River spans a total length of 6,650 kilometers.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 14,
+    "ratio": 0.5,
+    "questions": [
+      "What is the average depth of Lake Baikal?",
+      "What is the mass of an electron?",
+      "How long is the Volga River?",
+      "What is the Mohs hardness of quartz?",
+      "What is the maximum depth of Lake Tanganyika?"
+    ],
+    "answers": [
+      "744.4 meters",
+      "9.109 times ten to the negative 31st kilograms",
+      "3,530 kilometers",
+      "7",
+      "1,470 meters"
+    ],
+    "needles": [
+      "The average depth of Lake Baikal is 744.4 meters.",
+      "The mass of an electron is 9.109 times ten to the negative 31st kilograms.",
+      "The Volga River is 3,530 kilometers long.",
+      "The Mohs hardness of quartz is 7.",
+      "Lake Tanganyika reaches a maximum depth of 1,470 meters."
+    ],
+    "response": "1. 1,470 meters\n2. 9.109 times ten to the negative 31st kilograms\n3. 3,530 kilometers\n4. 7\n5. 1,470 meters (same as answer 1)",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 15,
+    "ratio": 0.5,
+    "questions": [
+      "How long is the Strait of Malacca?",
+      "What is the electrical resistivity of copper?",
+      "What is the refractive index of glass?",
+      "What is the orbital eccentricity of Earth?",
+      "What is the rotation period of Saturn?"
+    ],
+    "answers": [
+      "800 kilometers",
+      "1.68 times ten to the negative eighth ohm meters",
+      "1.52",
+      "0.0167",
+      "10.7 hours"
+    ],
+    "needles": [
+      "The Strait of Malacca is 800 kilometers long.",
+      "The electrical resistivity of copper is 1.68 times ten to the negative eighth ohm meters.",
+      "The refractive index of glass is approximately 1.52.",
+      "The orbital eccentricity of Earth is 0.0167.",
+      "The rotation period of Saturn is 10.7 hours."
+    ],
+    "response": "1. 800 kilometers\n2. 1.68 times ten to the negative eighth ohm meters\n3. Approximately 1.52\n4. 0.0167\n5. 10.7 hours",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 16,
+    "ratio": 0.5,
+    "questions": [
+      "What is the half-life of plutonium-239?",
+      "What is the surface area of Lake Victoria?",
+      "What is the orbital period of Mars?",
+      "What is the average orbital speed of Earth?",
+      "What is the average distance from the Sun to Mars?"
+    ],
+    "answers": [
+      "24,100 years",
+      "68,800 square kilometers",
+      "687 Earth days",
+      "29.78 kilometers per second",
+      "227.9 million kilometers"
+    ],
+    "needles": [
+      "The half-life of plutonium-239 is 24,100 years.",
+      "Lake Victoria has a surface area of 68,800 square kilometers.",
+      "The orbital period of Mars is 687 Earth days.",
+      "The average orbital speed of Earth is 29.78 kilometers per second.",
+      "The average distance from the Sun to Mars is 227.9 million kilometers."
+    ],
+    "response": "1. 24,100 years\n2. 68,800 square kilometers\n3. 687 Earth days\n4. 29.78 kilometers per second\n5. 227.9 million kilometers",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 17,
+    "ratio": 0.5,
+    "questions": [
+      "What is the speed of sound in water?",
+      "What is the speed of sound in air at sea level?",
+      "What is the electronegativity of fluorine?",
+      "What is the wavelength of red light?",
+      "What is the luminosity of the Sun?"
+    ],
+    "answers": [
+      "1,480 meters per second",
+      "343 meters per second",
+      "3.98",
+      "700 nanometers",
+      "3.828 times ten to the 26th watts"
+    ],
+    "needles": [
+      "The speed of sound in water is approximately 1,480 meters per second.",
+      "The speed of sound in air at sea level is 343 meters per second.",
+      "The electronegativity of fluorine is 3.98 on the Pauling scale.",
+      "The wavelength of red light is approximately 700 nanometers.",
+      "The luminosity of the Sun is 3.828 times ten to the 26th watts."
+    ],
+    "response": "1. The speed of sound in water is approximately 1,480 meters per second.\n2. The speed of sound in air at sea level is 343 meters per second.\n3. The electronegativity of fluorine is 3.98 on the Pauling scale.\n4. The wavelength of red light is approximately 700 nanometers.\n5. The luminosity of the Sun is 3.828 times ten to the 26th watts.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 18,
+    "ratio": 0.5,
+    "questions": [
+      "What is the Young's modulus of aluminum?",
+      "How long does it take Venus to rotate once on its axis?",
+      "How long is the Congo River?",
+      "What is the freezing point of ethanol?",
+      "What is the thermal conductivity of diamond?"
+    ],
+    "answers": [
+      "69 gigapascals",
+      "243 Earth days",
+      "4,700 kilometers",
+      "minus 114 degrees Celsius",
+      "2,200 watts per meter kelvin"
+    ],
+    "needles": [
+      "The Young's modulus of aluminum is 69 gigapascals.",
+      "Venus completes one rotation on its axis every 243 Earth days.",
+      "The Congo River has a length of 4,700 kilometers.",
+      "The freezing point of ethanol is minus 114 degrees Celsius.",
+      "The thermal conductivity of diamond is 2,200 watts per meter kelvin."
+    ],
+    "response": "1. 69 gigapascals\n2. 243 Earth days\n3. 4,700 kilometers\n4. Minus 114 degrees Celsius\n5. 2,200 watts per meter kelvin",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 19,
+    "ratio": 0.5,
+    "questions": [
+      "How many countries does the Danube River flow through?",
+      "How wide is the English Channel at its narrowest point?",
+      "What is the surface temperature of Titan?",
+      "What is the atomic number of uranium?",
+      "What is the average depth of the Atlantic Ocean?"
+    ],
+    "answers": [
+      "10 countries",
+      "34 kilometers",
+      "minus 179 degrees Celsius",
+      "92",
+      "3,646 meters"
+    ],
+    "needles": [
+      "The Danube River flows through 10 different countries.",
+      "The English Channel is 34 kilometers wide at its narrowest point.",
+      "Saturn's moon Titan has a surface temperature of minus 179 degrees Celsius.",
+      "The atomic number of uranium is 92.",
+      "The average depth of the Atlantic Ocean is 3,646 meters."
+    ],
+    "response": "1. The Danube River flows through 10 different countries.\n2. The English Channel is 34 kilometers wide at its narrowest point.\n3. Saturn's moon Titan has a surface temperature of minus 179 degrees Celsius.\n4. The atomic number of uranium is 92.\n5. The average depth of the Atlantic Ocean is 3,646 meters.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 0,
+    "ratio": 0.6,
+    "questions": [
+      "What is the boiling point of helium?",
+      "What is the average distance from Earth to the Moon?",
+      "How long is the Tigris River?",
+      "What is the diameter of the Moon?",
+      "What is the surface area of Lake Superior?"
+    ],
+    "answers": [
+      "minus 268.93 degrees Celsius",
+      "384,400 kilometers",
+      "1,850 kilometers",
+      "3,474 kilometers",
+      "82,100 square kilometers"
+    ],
+    "needles": [
+      "Helium has a boiling point of minus 268.93 degrees Celsius.",
+      "The average distance from Earth to the Moon is 384,400 kilometers.",
+      "The Tigris River is 1,850 kilometers long.",
+      "The diameter of the Moon is 3,474 kilometers.",
+      "Lake Superior has a surface area of 82,100 square kilometers."
+    ],
+    "response": "1. The boiling point of helium is minus 268.93 degrees Celsius.\n2. The average distance from Earth to the Moon is 384,400 kilometers.\n3. The Tigris River is 1,850 kilometers long.\n4. The diameter of the Moon is 3,474 kilometers.\n5. Lake Superior has a surface area of 82,100 square kilometers.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 1,
+    "ratio": 0.6,
+    "questions": [
+      "What is the melting point of tungsten?",
+      "What is the boiling point of mercury?",
+      "How long is the Panama Canal?",
+      "How tall is Mount Kilimanjaro?",
+      "What area does the Indian Ocean cover?"
+    ],
+    "answers": [
+      "3,422 degrees Celsius",
+      "356.73 degrees Celsius",
+      "82 kilometers",
+      "5,895 meters",
+      "70.56 million square kilometers"
+    ],
+    "needles": [
+      "Tungsten has the highest melting point of any element at 3,422 degrees Celsius.",
+      "The boiling point of mercury is 356.73 degrees Celsius.",
+      "The Panama Canal is 82 kilometers long.",
+      "Mount Kilimanjaro stands at 5,895 meters above sea level.",
+      "The Indian Ocean covers approximately 70.56 million square kilometers."
+    ],
+    "response": "1. 3,422 degrees Celsius\n2. 356.73 degrees Celsius\n3. 82 kilometers\n4. 5,895 meters\n5. Approximately 70.56 million square kilometers",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 2,
+    "ratio": 0.6,
+    "questions": [
+      "What is the surface pressure on Venus compared to Earth?",
+      "How much does the Eiffel Tower weigh?",
+      "How long is the Pan-American Highway?",
+      "What is the density of Earth?",
+      "How long is the Ob River?"
+    ],
+    "answers": [
+      "92 times that of Earth",
+      "7,300 metric tons",
+      "30,000 kilometers",
+      "5.51 grams per cubic centimeter",
+      "3,650 kilometers"
+    ],
+    "needles": [
+      "The surface pressure on Venus is 92 times that of Earth.",
+      "The Eiffel Tower weighs approximately 7,300 metric tons.",
+      "The Pan-American Highway stretches approximately 30,000 kilometers.",
+      "The density of Earth is 5.51 grams per cubic centimeter.",
+      "The Ob River has a length of 3,650 kilometers."
+    ],
+    "response": "1. 92 times that of Earth\n2. Approximately 7,300 metric tons\n3. Approximately 30,000 kilometers\n4. 5.51 grams per cubic centimeter\n5. The text does not provide information about the length of the Ob River.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 3,
+    "ratio": 0.6,
+    "questions": [
+      "What area does the Gobi Desert cover?",
+      "What is the drainage basin area of the Mississippi River?",
+      "What is the average rainfall in the Amazon basin?",
+      "How long is the Trans-Siberian Railway?",
+      "How far below sea level is the Dead Sea?"
+    ],
+    "answers": [
+      "1,295,000 square kilometers",
+      "2,981,076 square kilometers",
+      "2,300 millimeters per year",
+      "9,289 kilometers",
+      "430 meters"
+    ],
+    "needles": [
+      "The Gobi Desert covers approximately 1,295,000 square kilometers.",
+      "The Mississippi River has a drainage basin of 2,981,076 square kilometers.",
+      "The average rainfall in the Amazon basin is 2,300 millimeters per year.",
+      "The Trans-Siberian Railway spans 9,289 kilometers.",
+      "The Dead Sea lies at 430 meters below sea level."
+    ],
+    "response": "1. The Gobi Desert covers approximately 1,295,000 square kilometers.\n2. The Mississippi River has a drainage basin of 2,981,076 square kilometers.\n3. The average rainfall in the Amazon basin is 2,300 millimeters per year.\n4. The Trans-Siberian Railway spans 9,289 kilometers.\n5. The Dead Sea lies at 430 meters below sea level.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 4,
+    "ratio": 0.6,
+    "questions": [
+      "What is the escape velocity of Earth?",
+      "How much precipitation does Antarctica receive per year?",
+      "What is the volume of the Caspian Sea?",
+      "How long is the Zambezi River?",
+      "How long is the Mekong River?"
+    ],
+    "answers": [
+      "11.186 kilometers per second",
+      "166 millimeters",
+      "78,200 cubic kilometers",
+      "2,574 kilometers",
+      "4,350 kilometers"
+    ],
+    "needles": [
+      "The escape velocity of Earth is 11.186 kilometers per second.",
+      "Antarctica receives only 166 millimeters of precipitation per year on average.",
+      "The Caspian Sea has a volume of 78,200 cubic kilometers.",
+      "The Zambezi River is 2,574 kilometers long.",
+      "The Mekong River is 4,350 kilometers long."
+    ],
+    "response": "1. The escape velocity of Earth is 11.186 kilometers per second.\n2. Antarctica receives only 166 millimeters of precipitation per year on average.\n3. The volume of the Caspian Sea is 78,200 cubic kilometers.\n4. The Zambezi River is 2,574 kilometers long.\n5. The Mekong River is 4,350 kilometers long.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 5,
+    "ratio": 0.6,
+    "questions": [
+      "What is the radius of the Sun?",
+      "How wide is the Strait of Gibraltar at its narrowest point?",
+      "What is the total area of Greenland?",
+      "How long is the Rhine River?",
+      "How long does it take Neptune to orbit the Sun?"
+    ],
+    "answers": [
+      "696,340 kilometers",
+      "14.3 kilometers",
+      "2,166,086 square kilometers",
+      "1,230 kilometers",
+      "164.8 Earth years"
+    ],
+    "needles": [
+      "The radius of the Sun is 696,340 kilometers.",
+      "The Strait of Gibraltar is 14.3 kilometers wide at its narrowest point.",
+      "Greenland has a total area of 2,166,086 square kilometers.",
+      "The Rhine River is 1,230 kilometers long.",
+      "Neptune takes 164.8 Earth years to orbit the Sun."
+    ],
+    "response": "1. The radius of the Sun is 696,340 kilometers.\n2. The Strait of Gibraltar is 14.3 kilometers wide at its narrowest point.\n3. Greenland has a total area of 2,166,086 square kilometers.\n4. The Rhine River is 1,230 kilometers long.\n5. Neptune takes 164.8 Earth years to orbit the Sun.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 6,
+    "ratio": 0.6,
+    "questions": [
+      "What is the discharge rate of the Amazon River?",
+      "What is the specific heat capacity of water?",
+      "How long does it take Io to orbit Jupiter?",
+      "How long is the Suez Canal?",
+      "What is the area of the Bay of Bengal?"
+    ],
+    "answers": [
+      "209,000 cubic meters per second",
+      "4.186 joules per gram per degree Celsius",
+      "1.77 Earth days",
+      "193 kilometers",
+      "2,172,000 square kilometers"
+    ],
+    "needles": [
+      "The Amazon River discharges approximately 209,000 cubic meters of water per second.",
+      "The specific heat capacity of water is 4.186 joules per gram per degree Celsius.",
+      "Io orbits Jupiter once every 1.77 Earth days.",
+      "The Suez Canal is 193 kilometers long.",
+      "The Bay of Bengal has an area of 2,172,000 square kilometers."
+    ],
+    "response": "1. The Amazon River discharges approximately 209,000 cubic meters of water per second.\n2. The specific heat capacity of water is 4.186 joules per gram per degree Celsius.\n3. Io orbits Jupiter once every 1.77 Earth days.\n4. The Suez Canal is 193 kilometers long.\n5. The Bay of Bengal has an area of 2,172,000 square kilometers.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 7,
+    "ratio": 0.6,
+    "questions": [
+      "What is the magnetic field strength of Earth at the surface?",
+      "What is the boiling point of nitrogen?",
+      "What is the orbital velocity of the International Space Station?",
+      "What is the maximum depth of Lake Malawi?",
+      "What area does the Sahara Desert cover?"
+    ],
+    "answers": [
+      "50 microteslas",
+      "minus 195.79 degrees Celsius",
+      "7.66 kilometers per second",
+      "706 meters",
+      "9.2 million square kilometers"
+    ],
+    "needles": [
+      "The magnetic field strength of Earth at the surface is approximately 50 microteslas.",
+      "The boiling point of nitrogen is minus 195.79 degrees Celsius.",
+      "The orbital velocity of the International Space Station is 7.66 kilometers per second.",
+      "Lake Malawi has a maximum depth of 706 meters.",
+      "The Sahara Desert covers an area of approximately 9.2 million square kilometers."
+    ],
+    "response": "1. The magnetic field strength of Earth at the surface is approximately 50 microteslas.\n2. The boiling point of nitrogen is minus 195.79 degrees Celsius.\n3. The orbital velocity of the International Space Station is 7.66 kilometers per second.\n4. Lake Malawi has a maximum depth of 706 meters.\n5. The Sahara Desert covers an area of approximately 9.2 million square kilometers.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 8,
+    "ratio": 0.6,
+    "questions": [
+      "What is the surface gravity of Mars?",
+      "What area does the Pacific Ocean cover?",
+      "What is the solubility of table salt in water at 25 degrees Celsius?",
+      "How long is the Yangtze River?",
+      "What is the half-life of carbon-14?"
+    ],
+    "answers": [
+      "3.72 meters per second squared",
+      "165.25 million square kilometers",
+      "360 grams per liter",
+      "6,300 kilometers",
+      "5,730 years"
+    ],
+    "needles": [
+      "The surface gravity of Mars is 3.72 meters per second squared.",
+      "The Pacific Ocean covers approximately 165.25 million square kilometers.",
+      "The solubility of table salt in water at 25 degrees Celsius is 360 grams per liter.",
+      "The Yangtze River is 6,300 kilometers long.",
+      "The half-life of carbon-14 is 5,730 years."
+    ],
+    "response": "1. 3.72 meters per second squared\n2. Approximately 165.25 million square kilometers\n3. 360 grams per liter\n4. 6,300 kilometers\n5. 5,730 years",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 9,
+    "ratio": 0.6,
+    "questions": [
+      "What is the tilt of Earth's axis?",
+      "How long are the Appalachian Mountains?",
+      "What is the average salt concentration in ocean water?",
+      "What is the melting point of gold?",
+      "What is the viscosity of honey at room temperature?"
+    ],
+    "answers": [
+      "23.44 degrees",
+      "2,400 kilometers",
+      "35 grams per liter",
+      "1,064 degrees Celsius",
+      "10,000 centipoise"
+    ],
+    "needles": [
+      "The tilt of Earth's axis is 23.44 degrees.",
+      "The Appalachian Mountains stretch approximately 2,400 kilometers.",
+      "The concentration of salt in ocean water averages 35 grams per liter.",
+      "The melting point of gold is 1,064 degrees Celsius.",
+      "The viscosity of honey at room temperature is approximately 10,000 centipoise."
+    ],
+    "response": "1. 23.44 degrees\n2. Approximately 2,400 kilometers\n3. 35 grams per liter\n4. 1,064 degrees Celsius\n5. Approximately 10,000 centipoise",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 10,
+    "ratio": 0.6,
+    "questions": [
+      "What is the circumference of Earth at the equator?",
+      "How long does it take Mercury to orbit the Sun?",
+      "How long is the Great Wall of China?",
+      "How much rain does the Atacama Desert receive per year?",
+      "What is the density of osmium?"
+    ],
+    "answers": [
+      "40,075 kilometers",
+      "88 Earth days",
+      "21,196 kilometers",
+      "less than 15 millimeters",
+      "22.59 grams per cubic centimeter"
+    ],
+    "needles": [
+      "The circumference of Earth at the equator is 40,075 kilometers.",
+      "Mercury orbits the Sun in 88 Earth days.",
+      "The Great Wall of China spans approximately 21,196 kilometers.",
+      "The Atacama Desert receives less than 15 millimeters of rain per year.",
+      "The density of osmium is 22.59 grams per cubic centimeter."
+    ],
+    "response": "1. 40,075 kilometers\n2. 88 Earth days\n3. Approximately 21,196 kilometers\n4. Less than 15 millimeters\n5. 22.59 grams per cubic centimeter",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 11,
+    "ratio": 0.6,
+    "questions": [
+      "What is the diameter of Pluto?",
+      "What is the albedo of fresh snow?",
+      "How long is the Andes mountain range?",
+      "What is the speed of light in a vacuum?",
+      "What is the average surface temperature of the Sun?"
+    ],
+    "answers": [
+      "2,377 kilometers",
+      "0.9",
+      "7,000 kilometers",
+      "299,792,458 meters per second",
+      "5,500 degrees Celsius"
+    ],
+    "needles": [
+      "Pluto has a diameter of 2,377 kilometers.",
+      "The albedo of fresh snow is approximately 0.9.",
+      "The Andes mountain range stretches 7,000 kilometers.",
+      "The speed of light in a vacuum is 299,792,458 meters per second.",
+      "The average surface temperature of the Sun is 5,500 degrees Celsius."
+    ],
+    "response": "1. 2,377 kilometers\n2. Approximately 0.9\n3. 7,000 kilometers\n4. 299,792,458 meters per second\n5. 5,500 degrees Celsius",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 12,
+    "ratio": 0.6,
+    "questions": [
+      "What is the tensile strength of spider silk?",
+      "How many bones does an adult human body contain?",
+      "What is the maximum depth of the Mariana Trench?",
+      "What is the thermal expansion coefficient of steel?",
+      "What is the melting point of titanium?"
+    ],
+    "answers": [
+      "1.3 gigapascals",
+      "206 bones",
+      "10,994 meters",
+      "12 times ten to the negative sixth per degree Celsius",
+      "1,668 degrees Celsius"
+    ],
+    "needles": [
+      "The tensile strength of spider silk is approximately 1.3 gigapascals.",
+      "The human body contains approximately 206 bones at adulthood.",
+      "The Mariana Trench reaches a maximum depth of 10,994 meters.",
+      "The thermal expansion coefficient of steel is 12 times ten to the negative sixth per degree Celsius.",
+      "The melting point of titanium is 1,668 degrees Celsius."
+    ],
+    "response": "1. 1.3 gigapascals\n2. 206\n3. 10,994 meters\n4. 12 times ten to the negative sixth per degree Celsius\n5. 1,668 degrees Celsius",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 13,
+    "ratio": 0.6,
+    "questions": [
+      "What is the mass of Jupiter?",
+      "What is the compressive strength of granite?",
+      "How long is the Great Barrier Reef?",
+      "What is the ionization energy of hydrogen?",
+      "What is the total length of the Nile River?"
+    ],
+    "answers": [
+      "1.898 times ten to the 27th kilograms",
+      "200 megapascals",
+      "2,300 kilometers",
+      "13.6 electron volts",
+      "6,650 kilometers"
+    ],
+    "needles": [
+      "Jupiter has a mass of 1.898 times ten to the 27th kilograms.",
+      "The compressive strength of granite is approximately 200 megapascals.",
+      "The Great Barrier Reef stretches for 2,300 kilometers.",
+      "The ionization energy of hydrogen is 13.6 electron volts.",
+      "The Nile River spans a total length of 6,650 kilometers."
+    ],
+    "response": "1. 1.898 times ten to the 27th kilograms\n2. Approximately 200 megapascals\n3. 2,300 kilometers\n4. 13.6 electron volts\n5. 6,650 kilometers",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 14,
+    "ratio": 0.6,
+    "questions": [
+      "What is the average depth of Lake Baikal?",
+      "What is the mass of an electron?",
+      "How long is the Volga River?",
+      "What is the Mohs hardness of quartz?",
+      "What is the maximum depth of Lake Tanganyika?"
+    ],
+    "answers": [
+      "744.4 meters",
+      "9.109 times ten to the negative 31st kilograms",
+      "3,530 kilometers",
+      "7",
+      "1,470 meters"
+    ],
+    "needles": [
+      "The average depth of Lake Baikal is 744.4 meters.",
+      "The mass of an electron is 9.109 times ten to the negative 31st kilograms.",
+      "The Volga River is 3,530 kilometers long.",
+      "The Mohs hardness of quartz is 7.",
+      "Lake Tanganyika reaches a maximum depth of 1,470 meters."
+    ],
+    "response": "1. 744.4 meters\n2. 9.109 times ten to the negative 31st kilograms\n3. 3,530 kilometers\n4. 7\n5. 1,470 meters",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 15,
+    "ratio": 0.6,
+    "questions": [
+      "How long is the Strait of Malacca?",
+      "What is the electrical resistivity of copper?",
+      "What is the refractive index of glass?",
+      "What is the orbital eccentricity of Earth?",
+      "What is the rotation period of Saturn?"
+    ],
+    "answers": [
+      "800 kilometers",
+      "1.68 times ten to the negative eighth ohm meters",
+      "1.52",
+      "0.0167",
+      "10.7 hours"
+    ],
+    "needles": [
+      "The Strait of Malacca is 800 kilometers long.",
+      "The electrical resistivity of copper is 1.68 times ten to the negative eighth ohm meters.",
+      "The refractive index of glass is approximately 1.52.",
+      "The orbital eccentricity of Earth is 0.0167.",
+      "The rotation period of Saturn is 10.7 hours."
+    ],
+    "response": "1. 800 kilometers\n2. 1.68 times ten to the negative eighth ohm meters\n3. Approximately 1.52\n4. 0.0167\n5. 10.7 hours",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 16,
+    "ratio": 0.6,
+    "questions": [
+      "What is the half-life of plutonium-239?",
+      "What is the surface area of Lake Victoria?",
+      "What is the orbital period of Mars?",
+      "What is the average orbital speed of Earth?",
+      "What is the average distance from the Sun to Mars?"
+    ],
+    "answers": [
+      "24,100 years",
+      "68,800 square kilometers",
+      "687 Earth days",
+      "29.78 kilometers per second",
+      "227.9 million kilometers"
+    ],
+    "needles": [
+      "The half-life of plutonium-239 is 24,100 years.",
+      "Lake Victoria has a surface area of 68,800 square kilometers.",
+      "The orbital period of Mars is 687 Earth days.",
+      "The average orbital speed of Earth is 29.78 kilometers per second.",
+      "The average distance from the Sun to Mars is 227.9 million kilometers."
+    ],
+    "response": "1. The half-life of plutonium-239 is 24,100 years.\n2. Lake Victoria has a surface area of 68,800 square kilometers.\n3. The orbital period of Mars is 687 Earth days.\n4. The average orbital speed of Earth is 29.78 kilometers per second.\n5. The average distance from the Sun to Mars is 227.9 million kilometers.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 17,
+    "ratio": 0.6,
+    "questions": [
+      "What is the speed of sound in water?",
+      "What is the speed of sound in air at sea level?",
+      "What is the electronegativity of fluorine?",
+      "What is the wavelength of red light?",
+      "What is the luminosity of the Sun?"
+    ],
+    "answers": [
+      "1,480 meters per second",
+      "343 meters per second",
+      "3.98",
+      "700 nanometers",
+      "3.828 times ten to the 26th watts"
+    ],
+    "needles": [
+      "The speed of sound in water is approximately 1,480 meters per second.",
+      "The speed of sound in air at sea level is 343 meters per second.",
+      "The electronegativity of fluorine is 3.98 on the Pauling scale.",
+      "The wavelength of red light is approximately 700 nanometers.",
+      "The luminosity of the Sun is 3.828 times ten to the 26th watts."
+    ],
+    "response": "1. The speed of sound in water is approximately 1,480 meters per second.\n2. The speed of sound in air at sea level is 343 meters per second.\n3. The electronegativity of fluorine is 3.98 on the Pauling scale.\n4. The wavelength of red light is approximately 700 nanometers.\n5. The luminosity of the Sun is 3.828 times ten to the 26th watts.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 18,
+    "ratio": 0.6,
+    "questions": [
+      "What is the Young's modulus of aluminum?",
+      "How long does it take Venus to rotate once on its axis?",
+      "How long is the Congo River?",
+      "What is the freezing point of ethanol?",
+      "What is the thermal conductivity of diamond?"
+    ],
+    "answers": [
+      "69 gigapascals",
+      "243 Earth days",
+      "4,700 kilometers",
+      "minus 114 degrees Celsius",
+      "2,200 watts per meter kelvin"
+    ],
+    "needles": [
+      "The Young's modulus of aluminum is 69 gigapascals.",
+      "Venus completes one rotation on its axis every 243 Earth days.",
+      "The Congo River has a length of 4,700 kilometers.",
+      "The freezing point of ethanol is minus 114 degrees Celsius.",
+      "The thermal conductivity of diamond is 2,200 watts per meter kelvin."
+    ],
+    "response": "1. 69 gigapascals\n2. 243 Earth days\n3. 4,700 kilometers\n4. Minus 114 degrees Celsius\n5. 2,200 watts per meter kelvin",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 19,
+    "ratio": 0.6,
+    "questions": [
+      "How many countries does the Danube River flow through?",
+      "How wide is the English Channel at its narrowest point?",
+      "What is the surface temperature of Titan?",
+      "What is the atomic number of uranium?",
+      "What is the average depth of the Atlantic Ocean?"
+    ],
+    "answers": [
+      "10 countries",
+      "34 kilometers",
+      "minus 179 degrees Celsius",
+      "92",
+      "3,646 meters"
+    ],
+    "needles": [
+      "The Danube River flows through 10 different countries.",
+      "The English Channel is 34 kilometers wide at its narrowest point.",
+      "Saturn's moon Titan has a surface temperature of minus 179 degrees Celsius.",
+      "The atomic number of uranium is 92.",
+      "The average depth of the Atlantic Ocean is 3,646 meters."
+    ],
+    "response": "1. 10\n2. 34 kilometers\n3. Minus 179 degrees Celsius\n4. 92\n5. 3,646 meters",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 0,
+    "ratio": 0.75,
+    "questions": [
+      "What is the boiling point of helium?",
+      "What is the average distance from Earth to the Moon?",
+      "How long is the Tigris River?",
+      "What is the diameter of the Moon?",
+      "What is the surface area of Lake Superior?"
+    ],
+    "answers": [
+      "minus 268.93 degrees Celsius",
+      "384,400 kilometers",
+      "1,850 kilometers",
+      "3,474 kilometers",
+      "82,100 square kilometers"
+    ],
+    "needles": [
+      "Helium has a boiling point of minus 268.93 degrees Celsius.",
+      "The average distance from Earth to the Moon is 384,400 kilometers.",
+      "The Tigris River is 1,850 kilometers long.",
+      "The diameter of the Moon is 3,474 kilometers.",
+      "Lake Superior has a surface area of 82,100 square kilometers."
+    ],
+    "response": "1. Minus 268.93 degrees Celsius\n2. 384,400 kilometers\n3. 1,850 kilometers\n4. 3,474 kilometers\n5. 82,100 square kilometers",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 1,
+    "ratio": 0.75,
+    "questions": [
+      "What is the melting point of tungsten?",
+      "What is the boiling point of mercury?",
+      "How long is the Panama Canal?",
+      "How tall is Mount Kilimanjaro?",
+      "What area does the Indian Ocean cover?"
+    ],
+    "answers": [
+      "3,422 degrees Celsius",
+      "356.73 degrees Celsius",
+      "82 kilometers",
+      "5,895 meters",
+      "70.56 million square kilometers"
+    ],
+    "needles": [
+      "Tungsten has the highest melting point of any element at 3,422 degrees Celsius.",
+      "The boiling point of mercury is 356.73 degrees Celsius.",
+      "The Panama Canal is 82 kilometers long.",
+      "Mount Kilimanjaro stands at 5,895 meters above sea level.",
+      "The Indian Ocean covers approximately 70.56 million square kilometers."
+    ],
+    "response": "1. 3,422 degrees Celsius\n2. 356.73 degrees Celsius\n3. 82 kilometers\n4. 5,895 meters above sea level\n5. Approximately 70.56 million square kilometers",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 2,
+    "ratio": 0.75,
+    "questions": [
+      "What is the surface pressure on Venus compared to Earth?",
+      "How much does the Eiffel Tower weigh?",
+      "How long is the Pan-American Highway?",
+      "What is the density of Earth?",
+      "How long is the Ob River?"
+    ],
+    "answers": [
+      "92 times that of Earth",
+      "7,300 metric tons",
+      "30,000 kilometers",
+      "5.51 grams per cubic centimeter",
+      "3,650 kilometers"
+    ],
+    "needles": [
+      "The surface pressure on Venus is 92 times that of Earth.",
+      "The Eiffel Tower weighs approximately 7,300 metric tons.",
+      "The Pan-American Highway stretches approximately 30,000 kilometers.",
+      "The density of Earth is 5.51 grams per cubic centimeter.",
+      "The Ob River has a length of 3,650 kilometers."
+    ],
+    "response": "1. 92 times that of Earth\n2. Approximately 7,300 metric tons\n3. Approximately 30,000 kilometers\n4. 5.51 grams per cubic centimeter\n5. The text does not provide the length of the Ob River.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 3,
+    "ratio": 0.75,
+    "questions": [
+      "What area does the Gobi Desert cover?",
+      "What is the drainage basin area of the Mississippi River?",
+      "What is the average rainfall in the Amazon basin?",
+      "How long is the Trans-Siberian Railway?",
+      "How far below sea level is the Dead Sea?"
+    ],
+    "answers": [
+      "1,295,000 square kilometers",
+      "2,981,076 square kilometers",
+      "2,300 millimeters per year",
+      "9,289 kilometers",
+      "430 meters"
+    ],
+    "needles": [
+      "The Gobi Desert covers approximately 1,295,000 square kilometers.",
+      "The Mississippi River has a drainage basin of 2,981,076 square kilometers.",
+      "The average rainfall in the Amazon basin is 2,300 millimeters per year.",
+      "The Trans-Siberian Railway spans 9,289 kilometers.",
+      "The Dead Sea lies at 430 meters below sea level."
+    ],
+    "response": "1. The Gobi Desert covers approximately 1,295,000 square kilometers.\n2. The Mississippi River has a drainage basin of 2,981,076 square kilometers.\n3. The average rainfall in the Amazon basin is 2,300 millimeters per year.\n4. The Trans-Siberian Railway spans 9,289 kilometers.\n5. The Dead Sea lies at 430 meters below sea level.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 4,
+    "ratio": 0.75,
+    "questions": [
+      "What is the escape velocity of Earth?",
+      "How much precipitation does Antarctica receive per year?",
+      "What is the volume of the Caspian Sea?",
+      "How long is the Zambezi River?",
+      "How long is the Mekong River?"
+    ],
+    "answers": [
+      "11.186 kilometers per second",
+      "166 millimeters",
+      "78,200 cubic kilometers",
+      "2,574 kilometers",
+      "4,350 kilometers"
+    ],
+    "needles": [
+      "The escape velocity of Earth is 11.186 kilometers per second.",
+      "Antarctica receives only 166 millimeters of precipitation per year on average.",
+      "The Caspian Sea has a volume of 78,200 cubic kilometers.",
+      "The Zambezi River is 2,574 kilometers long.",
+      "The Mekong River is 4,350 kilometers long."
+    ],
+    "response": "1. 11.186 kilometers per second\n2. 166 millimeters\n3. 78,200 cubic kilometers\n4. 2,574 kilometers\n5. 4,350 kilometers",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 5,
+    "ratio": 0.75,
+    "questions": [
+      "What is the radius of the Sun?",
+      "How wide is the Strait of Gibraltar at its narrowest point?",
+      "What is the total area of Greenland?",
+      "How long is the Rhine River?",
+      "How long does it take Neptune to orbit the Sun?"
+    ],
+    "answers": [
+      "696,340 kilometers",
+      "14.3 kilometers",
+      "2,166,086 square kilometers",
+      "1,230 kilometers",
+      "164.8 Earth years"
+    ],
+    "needles": [
+      "The radius of the Sun is 696,340 kilometers.",
+      "The Strait of Gibraltar is 14.3 kilometers wide at its narrowest point.",
+      "Greenland has a total area of 2,166,086 square kilometers.",
+      "The Rhine River is 1,230 kilometers long.",
+      "Neptune takes 164.8 Earth years to orbit the Sun."
+    ],
+    "response": "1. 696,340 kilometers\n2. 14.3 kilometers\n3. 2,166,086 square kilometers\n4. 1,230 kilometers\n5. 164.8 Earth years",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 6,
+    "ratio": 0.75,
+    "questions": [
+      "What is the discharge rate of the Amazon River?",
+      "What is the specific heat capacity of water?",
+      "How long does it take Io to orbit Jupiter?",
+      "How long is the Suez Canal?",
+      "What is the area of the Bay of Bengal?"
+    ],
+    "answers": [
+      "209,000 cubic meters per second",
+      "4.186 joules per gram per degree Celsius",
+      "1.77 Earth days",
+      "193 kilometers",
+      "2,172,000 square kilometers"
+    ],
+    "needles": [
+      "The Amazon River discharges approximately 209,000 cubic meters of water per second.",
+      "The specific heat capacity of water is 4.186 joules per gram per degree Celsius.",
+      "Io orbits Jupiter once every 1.77 Earth days.",
+      "The Suez Canal is 193 kilometers long.",
+      "The Bay of Bengal has an area of 2,172,000 square kilometers."
+    ],
+    "response": "1. The discharge rate of the Amazon River is approximately 209,000 cubic meters of water per second.\n2. The specific heat capacity of water is 4.186 joules per gram per degree Celsius.\n3. Io orbits Jupiter once every 1.77 Earth days.\n4. The Suez Canal is 193 kilometers long.\n5. The Bay of Bengal has an area of 2,172,000 square kilometers.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 7,
+    "ratio": 0.75,
+    "questions": [
+      "What is the magnetic field strength of Earth at the surface?",
+      "What is the boiling point of nitrogen?",
+      "What is the orbital velocity of the International Space Station?",
+      "What is the maximum depth of Lake Malawi?",
+      "What area does the Sahara Desert cover?"
+    ],
+    "answers": [
+      "50 microteslas",
+      "minus 195.79 degrees Celsius",
+      "7.66 kilometers per second",
+      "706 meters",
+      "9.2 million square kilometers"
+    ],
+    "needles": [
+      "The magnetic field strength of Earth at the surface is approximately 50 microteslas.",
+      "The boiling point of nitrogen is minus 195.79 degrees Celsius.",
+      "The orbital velocity of the International Space Station is 7.66 kilometers per second.",
+      "Lake Malawi has a maximum depth of 706 meters.",
+      "The Sahara Desert covers an area of approximately 9.2 million square kilometers."
+    ],
+    "response": "1. 50 microteslas\n2. -195.79 degrees Celsius\n3. 7.66 kilometers per second\n4. 706 meters\n5. Approximately 9.2 million square kilometers",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 8,
+    "ratio": 0.75,
+    "questions": [
+      "What is the surface gravity of Mars?",
+      "What area does the Pacific Ocean cover?",
+      "What is the solubility of table salt in water at 25 degrees Celsius?",
+      "How long is the Yangtze River?",
+      "What is the half-life of carbon-14?"
+    ],
+    "answers": [
+      "3.72 meters per second squared",
+      "165.25 million square kilometers",
+      "360 grams per liter",
+      "6,300 kilometers",
+      "5,730 years"
+    ],
+    "needles": [
+      "The surface gravity of Mars is 3.72 meters per second squared.",
+      "The Pacific Ocean covers approximately 165.25 million square kilometers.",
+      "The solubility of table salt in water at 25 degrees Celsius is 360 grams per liter.",
+      "The Yangtze River is 6,300 kilometers long.",
+      "The half-life of carbon-14 is 5,730 years."
+    ],
+    "response": "1. 3.72 meters per second squared\n2. 165.25 million square kilometers\n3. 360 grams per liter\n4. 6,300 kilometers\n5. 5,730 years",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 9,
+    "ratio": 0.75,
+    "questions": [
+      "What is the tilt of Earth's axis?",
+      "How long are the Appalachian Mountains?",
+      "What is the average salt concentration in ocean water?",
+      "What is the melting point of gold?",
+      "What is the viscosity of honey at room temperature?"
+    ],
+    "answers": [
+      "23.44 degrees",
+      "2,400 kilometers",
+      "35 grams per liter",
+      "1,064 degrees Celsius",
+      "10,000 centipoise"
+    ],
+    "needles": [
+      "The tilt of Earth's axis is 23.44 degrees.",
+      "The Appalachian Mountains stretch approximately 2,400 kilometers.",
+      "The concentration of salt in ocean water averages 35 grams per liter.",
+      "The melting point of gold is 1,064 degrees Celsius.",
+      "The viscosity of honey at room temperature is approximately 10,000 centipoise."
+    ],
+    "response": "1. 23.44 degrees\n2. Approximately 2,400 kilometers\n3. Approximately 10,000 centipoise\n4. 1,064 degrees Celsius\n5. Not provided in the context",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 10,
+    "ratio": 0.75,
+    "questions": [
+      "What is the circumference of Earth at the equator?",
+      "How long does it take Mercury to orbit the Sun?",
+      "How long is the Great Wall of China?",
+      "How much rain does the Atacama Desert receive per year?",
+      "What is the density of osmium?"
+    ],
+    "answers": [
+      "40,075 kilometers",
+      "88 Earth days",
+      "21,196 kilometers",
+      "less than 15 millimeters",
+      "22.59 grams per cubic centimeter"
+    ],
+    "needles": [
+      "The circumference of Earth at the equator is 40,075 kilometers.",
+      "Mercury orbits the Sun in 88 Earth days.",
+      "The Great Wall of China spans approximately 21,196 kilometers.",
+      "The Atacama Desert receives less than 15 millimeters of rain per year.",
+      "The density of osmium is 22.59 grams per cubic centimeter."
+    ],
+    "response": "1. 40,075 kilometers\n2. 88 Earth days\n3. Approximately 21,196 kilometers\n4. Less than 15 millimeters of rain per year\n5. 22.59 grams per cubic centimeter",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 11,
+    "ratio": 0.75,
+    "questions": [
+      "What is the diameter of Pluto?",
+      "What is the albedo of fresh snow?",
+      "How long is the Andes mountain range?",
+      "What is the speed of light in a vacuum?",
+      "What is the average surface temperature of the Sun?"
+    ],
+    "answers": [
+      "2,377 kilometers",
+      "0.9",
+      "7,000 kilometers",
+      "299,792,458 meters per second",
+      "5,500 degrees Celsius"
+    ],
+    "needles": [
+      "Pluto has a diameter of 2,377 kilometers.",
+      "The albedo of fresh snow is approximately 0.9.",
+      "The Andes mountain range stretches 7,000 kilometers.",
+      "The speed of light in a vacuum is 299,792,458 meters per second.",
+      "The average surface temperature of the Sun is 5,500 degrees Celsius."
+    ],
+    "response": "1. 2,377 kilometers\n2. Approximately 0.9\n3. 7,000 kilometers\n4. 299,792,458 meters per second\n5. 5,500 degrees Celsius",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 12,
+    "ratio": 0.75,
+    "questions": [
+      "What is the tensile strength of spider silk?",
+      "How many bones does an adult human body contain?",
+      "What is the maximum depth of the Mariana Trench?",
+      "What is the thermal expansion coefficient of steel?",
+      "What is the melting point of titanium?"
+    ],
+    "answers": [
+      "1.3 gigapascals",
+      "206 bones",
+      "10,994 meters",
+      "12 times ten to the negative sixth per degree Celsius",
+      "1,668 degrees Celsius"
+    ],
+    "needles": [
+      "The tensile strength of spider silk is approximately 1.3 gigapascals.",
+      "The human body contains approximately 206 bones at adulthood.",
+      "The Mariana Trench reaches a maximum depth of 10,994 meters.",
+      "The thermal expansion coefficient of steel is 12 times ten to the negative sixth per degree Celsius.",
+      "The melting point of titanium is 1,668 degrees Celsius."
+    ],
+    "response": "1. 1.3 gigapascals\n2. 206\n3. 10,994 meters\n4. 12 times ten to the negative sixth per degree Celsius\n5. 1,668 degrees Celsius",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 13,
+    "ratio": 0.75,
+    "questions": [
+      "What is the mass of Jupiter?",
+      "What is the compressive strength of granite?",
+      "How long is the Great Barrier Reef?",
+      "What is the ionization energy of hydrogen?",
+      "What is the total length of the Nile River?"
+    ],
+    "answers": [
+      "1.898 times ten to the 27th kilograms",
+      "200 megapascals",
+      "2,300 kilometers",
+      "13.6 electron volts",
+      "6,650 kilometers"
+    ],
+    "needles": [
+      "Jupiter has a mass of 1.898 times ten to the 27th kilograms.",
+      "The compressive strength of granite is approximately 200 megapascals.",
+      "The Great Barrier Reef stretches for 2,300 kilometers.",
+      "The ionization energy of hydrogen is 13.6 electron volts.",
+      "The Nile River spans a total length of 6,650 kilometers."
+    ],
+    "response": "1. 1.898 times ten to the 27th kilograms\n2. 200 megapascals\n3. 2,300 kilometers\n4. 13.6 electron volts\n5. 6,650 kilometers",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 14,
+    "ratio": 0.75,
+    "questions": [
+      "What is the average depth of Lake Baikal?",
+      "What is the mass of an electron?",
+      "How long is the Volga River?",
+      "What is the Mohs hardness of quartz?",
+      "What is the maximum depth of Lake Tanganyika?"
+    ],
+    "answers": [
+      "744.4 meters",
+      "9.109 times ten to the negative 31st kilograms",
+      "3,530 kilometers",
+      "7",
+      "1,470 meters"
+    ],
+    "needles": [
+      "The average depth of Lake Baikal is 744.4 meters.",
+      "The mass of an electron is 9.109 times ten to the negative 31st kilograms.",
+      "The Volga River is 3,530 kilometers long.",
+      "The Mohs hardness of quartz is 7.",
+      "Lake Tanganyika reaches a maximum depth of 1,470 meters."
+    ],
+    "response": "1. 744.4 meters\n2. 9.109 times ten to the negative 31st kilograms\n3. 3,530 kilometers\n4. 7\n5. 1,470 meters",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 15,
+    "ratio": 0.75,
+    "questions": [
+      "How long is the Strait of Malacca?",
+      "What is the electrical resistivity of copper?",
+      "What is the refractive index of glass?",
+      "What is the orbital eccentricity of Earth?",
+      "What is the rotation period of Saturn?"
+    ],
+    "answers": [
+      "800 kilometers",
+      "1.68 times ten to the negative eighth ohm meters",
+      "1.52",
+      "0.0167",
+      "10.7 hours"
+    ],
+    "needles": [
+      "The Strait of Malacca is 800 kilometers long.",
+      "The electrical resistivity of copper is 1.68 times ten to the negative eighth ohm meters.",
+      "The refractive index of glass is approximately 1.52.",
+      "The orbital eccentricity of Earth is 0.0167.",
+      "The rotation period of Saturn is 10.7 hours."
+    ],
+    "response": "1. 800 kilometers\n2. 1.68 times ten to the negative eighth ohm meters\n3. Approximately 1.52\n4. 0.0167\n5. 10.7 hours",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 16,
+    "ratio": 0.75,
+    "questions": [
+      "What is the half-life of plutonium-239?",
+      "What is the surface area of Lake Victoria?",
+      "What is the orbital period of Mars?",
+      "What is the average orbital speed of Earth?",
+      "What is the average distance from the Sun to Mars?"
+    ],
+    "answers": [
+      "24,100 years",
+      "68,800 square kilometers",
+      "687 Earth days",
+      "29.78 kilometers per second",
+      "227.9 million kilometers"
+    ],
+    "needles": [
+      "The half-life of plutonium-239 is 24,100 years.",
+      "Lake Victoria has a surface area of 68,800 square kilometers.",
+      "The orbital period of Mars is 687 Earth days.",
+      "The average orbital speed of Earth is 29.78 kilometers per second.",
+      "The average distance from the Sun to Mars is 227.9 million kilometers."
+    ],
+    "response": "1. 24,100 years\n2. 68,800 square kilometers\n3. 687 Earth days\n4. 29.78 kilometers per second\n5. 227.9 million kilometers",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 17,
+    "ratio": 0.75,
+    "questions": [
+      "What is the speed of sound in water?",
+      "What is the speed of sound in air at sea level?",
+      "What is the electronegativity of fluorine?",
+      "What is the wavelength of red light?",
+      "What is the luminosity of the Sun?"
+    ],
+    "answers": [
+      "1,480 meters per second",
+      "343 meters per second",
+      "3.98",
+      "700 nanometers",
+      "3.828 times ten to the 26th watts"
+    ],
+    "needles": [
+      "The speed of sound in water is approximately 1,480 meters per second.",
+      "The speed of sound in air at sea level is 343 meters per second.",
+      "The electronegativity of fluorine is 3.98 on the Pauling scale.",
+      "The wavelength of red light is approximately 700 nanometers.",
+      "The luminosity of the Sun is 3.828 times ten to the 26th watts."
+    ],
+    "response": "1. The speed of sound in water is approximately 1,480 meters per second.\n2. The speed of sound in air at sea level is 343 meters per second.\n3. The electronegativity of fluorine is 3.98 on the Pauling scale.\n4. The wavelength of red light is approximately 700 nanometers.\n5. The luminosity of the Sun is 3.828 times ten to the 26th watts.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 18,
+    "ratio": 0.75,
+    "questions": [
+      "What is the Young's modulus of aluminum?",
+      "How long does it take Venus to rotate once on its axis?",
+      "How long is the Congo River?",
+      "What is the freezing point of ethanol?",
+      "What is the thermal conductivity of diamond?"
+    ],
+    "answers": [
+      "69 gigapascals",
+      "243 Earth days",
+      "4,700 kilometers",
+      "minus 114 degrees Celsius",
+      "2,200 watts per meter kelvin"
+    ],
+    "needles": [
+      "The Young's modulus of aluminum is 69 gigapascals.",
+      "Venus completes one rotation on its axis every 243 Earth days.",
+      "The Congo River has a length of 4,700 kilometers.",
+      "The freezing point of ethanol is minus 114 degrees Celsius.",
+      "The thermal conductivity of diamond is 2,200 watts per meter kelvin."
+    ],
+    "response": "1. 69 gigapascals\n2. 243 Earth days\n3. 4,700 kilometers\n4. Minus 114 degrees Celsius\n5. 2,200 watts per meter kelvin",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 19,
+    "ratio": 0.75,
+    "questions": [
+      "How many countries does the Danube River flow through?",
+      "How wide is the English Channel at its narrowest point?",
+      "What is the surface temperature of Titan?",
+      "What is the atomic number of uranium?",
+      "What is the average depth of the Atlantic Ocean?"
+    ],
+    "answers": [
+      "10 countries",
+      "34 kilometers",
+      "minus 179 degrees Celsius",
+      "92",
+      "3,646 meters"
+    ],
+    "needles": [
+      "The Danube River flows through 10 different countries.",
+      "The English Channel is 34 kilometers wide at its narrowest point.",
+      "Saturn's moon Titan has a surface temperature of minus 179 degrees Celsius.",
+      "The atomic number of uranium is 92.",
+      "The average depth of the Atlantic Ocean is 3,646 meters."
+    ],
+    "response": "1. 10\n2. 34 kilometers\n3. Minus 179 degrees Celsius\n4. 92\n5. 3,646 meters",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 0,
+    "ratio": 0.9,
+    "questions": [
+      "What is the boiling point of helium?",
+      "What is the average distance from Earth to the Moon?",
+      "How long is the Tigris River?",
+      "What is the diameter of the Moon?",
+      "What is the surface area of Lake Superior?"
+    ],
+    "answers": [
+      "minus 268.93 degrees Celsius",
+      "384,400 kilometers",
+      "1,850 kilometers",
+      "3,474 kilometers",
+      "82,100 square kilometers"
+    ],
+    "needles": [
+      "Helium has a boiling point of minus 268.93 degrees Celsius.",
+      "The average distance from Earth to the Moon is 384,400 kilometers.",
+      "The Tigris River is 1,850 kilometers long.",
+      "The diameter of the Moon is 3,474 kilometers.",
+      "Lake Superior has a surface area of 82,100 square kilometers."
+    ],
+    "response": "1. Minus 268.93 degrees Celsius\n2. 384,400 kilometers\n3. 1,850 kilometers\n4. 3,474 kilometers\n5. 82,100 square kilometers",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 1,
+    "ratio": 0.9,
+    "questions": [
+      "What is the melting point of tungsten?",
+      "What is the boiling point of mercury?",
+      "How long is the Panama Canal?",
+      "How tall is Mount Kilimanjaro?",
+      "What area does the Indian Ocean cover?"
+    ],
+    "answers": [
+      "3,422 degrees Celsius",
+      "356.73 degrees Celsius",
+      "82 kilometers",
+      "5,895 meters",
+      "70.56 million square kilometers"
+    ],
+    "needles": [
+      "Tungsten has the highest melting point of any element at 3,422 degrees Celsius.",
+      "The boiling point of mercury is 356.73 degrees Celsius.",
+      "The Panama Canal is 82 kilometers long.",
+      "Mount Kilimanjaro stands at 5,895 meters above sea level.",
+      "The Indian Ocean covers approximately 70.56 million square kilometers."
+    ],
+    "response": "1. 3,422 degrees Celsius\n2. 356.73 degrees Celsius\n3. 82 kilometers\n4. 5,895 meters\n5. Approximately 70.56 million square kilometers",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 2,
+    "ratio": 0.9,
+    "questions": [
+      "What is the surface pressure on Venus compared to Earth?",
+      "How much does the Eiffel Tower weigh?",
+      "How long is the Pan-American Highway?",
+      "What is the density of Earth?",
+      "How long is the Ob River?"
+    ],
+    "answers": [
+      "92 times that of Earth",
+      "7,300 metric tons",
+      "30,000 kilometers",
+      "5.51 grams per cubic centimeter",
+      "3,650 kilometers"
+    ],
+    "needles": [
+      "The surface pressure on Venus is 92 times that of Earth.",
+      "The Eiffel Tower weighs approximately 7,300 metric tons.",
+      "The Pan-American Highway stretches approximately 30,000 kilometers.",
+      "The density of Earth is 5.51 grams per cubic centimeter.",
+      "The Ob River has a length of 3,650 kilometers."
+    ],
+    "response": "1. 92 times that of Earth\n2. Approximately 7,300 metric tons\n3. Approximately 30,000 kilometers\n4. 5.51 grams per cubic centimeter\n5. The length of the Ob River is not specified in the provided context.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 3,
+    "ratio": 0.9,
+    "questions": [
+      "What area does the Gobi Desert cover?",
+      "What is the drainage basin area of the Mississippi River?",
+      "What is the average rainfall in the Amazon basin?",
+      "How long is the Trans-Siberian Railway?",
+      "How far below sea level is the Dead Sea?"
+    ],
+    "answers": [
+      "1,295,000 square kilometers",
+      "2,981,076 square kilometers",
+      "2,300 millimeters per year",
+      "9,289 kilometers",
+      "430 meters"
+    ],
+    "needles": [
+      "The Gobi Desert covers approximately 1,295,000 square kilometers.",
+      "The Mississippi River has a drainage basin of 2,981,076 square kilometers.",
+      "The average rainfall in the Amazon basin is 2,300 millimeters per year.",
+      "The Trans-Siberian Railway spans 9,289 kilometers.",
+      "The Dead Sea lies at 430 meters below sea level."
+    ],
+    "response": "1. The Gobi Desert covers approximately 1,295,000 square kilometers.\n2. The Mississippi River has a drainage basin of 2,981,076 square kilometers.\n3. The average rainfall in the Amazon basin is 2,300 millimeters per year.\n4. The Trans-Siberian Railway spans 9,289 kilometers.\n5. The Dead Sea lies at 430 meters below sea level.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 4,
+    "ratio": 0.9,
+    "questions": [
+      "What is the escape velocity of Earth?",
+      "How much precipitation does Antarctica receive per year?",
+      "What is the volume of the Caspian Sea?",
+      "How long is the Zambezi River?",
+      "How long is the Mekong River?"
+    ],
+    "answers": [
+      "11.186 kilometers per second",
+      "166 millimeters",
+      "78,200 cubic kilometers",
+      "2,574 kilometers",
+      "4,350 kilometers"
+    ],
+    "needles": [
+      "The escape velocity of Earth is 11.186 kilometers per second.",
+      "Antarctica receives only 166 millimeters of precipitation per year on average.",
+      "The Caspian Sea has a volume of 78,200 cubic kilometers.",
+      "The Zambezi River is 2,574 kilometers long.",
+      "The Mekong River is 4,350 kilometers long."
+    ],
+    "response": "1. 11.186 kilometers per second\n2. 2,574 kilometers\n3. 78,200 cubic kilometers\n4. 2,574 kilometers\n5. 4,350 kilometers",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 5,
+    "ratio": 0.9,
+    "questions": [
+      "What is the radius of the Sun?",
+      "How wide is the Strait of Gibraltar at its narrowest point?",
+      "What is the total area of Greenland?",
+      "How long is the Rhine River?",
+      "How long does it take Neptune to orbit the Sun?"
+    ],
+    "answers": [
+      "696,340 kilometers",
+      "14.3 kilometers",
+      "2,166,086 square kilometers",
+      "1,230 kilometers",
+      "164.8 Earth years"
+    ],
+    "needles": [
+      "The radius of the Sun is 696,340 kilometers.",
+      "The Strait of Gibraltar is 14.3 kilometers wide at its narrowest point.",
+      "Greenland has a total area of 2,166,086 square kilometers.",
+      "The Rhine River is 1,230 kilometers long.",
+      "Neptune takes 164.8 Earth years to orbit the Sun."
+    ],
+    "response": "1. 696,340 kilometers\n2. 14.3 kilometers\n3. 2,166,086 square kilometers\n4. 1,230 kilometers\n5. 164.8 Earth years",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 6,
+    "ratio": 0.9,
+    "questions": [
+      "What is the discharge rate of the Amazon River?",
+      "What is the specific heat capacity of water?",
+      "How long does it take Io to orbit Jupiter?",
+      "How long is the Suez Canal?",
+      "What is the area of the Bay of Bengal?"
+    ],
+    "answers": [
+      "209,000 cubic meters per second",
+      "4.186 joules per gram per degree Celsius",
+      "1.77 Earth days",
+      "193 kilometers",
+      "2,172,000 square kilometers"
+    ],
+    "needles": [
+      "The Amazon River discharges approximately 209,000 cubic meters of water per second.",
+      "The specific heat capacity of water is 4.186 joules per gram per degree Celsius.",
+      "Io orbits Jupiter once every 1.77 Earth days.",
+      "The Suez Canal is 193 kilometers long.",
+      "The Bay of Bengal has an area of 2,172,000 square kilometers."
+    ],
+    "response": "1. Approximately 209,000 cubic meters of water per second.\n2. 4.186 joules per gram per degree Celsius.\n3. Io orbits Jupiter once every 1.77 Earth days.\n4. The Suez Canal is 193 kilometers long.\n5. The Bay of Bengal has an area of 2,172,000 square kilometers.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 7,
+    "ratio": 0.9,
+    "questions": [
+      "What is the magnetic field strength of Earth at the surface?",
+      "What is the boiling point of nitrogen?",
+      "What is the orbital velocity of the International Space Station?",
+      "What is the maximum depth of Lake Malawi?",
+      "What area does the Sahara Desert cover?"
+    ],
+    "answers": [
+      "50 microteslas",
+      "minus 195.79 degrees Celsius",
+      "7.66 kilometers per second",
+      "706 meters",
+      "9.2 million square kilometers"
+    ],
+    "needles": [
+      "The magnetic field strength of Earth at the surface is approximately 50 microteslas.",
+      "The boiling point of nitrogen is minus 195.79 degrees Celsius.",
+      "The orbital velocity of the International Space Station is 7.66 kilometers per second.",
+      "Lake Malawi has a maximum depth of 706 meters.",
+      "The Sahara Desert covers an area of approximately 9.2 million square kilometers."
+    ],
+    "response": "1. 50 microteslas\n2. -195.79 degrees Celsius\n3. 7.66 kilometers per second\n4. Not specified in the context\n5. Approximately 9.2 million square kilometers",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 3,
+    "total": 5,
+    "recall": 0.6
+  },
+  {
+    "group_idx": 8,
+    "ratio": 0.9,
+    "questions": [
+      "What is the surface gravity of Mars?",
+      "What area does the Pacific Ocean cover?",
+      "What is the solubility of table salt in water at 25 degrees Celsius?",
+      "How long is the Yangtze River?",
+      "What is the half-life of carbon-14?"
+    ],
+    "answers": [
+      "3.72 meters per second squared",
+      "165.25 million square kilometers",
+      "360 grams per liter",
+      "6,300 kilometers",
+      "5,730 years"
+    ],
+    "needles": [
+      "The surface gravity of Mars is 3.72 meters per second squared.",
+      "The Pacific Ocean covers approximately 165.25 million square kilometers.",
+      "The solubility of table salt in water at 25 degrees Celsius is 360 grams per liter.",
+      "The Yangtze River is 6,300 kilometers long.",
+      "The half-life of carbon-14 is 5,730 years."
+    ],
+    "response": "1. 3.72 meters per second squared\n2. Approximately 165.25 million square kilometers\n3. 360 grams per liter\n4. 6,300 kilometers\n5. 5,730 years",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 9,
+    "ratio": 0.9,
+    "questions": [
+      "What is the tilt of Earth's axis?",
+      "How long are the Appalachian Mountains?",
+      "What is the average salt concentration in ocean water?",
+      "What is the melting point of gold?",
+      "What is the viscosity of honey at room temperature?"
+    ],
+    "answers": [
+      "23.44 degrees",
+      "2,400 kilometers",
+      "35 grams per liter",
+      "1,064 degrees Celsius",
+      "10,000 centipoise"
+    ],
+    "needles": [
+      "The tilt of Earth's axis is 23.44 degrees.",
+      "The Appalachian Mountains stretch approximately 2,400 kilometers.",
+      "The concentration of salt in ocean water averages 35 grams per liter.",
+      "The melting point of gold is 1,064 degrees Celsius.",
+      "The viscosity of honey at room temperature is approximately 10,000 centipoise."
+    ],
+    "response": "1. 23.44 degrees\n2. Approximately 2,400 kilometers\n3. 35 grams per liter\n4. 1,064 degrees Celsius\n5. Approximately 10,000 centipoise",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 10,
+    "ratio": 0.9,
+    "questions": [
+      "What is the circumference of Earth at the equator?",
+      "How long does it take Mercury to orbit the Sun?",
+      "How long is the Great Wall of China?",
+      "How much rain does the Atacama Desert receive per year?",
+      "What is the density of osmium?"
+    ],
+    "answers": [
+      "40,075 kilometers",
+      "88 Earth days",
+      "21,196 kilometers",
+      "less than 15 millimeters",
+      "22.59 grams per cubic centimeter"
+    ],
+    "needles": [
+      "The circumference of Earth at the equator is 40,075 kilometers.",
+      "Mercury orbits the Sun in 88 Earth days.",
+      "The Great Wall of China spans approximately 21,196 kilometers.",
+      "The Atacama Desert receives less than 15 millimeters of rain per year.",
+      "The density of osmium is 22.59 grams per cubic centimeter."
+    ],
+    "response": "1. 40,075 kilometers\n2. 88 Earth days\n3. Approximately 21,196 kilometers\n4. Less than 15 millimeters\n5. 22.59 grams per cubic centimeter",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 11,
+    "ratio": 0.9,
+    "questions": [
+      "What is the diameter of Pluto?",
+      "What is the albedo of fresh snow?",
+      "How long is the Andes mountain range?",
+      "What is the speed of light in a vacuum?",
+      "What is the average surface temperature of the Sun?"
+    ],
+    "answers": [
+      "2,377 kilometers",
+      "0.9",
+      "7,000 kilometers",
+      "299,792,458 meters per second",
+      "5,500 degrees Celsius"
+    ],
+    "needles": [
+      "Pluto has a diameter of 2,377 kilometers.",
+      "The albedo of fresh snow is approximately 0.9.",
+      "The Andes mountain range stretches 7,000 kilometers.",
+      "The speed of light in a vacuum is 299,792,458 meters per second.",
+      "The average surface temperature of the Sun is 5,500 degrees Celsius."
+    ],
+    "response": "1. 2,377 kilometers\n2. Approximately 0.9\n3. 7,000 kilometers\n4. 299,792,458 meters per second\n5. 5,500 degrees Celsius",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 12,
+    "ratio": 0.9,
+    "questions": [
+      "What is the tensile strength of spider silk?",
+      "How many bones does an adult human body contain?",
+      "What is the maximum depth of the Mariana Trench?",
+      "What is the thermal expansion coefficient of steel?",
+      "What is the melting point of titanium?"
+    ],
+    "answers": [
+      "1.3 gigapascals",
+      "206 bones",
+      "10,994 meters",
+      "12 times ten to the negative sixth per degree Celsius",
+      "1,668 degrees Celsius"
+    ],
+    "needles": [
+      "The tensile strength of spider silk is approximately 1.3 gigapascals.",
+      "The human body contains approximately 206 bones at adulthood.",
+      "The Mariana Trench reaches a maximum depth of 10,994 meters.",
+      "The thermal expansion coefficient of steel is 12 times ten to the negative sixth per degree Celsius.",
+      "The melting point of titanium is 1,668 degrees Celsius."
+    ],
+    "response": "1. 1.3 gigapascals\n2. 206 bones\n3. 10,994 meters\n4. 12 times ten to the negative sixth per degree Celsius\n5. 1,668 degrees Celsius",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 13,
+    "ratio": 0.9,
+    "questions": [
+      "What is the mass of Jupiter?",
+      "What is the compressive strength of granite?",
+      "How long is the Great Barrier Reef?",
+      "What is the ionization energy of hydrogen?",
+      "What is the total length of the Nile River?"
+    ],
+    "answers": [
+      "1.898 times ten to the 27th kilograms",
+      "200 megapascals",
+      "2,300 kilometers",
+      "13.6 electron volts",
+      "6,650 kilometers"
+    ],
+    "needles": [
+      "Jupiter has a mass of 1.898 times ten to the 27th kilograms.",
+      "The compressive strength of granite is approximately 200 megapascals.",
+      "The Great Barrier Reef stretches for 2,300 kilometers.",
+      "The ionization energy of hydrogen is 13.6 electron volts.",
+      "The Nile River spans a total length of 6,650 kilometers."
+    ],
+    "response": "1. 1.898 times ten to the 27th kilograms\n2. The compressive strength of granite is approximately 200 megapascals.\n3. The Great Barrier Reef stretches for 2,300 kilometers.\n4. The ionization energy of hydrogen is 13.6 electron volts.\n5. The Nile River spans a total length of 6,650 kilometers.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 14,
+    "ratio": 0.9,
+    "questions": [
+      "What is the average depth of Lake Baikal?",
+      "What is the mass of an electron?",
+      "How long is the Volga River?",
+      "What is the Mohs hardness of quartz?",
+      "What is the maximum depth of Lake Tanganyika?"
+    ],
+    "answers": [
+      "744.4 meters",
+      "9.109 times ten to the negative 31st kilograms",
+      "3,530 kilometers",
+      "7",
+      "1,470 meters"
+    ],
+    "needles": [
+      "The average depth of Lake Baikal is 744.4 meters.",
+      "The mass of an electron is 9.109 times ten to the negative 31st kilograms.",
+      "The Volga River is 3,530 kilometers long.",
+      "The Mohs hardness of quartz is 7.",
+      "Lake Tanganyika reaches a maximum depth of 1,470 meters."
+    ],
+    "response": "1. 744.4 meters\n2. 9.109 times ten to the negative 31st kilograms\n3. 3,530 kilometers\n4. 7\n5. 1,470 meters",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 15,
+    "ratio": 0.9,
+    "questions": [
+      "How long is the Strait of Malacca?",
+      "What is the electrical resistivity of copper?",
+      "What is the refractive index of glass?",
+      "What is the orbital eccentricity of Earth?",
+      "What is the rotation period of Saturn?"
+    ],
+    "answers": [
+      "800 kilometers",
+      "1.68 times ten to the negative eighth ohm meters",
+      "1.52",
+      "0.0167",
+      "10.7 hours"
+    ],
+    "needles": [
+      "The Strait of Malacca is 800 kilometers long.",
+      "The electrical resistivity of copper is 1.68 times ten to the negative eighth ohm meters.",
+      "The refractive index of glass is approximately 1.52.",
+      "The orbital eccentricity of Earth is 0.0167.",
+      "The rotation period of Saturn is 10.7 hours."
+    ],
+    "response": "1. 800 kilometers\n2. 1.68 times ten to the negative eighth ohm meters\n3. Approximately 1.52\n4. 0.0167\n5. 10.7 hours",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 16,
+    "ratio": 0.9,
+    "questions": [
+      "What is the half-life of plutonium-239?",
+      "What is the surface area of Lake Victoria?",
+      "What is the orbital period of Mars?",
+      "What is the average orbital speed of Earth?",
+      "What is the average distance from the Sun to Mars?"
+    ],
+    "answers": [
+      "24,100 years",
+      "68,800 square kilometers",
+      "687 Earth days",
+      "29.78 kilometers per second",
+      "227.9 million kilometers"
+    ],
+    "needles": [
+      "The half-life of plutonium-239 is 24,100 years.",
+      "Lake Victoria has a surface area of 68,800 square kilometers.",
+      "The orbital period of Mars is 687 Earth days.",
+      "The average orbital speed of Earth is 29.78 kilometers per second.",
+      "The average distance from the Sun to Mars is 227.9 million kilometers."
+    ],
+    "response": "1. 24,100 years\n2. 68,800 square kilometers\n3. 687 Earth days\n4. 29.78 kilometers per second\n5. 227.9 million kilometers",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 17,
+    "ratio": 0.9,
+    "questions": [
+      "What is the speed of sound in water?",
+      "What is the speed of sound in air at sea level?",
+      "What is the electronegativity of fluorine?",
+      "What is the wavelength of red light?",
+      "What is the luminosity of the Sun?"
+    ],
+    "answers": [
+      "1,480 meters per second",
+      "343 meters per second",
+      "3.98",
+      "700 nanometers",
+      "3.828 times ten to the 26th watts"
+    ],
+    "needles": [
+      "The speed of sound in water is approximately 1,480 meters per second.",
+      "The speed of sound in air at sea level is 343 meters per second.",
+      "The electronegativity of fluorine is 3.98 on the Pauling scale.",
+      "The wavelength of red light is approximately 700 nanometers.",
+      "The luminosity of the Sun is 3.828 times ten to the 26th watts."
+    ],
+    "response": "1. 1480 meters per second\n2. 343 meters per second\n3. 3.98 on the Pauling scale\n4. Approximately 700 nanometers\n5. 3.828 times ten to the 26th watts",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 18,
+    "ratio": 0.9,
+    "questions": [
+      "What is the Young's modulus of aluminum?",
+      "How long does it take Venus to rotate once on its axis?",
+      "How long is the Congo River?",
+      "What is the freezing point of ethanol?",
+      "What is the thermal conductivity of diamond?"
+    ],
+    "answers": [
+      "69 gigapascals",
+      "243 Earth days",
+      "4,700 kilometers",
+      "minus 114 degrees Celsius",
+      "2,200 watts per meter kelvin"
+    ],
+    "needles": [
+      "The Young's modulus of aluminum is 69 gigapascals.",
+      "Venus completes one rotation on its axis every 243 Earth days.",
+      "The Congo River has a length of 4,700 kilometers.",
+      "The freezing point of ethanol is minus 114 degrees Celsius.",
+      "The thermal conductivity of diamond is 2,200 watts per meter kelvin."
+    ],
+    "response": "1. 69 gigapascals\n2. 243 Earth days\n3. 4,700 kilometers\n4. Minus 114 degrees Celsius\n5. 2,200 watts per meter kelvin",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 19,
+    "ratio": 0.9,
+    "questions": [
+      "How many countries does the Danube River flow through?",
+      "How wide is the English Channel at its narrowest point?",
+      "What is the surface temperature of Titan?",
+      "What is the atomic number of uranium?",
+      "What is the average depth of the Atlantic Ocean?"
+    ],
+    "answers": [
+      "10 countries",
+      "34 kilometers",
+      "minus 179 degrees Celsius",
+      "92",
+      "3,646 meters"
+    ],
+    "needles": [
+      "The Danube River flows through 10 different countries.",
+      "The English Channel is 34 kilometers wide at its narrowest point.",
+      "Saturn's moon Titan has a surface temperature of minus 179 degrees Celsius.",
+      "The atomic number of uranium is 92.",
+      "The average depth of the Atlantic Ocean is 3,646 meters."
+    ],
+    "response": "1. 10\n2. 34 kilometers\n3. Minus 179 degrees Celsius\n4. 92\n5. 3,646 meters",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 0,
+    "ratio": 0.95,
+    "questions": [
+      "What is the boiling point of helium?",
+      "What is the average distance from Earth to the Moon?",
+      "How long is the Tigris River?",
+      "What is the diameter of the Moon?",
+      "What is the surface area of Lake Superior?"
+    ],
+    "answers": [
+      "minus 268.93 degrees Celsius",
+      "384,400 kilometers",
+      "1,850 kilometers",
+      "3,474 kilometers",
+      "82,100 square kilometers"
+    ],
+    "needles": [
+      "Helium has a boiling point of minus 268.93 degrees Celsius.",
+      "The average distance from Earth to the Moon is 384,400 kilometers.",
+      "The Tigris River is 1,850 kilometers long.",
+      "The diameter of the Moon is 3,474 kilometers.",
+      "Lake Superior has a surface area of 82,100 square kilometers."
+    ],
+    "response": "1. The boiling point of helium is -268.93 degrees Celsius.\n2. The average distance from Earth to the Moon is 384,400 kilometers.\n3. The Tigris River is 1,850 kilometers long.\n4. The diameter of the Moon is 3,474 kilometers.\n5. Lake Superior has a surface area of 82,100 square kilometers.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 1,
+    "ratio": 0.95,
+    "questions": [
+      "What is the melting point of tungsten?",
+      "What is the boiling point of mercury?",
+      "How long is the Panama Canal?",
+      "How tall is Mount Kilimanjaro?",
+      "What area does the Indian Ocean cover?"
+    ],
+    "answers": [
+      "3,422 degrees Celsius",
+      "356.73 degrees Celsius",
+      "82 kilometers",
+      "5,895 meters",
+      "70.56 million square kilometers"
+    ],
+    "needles": [
+      "Tungsten has the highest melting point of any element at 3,422 degrees Celsius.",
+      "The boiling point of mercury is 356.73 degrees Celsius.",
+      "The Panama Canal is 82 kilometers long.",
+      "Mount Kilimanjaro stands at 5,895 meters above sea level.",
+      "The Indian Ocean covers approximately 70.56 million square kilometers."
+    ],
+    "response": "1. 3,422 degrees Celsius\n2. 356.73 degrees Celsius\n3. 82 kilometers\n4. 5,895 meters above sea level\n5. Approximately 70.56 million square kilometers.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 2,
+    "ratio": 0.95,
+    "questions": [
+      "What is the surface pressure on Venus compared to Earth?",
+      "How much does the Eiffel Tower weigh?",
+      "How long is the Pan-American Highway?",
+      "What is the density of Earth?",
+      "How long is the Ob River?"
+    ],
+    "answers": [
+      "92 times that of Earth",
+      "7,300 metric tons",
+      "30,000 kilometers",
+      "5.51 grams per cubic centimeter",
+      "3,650 kilometers"
+    ],
+    "needles": [
+      "The surface pressure on Venus is 92 times that of Earth.",
+      "The Eiffel Tower weighs approximately 7,300 metric tons.",
+      "The Pan-American Highway stretches approximately 30,000 kilometers.",
+      "The density of Earth is 5.51 grams per cubic centimeter.",
+      "The Ob River has a length of 3,650 kilometers."
+    ],
+    "response": "1. 92 times that of Earth\n2. The Eiffel Tower weighs approximately 7,300 metric tons.\n3. The Pan-American Highway stretches approximately 30,000 kilometers.\n4. The density of Earth is 5.51 grams per cubic centimeter.\n5. The Ob River has a length of 3,650 kilometers.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 3,
+    "ratio": 0.95,
+    "questions": [
+      "What area does the Gobi Desert cover?",
+      "What is the drainage basin area of the Mississippi River?",
+      "What is the average rainfall in the Amazon basin?",
+      "How long is the Trans-Siberian Railway?",
+      "How far below sea level is the Dead Sea?"
+    ],
+    "answers": [
+      "1,295,000 square kilometers",
+      "2,981,076 square kilometers",
+      "2,300 millimeters per year",
+      "9,289 kilometers",
+      "430 meters"
+    ],
+    "needles": [
+      "The Gobi Desert covers approximately 1,295,000 square kilometers.",
+      "The Mississippi River has a drainage basin of 2,981,076 square kilometers.",
+      "The average rainfall in the Amazon basin is 2,300 millimeters per year.",
+      "The Trans-Siberian Railway spans 9,289 kilometers.",
+      "The Dead Sea lies at 430 meters below sea level."
+    ],
+    "response": "1. The Gobi Desert covers approximately 1,295,000 square kilometers.\n2. The Mississippi River has a drainage basin of 2,981,076 square kilometers.\n3. The average rainfall in the Amazon basin is 2,300 millimeters per year.\n4. The Trans-Siberian Railway spans 9,289 kilometers.\n5. The Dead Sea lies at 430 meters below sea level.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 4,
+    "ratio": 0.95,
+    "questions": [
+      "What is the escape velocity of Earth?",
+      "How much precipitation does Antarctica receive per year?",
+      "What is the volume of the Caspian Sea?",
+      "How long is the Zambezi River?",
+      "How long is the Mekong River?"
+    ],
+    "answers": [
+      "11.186 kilometers per second",
+      "166 millimeters",
+      "78,200 cubic kilometers",
+      "2,574 kilometers",
+      "4,350 kilometers"
+    ],
+    "needles": [
+      "The escape velocity of Earth is 11.186 kilometers per second.",
+      "Antarctica receives only 166 millimeters of precipitation per year on average.",
+      "The Caspian Sea has a volume of 78,200 cubic kilometers.",
+      "The Zambezi River is 2,574 kilometers long.",
+      "The Mekong River is 4,350 kilometers long."
+    ],
+    "response": "1. 11.186 kilometers per second\n2. 166 millimeters\n3. 78,200 cubic kilometers\n4. 2,574 kilometers\n5. 4,350 kilometers",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 5,
+    "ratio": 0.95,
+    "questions": [
+      "What is the radius of the Sun?",
+      "How wide is the Strait of Gibraltar at its narrowest point?",
+      "What is the total area of Greenland?",
+      "How long is the Rhine River?",
+      "How long does it take Neptune to orbit the Sun?"
+    ],
+    "answers": [
+      "696,340 kilometers",
+      "14.3 kilometers",
+      "2,166,086 square kilometers",
+      "1,230 kilometers",
+      "164.8 Earth years"
+    ],
+    "needles": [
+      "The radius of the Sun is 696,340 kilometers.",
+      "The Strait of Gibraltar is 14.3 kilometers wide at its narrowest point.",
+      "Greenland has a total area of 2,166,086 square kilometers.",
+      "The Rhine River is 1,230 kilometers long.",
+      "Neptune takes 164.8 Earth years to orbit the Sun."
+    ],
+    "response": "1. 696,340 kilometers\n2. 14.3 kilometers\n3. 2,166,086 square kilometers\n4. 1,230 kilometers\n5. 164.8 Earth years",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 6,
+    "ratio": 0.95,
+    "questions": [
+      "What is the discharge rate of the Amazon River?",
+      "What is the specific heat capacity of water?",
+      "How long does it take Io to orbit Jupiter?",
+      "How long is the Suez Canal?",
+      "What is the area of the Bay of Bengal?"
+    ],
+    "answers": [
+      "209,000 cubic meters per second",
+      "4.186 joules per gram per degree Celsius",
+      "1.77 Earth days",
+      "193 kilometers",
+      "2,172,000 square kilometers"
+    ],
+    "needles": [
+      "The Amazon River discharges approximately 209,000 cubic meters of water per second.",
+      "The specific heat capacity of water is 4.186 joules per gram per degree Celsius.",
+      "Io orbits Jupiter once every 1.77 Earth days.",
+      "The Suez Canal is 193 kilometers long.",
+      "The Bay of Bengal has an area of 2,172,000 square kilometers."
+    ],
+    "response": "1. The Amazon River discharges approximately 209,000 cubic meters of water per second.\n2. The specific heat capacity of water is 4.186 joules per gram per degree Celsius.\n3. Io orbits Jupiter once every 1.77 Earth days.\n4. The Suez Canal is 193 kilometers long.\n5. The Bay of Bengal has an area of 2,172,000 square kilometers.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 7,
+    "ratio": 0.95,
+    "questions": [
+      "What is the magnetic field strength of Earth at the surface?",
+      "What is the boiling point of nitrogen?",
+      "What is the orbital velocity of the International Space Station?",
+      "What is the maximum depth of Lake Malawi?",
+      "What area does the Sahara Desert cover?"
+    ],
+    "answers": [
+      "50 microteslas",
+      "minus 195.79 degrees Celsius",
+      "7.66 kilometers per second",
+      "706 meters",
+      "9.2 million square kilometers"
+    ],
+    "needles": [
+      "The magnetic field strength of Earth at the surface is approximately 50 microteslas.",
+      "The boiling point of nitrogen is minus 195.79 degrees Celsius.",
+      "The orbital velocity of the International Space Station is 7.66 kilometers per second.",
+      "Lake Malawi has a maximum depth of 706 meters.",
+      "The Sahara Desert covers an area of approximately 9.2 million square kilometers."
+    ],
+    "response": "1. The magnetic field strength of Earth at the surface is approximately 50 microteslas.\n2. The boiling point of nitrogen is minus 195.79 degrees Celsius.\n3. The orbital velocity of the International Space Station is 7.66 kilometers per second.\n4. Lake Malawi has a maximum depth of 706 meters.\n5. The Sahara Desert covers an area of approximately 9.2 million square kilometers.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 8,
+    "ratio": 0.95,
+    "questions": [
+      "What is the surface gravity of Mars?",
+      "What area does the Pacific Ocean cover?",
+      "What is the solubility of table salt in water at 25 degrees Celsius?",
+      "How long is the Yangtze River?",
+      "What is the half-life of carbon-14?"
+    ],
+    "answers": [
+      "3.72 meters per second squared",
+      "165.25 million square kilometers",
+      "360 grams per liter",
+      "6,300 kilometers",
+      "5,730 years"
+    ],
+    "needles": [
+      "The surface gravity of Mars is 3.72 meters per second squared.",
+      "The Pacific Ocean covers approximately 165.25 million square kilometers.",
+      "The solubility of table salt in water at 25 degrees Celsius is 360 grams per liter.",
+      "The Yangtze River is 6,300 kilometers long.",
+      "The half-life of carbon-14 is 5,730 years."
+    ],
+    "response": "1. 3.72 meters per second squared\n2. Approximately 165.25 million square kilometers\n3. 360 grams per liter\n4. 6,300 kilometers\n5. 5,730 years",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 9,
+    "ratio": 0.95,
+    "questions": [
+      "What is the tilt of Earth's axis?",
+      "How long are the Appalachian Mountains?",
+      "What is the average salt concentration in ocean water?",
+      "What is the melting point of gold?",
+      "What is the viscosity of honey at room temperature?"
+    ],
+    "answers": [
+      "23.44 degrees",
+      "2,400 kilometers",
+      "35 grams per liter",
+      "1,064 degrees Celsius",
+      "10,000 centipoise"
+    ],
+    "needles": [
+      "The tilt of Earth's axis is 23.44 degrees.",
+      "The Appalachian Mountains stretch approximately 2,400 kilometers.",
+      "The concentration of salt in ocean water averages 35 grams per liter.",
+      "The melting point of gold is 1,064 degrees Celsius.",
+      "The viscosity of honey at room temperature is approximately 10,000 centipoise."
+    ],
+    "response": "1. 23.44 degrees\n2. Approximately 2,400 kilometers\n3. 35 grams per liter\n4. 1,064 degrees Celsius\n5. Approximately 10,000 centipoise",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 10,
+    "ratio": 0.95,
+    "questions": [
+      "What is the circumference of Earth at the equator?",
+      "How long does it take Mercury to orbit the Sun?",
+      "How long is the Great Wall of China?",
+      "How much rain does the Atacama Desert receive per year?",
+      "What is the density of osmium?"
+    ],
+    "answers": [
+      "40,075 kilometers",
+      "88 Earth days",
+      "21,196 kilometers",
+      "less than 15 millimeters",
+      "22.59 grams per cubic centimeter"
+    ],
+    "needles": [
+      "The circumference of Earth at the equator is 40,075 kilometers.",
+      "Mercury orbits the Sun in 88 Earth days.",
+      "The Great Wall of China spans approximately 21,196 kilometers.",
+      "The Atacama Desert receives less than 15 millimeters of rain per year.",
+      "The density of osmium is 22.59 grams per cubic centimeter."
+    ],
+    "response": "1. 40,075 kilometers\n2. 88 Earth days\n3. Approximately 21,196 kilometers\n4. Less than 15 millimeters of rain per year\n5. 22.59 grams per cubic centimeter",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 11,
+    "ratio": 0.95,
+    "questions": [
+      "What is the diameter of Pluto?",
+      "What is the albedo of fresh snow?",
+      "How long is the Andes mountain range?",
+      "What is the speed of light in a vacuum?",
+      "What is the average surface temperature of the Sun?"
+    ],
+    "answers": [
+      "2,377 kilometers",
+      "0.9",
+      "7,000 kilometers",
+      "299,792,458 meters per second",
+      "5,500 degrees Celsius"
+    ],
+    "needles": [
+      "Pluto has a diameter of 2,377 kilometers.",
+      "The albedo of fresh snow is approximately 0.9.",
+      "The Andes mountain range stretches 7,000 kilometers.",
+      "The speed of light in a vacuum is 299,792,458 meters per second.",
+      "The average surface temperature of the Sun is 5,500 degrees Celsius."
+    ],
+    "response": "1. 2,377 kilometers\n2. 0.9\n3. 7,000 kilometers\n4. 299,792,458 meters per second\n5. 5,500 degrees Celsius",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 12,
+    "ratio": 0.95,
+    "questions": [
+      "What is the tensile strength of spider silk?",
+      "How many bones does an adult human body contain?",
+      "What is the maximum depth of the Mariana Trench?",
+      "What is the thermal expansion coefficient of steel?",
+      "What is the melting point of titanium?"
+    ],
+    "answers": [
+      "1.3 gigapascals",
+      "206 bones",
+      "10,994 meters",
+      "12 times ten to the negative sixth per degree Celsius",
+      "1,668 degrees Celsius"
+    ],
+    "needles": [
+      "The tensile strength of spider silk is approximately 1.3 gigapascals.",
+      "The human body contains approximately 206 bones at adulthood.",
+      "The Mariana Trench reaches a maximum depth of 10,994 meters.",
+      "The thermal expansion coefficient of steel is 12 times ten to the negative sixth per degree Celsius.",
+      "The melting point of titanium is 1,668 degrees Celsius."
+    ],
+    "response": "1. The tensile strength of spider silk is approximately 1.3 gigapascals.\n2. An adult human body contains approximately 206 bones at adulthood.\n3. The maximum depth of the Mariana Trench is 10,994 meters.\n4. The thermal expansion coefficient of steel is 12 times ten to the negative sixth per degree Celsius.\n5. The melting point of titanium is 1,668 degrees Celsius.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 13,
+    "ratio": 0.95,
+    "questions": [
+      "What is the mass of Jupiter?",
+      "What is the compressive strength of granite?",
+      "How long is the Great Barrier Reef?",
+      "What is the ionization energy of hydrogen?",
+      "What is the total length of the Nile River?"
+    ],
+    "answers": [
+      "1.898 times ten to the 27th kilograms",
+      "200 megapascals",
+      "2,300 kilometers",
+      "13.6 electron volts",
+      "6,650 kilometers"
+    ],
+    "needles": [
+      "Jupiter has a mass of 1.898 times ten to the 27th kilograms.",
+      "The compressive strength of granite is approximately 200 megapascals.",
+      "The Great Barrier Reef stretches for 2,300 kilometers.",
+      "The ionization energy of hydrogen is 13.6 electron volts.",
+      "The Nile River spans a total length of 6,650 kilometers."
+    ],
+    "response": "1. Jupiter has a mass of 1.898 times ten to the 27th kilograms.\n2. The compressive strength of granite is approximately 200 megapascals.\n3. The Great Barrier Reef stretches for 2,300 kilometers.\n4. The ionization energy of hydrogen is 13.6 electron volts.\n5. The Nile River spans a total length of 6,650 kilometers.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 14,
+    "ratio": 0.95,
+    "questions": [
+      "What is the average depth of Lake Baikal?",
+      "What is the mass of an electron?",
+      "How long is the Volga River?",
+      "What is the Mohs hardness of quartz?",
+      "What is the maximum depth of Lake Tanganyika?"
+    ],
+    "answers": [
+      "744.4 meters",
+      "9.109 times ten to the negative 31st kilograms",
+      "3,530 kilometers",
+      "7",
+      "1,470 meters"
+    ],
+    "needles": [
+      "The average depth of Lake Baikal is 744.4 meters.",
+      "The mass of an electron is 9.109 times ten to the negative 31st kilograms.",
+      "The Volga River is 3,530 kilometers long.",
+      "The Mohs hardness of quartz is 7.",
+      "Lake Tanganyika reaches a maximum depth of 1,470 meters."
+    ],
+    "response": "1. The average depth of Lake Baikal is 744.4 meters.\n2. The mass of an electron is 9.109 times ten to the negative 31st kilograms.\n3. The Volga River is 3,530 kilometers long.\n4. The Mohs hardness of quartz is 7.\n5. The maximum depth of Lake Tanganyika is 1,470 meters.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 15,
+    "ratio": 0.95,
+    "questions": [
+      "How long is the Strait of Malacca?",
+      "What is the electrical resistivity of copper?",
+      "What is the refractive index of glass?",
+      "What is the orbital eccentricity of Earth?",
+      "What is the rotation period of Saturn?"
+    ],
+    "answers": [
+      "800 kilometers",
+      "1.68 times ten to the negative eighth ohm meters",
+      "1.52",
+      "0.0167",
+      "10.7 hours"
+    ],
+    "needles": [
+      "The Strait of Malacca is 800 kilometers long.",
+      "The electrical resistivity of copper is 1.68 times ten to the negative eighth ohm meters.",
+      "The refractive index of glass is approximately 1.52.",
+      "The orbital eccentricity of Earth is 0.0167.",
+      "The rotation period of Saturn is 10.7 hours."
+    ],
+    "response": "1. 800 kilometers\n2. 1.68 times ten to the negative eighth ohm meters\n3. Approximately 1.52\n4. 0.0167\n5. 10.7 hours",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 16,
+    "ratio": 0.95,
+    "questions": [
+      "What is the half-life of plutonium-239?",
+      "What is the surface area of Lake Victoria?",
+      "What is the orbital period of Mars?",
+      "What is the average orbital speed of Earth?",
+      "What is the average distance from the Sun to Mars?"
+    ],
+    "answers": [
+      "24,100 years",
+      "68,800 square kilometers",
+      "687 Earth days",
+      "29.78 kilometers per second",
+      "227.9 million kilometers"
+    ],
+    "needles": [
+      "The half-life of plutonium-239 is 24,100 years.",
+      "Lake Victoria has a surface area of 68,800 square kilometers.",
+      "The orbital period of Mars is 687 Earth days.",
+      "The average orbital speed of Earth is 29.78 kilometers per second.",
+      "The average distance from the Sun to Mars is 227.9 million kilometers."
+    ],
+    "response": "1. 24,100 years\n2. 68,800 square kilometers\n3. 687 Earth days\n4. 29.78 kilometers per second\n5. 227.9 million kilometers",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 17,
+    "ratio": 0.95,
+    "questions": [
+      "What is the speed of sound in water?",
+      "What is the speed of sound in air at sea level?",
+      "What is the electronegativity of fluorine?",
+      "What is the wavelength of red light?",
+      "What is the luminosity of the Sun?"
+    ],
+    "answers": [
+      "1,480 meters per second",
+      "343 meters per second",
+      "3.98",
+      "700 nanometers",
+      "3.828 times ten to the 26th watts"
+    ],
+    "needles": [
+      "The speed of sound in water is approximately 1,480 meters per second.",
+      "The speed of sound in air at sea level is 343 meters per second.",
+      "The electronegativity of fluorine is 3.98 on the Pauling scale.",
+      "The wavelength of red light is approximately 700 nanometers.",
+      "The luminosity of the Sun is 3.828 times ten to the 26th watts."
+    ],
+    "response": "1. The speed of sound in water is approximately 1,480 meters per second.\n2. The speed of sound in air at sea level is 343 meters per second.\n3. The electronegativity of fluorine is 3.98 on the Pauling scale.\n4. The wavelength of red light is approximately 700 nanometers.\n5. The luminosity of the Sun is 3.828 times ten to the 26th watts.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 18,
+    "ratio": 0.95,
+    "questions": [
+      "What is the Young's modulus of aluminum?",
+      "How long does it take Venus to rotate once on its axis?",
+      "How long is the Congo River?",
+      "What is the freezing point of ethanol?",
+      "What is the thermal conductivity of diamond?"
+    ],
+    "answers": [
+      "69 gigapascals",
+      "243 Earth days",
+      "4,700 kilometers",
+      "minus 114 degrees Celsius",
+      "2,200 watts per meter kelvin"
+    ],
+    "needles": [
+      "The Young's modulus of aluminum is 69 gigapascals.",
+      "Venus completes one rotation on its axis every 243 Earth days.",
+      "The Congo River has a length of 4,700 kilometers.",
+      "The freezing point of ethanol is minus 114 degrees Celsius.",
+      "The thermal conductivity of diamond is 2,200 watts per meter kelvin."
+    ],
+    "response": "1. The Young's modulus of aluminum is not provided in the context.\n2. Venus completes one rotation on its axis every 243 Earth days.\n3. The Congo River has a length of 4,700 kilometers.\n4. The freezing point of ethanol is minus 114 degrees Celsius.\n5. The thermal conductivity of diamond is 2,200 watts per meter kelvin.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 19,
+    "ratio": 0.95,
+    "questions": [
+      "How many countries does the Danube River flow through?",
+      "How wide is the English Channel at its narrowest point?",
+      "What is the surface temperature of Titan?",
+      "What is the atomic number of uranium?",
+      "What is the average depth of the Atlantic Ocean?"
+    ],
+    "answers": [
+      "10 countries",
+      "34 kilometers",
+      "minus 179 degrees Celsius",
+      "92",
+      "3,646 meters"
+    ],
+    "needles": [
+      "The Danube River flows through 10 different countries.",
+      "The English Channel is 34 kilometers wide at its narrowest point.",
+      "Saturn's moon Titan has a surface temperature of minus 179 degrees Celsius.",
+      "The atomic number of uranium is 92.",
+      "The average depth of the Atlantic Ocean is 3,646 meters."
+    ],
+    "response": "1. 10\n2. 34 kilometers\n3. Minus 179 degrees Celsius\n4. 92\n5. 3,646 meters",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 0,
+    "ratio": 0.99,
+    "questions": [
+      "What is the boiling point of helium?",
+      "What is the average distance from Earth to the Moon?",
+      "How long is the Tigris River?",
+      "What is the diameter of the Moon?",
+      "What is the surface area of Lake Superior?"
+    ],
+    "answers": [
+      "minus 268.93 degrees Celsius",
+      "384,400 kilometers",
+      "1,850 kilometers",
+      "3,474 kilometers",
+      "82,100 square kilometers"
+    ],
+    "needles": [
+      "Helium has a boiling point of minus 268.93 degrees Celsius.",
+      "The average distance from Earth to the Moon is 384,400 kilometers.",
+      "The Tigris River is 1,850 kilometers long.",
+      "The diameter of the Moon is 3,474 kilometers.",
+      "Lake Superior has a surface area of 82,100 square kilometers."
+    ],
+    "response": "1. The boiling point of helium is -268.93 degrees Celsius.\n2. The average distance from Earth to the Moon is 384,400 kilometers.\n3. The Tigris River is 1,850 kilometers long.\n4. The diameter of the Moon is 3,474 kilometers.\n5. Lake Superior has a surface area of 82,100 square kilometers.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 1,
+    "ratio": 0.99,
+    "questions": [
+      "What is the melting point of tungsten?",
+      "What is the boiling point of mercury?",
+      "How long is the Panama Canal?",
+      "How tall is Mount Kilimanjaro?",
+      "What area does the Indian Ocean cover?"
+    ],
+    "answers": [
+      "3,422 degrees Celsius",
+      "356.73 degrees Celsius",
+      "82 kilometers",
+      "5,895 meters",
+      "70.56 million square kilometers"
+    ],
+    "needles": [
+      "Tungsten has the highest melting point of any element at 3,422 degrees Celsius.",
+      "The boiling point of mercury is 356.73 degrees Celsius.",
+      "The Panama Canal is 82 kilometers long.",
+      "Mount Kilimanjaro stands at 5,895 meters above sea level.",
+      "The Indian Ocean covers approximately 70.56 million square kilometers."
+    ],
+    "response": "1. 3,422 degrees Celsius\n2. 356.73 degrees Celsius\n3. 82 kilometers\n4. 5,895 meters\n5. Approximately 70.56 million square kilometers",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 2,
+    "ratio": 0.99,
+    "questions": [
+      "What is the surface pressure on Venus compared to Earth?",
+      "How much does the Eiffel Tower weigh?",
+      "How long is the Pan-American Highway?",
+      "What is the density of Earth?",
+      "How long is the Ob River?"
+    ],
+    "answers": [
+      "92 times that of Earth",
+      "7,300 metric tons",
+      "30,000 kilometers",
+      "5.51 grams per cubic centimeter",
+      "3,650 kilometers"
+    ],
+    "needles": [
+      "The surface pressure on Venus is 92 times that of Earth.",
+      "The Eiffel Tower weighs approximately 7,300 metric tons.",
+      "The Pan-American Highway stretches approximately 30,000 kilometers.",
+      "The density of Earth is 5.51 grams per cubic centimeter.",
+      "The Ob River has a length of 3,650 kilometers."
+    ],
+    "response": "1. 92 times that of Earth\n2. Approximately 7,300 metric tons\n3. Approximately 30,000 kilometers\n4. 5.51 grams per cubic centimeter\n5. The text does not provide the length of the Ob River.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 3,
+    "ratio": 0.99,
+    "questions": [
+      "What area does the Gobi Desert cover?",
+      "What is the drainage basin area of the Mississippi River?",
+      "What is the average rainfall in the Amazon basin?",
+      "How long is the Trans-Siberian Railway?",
+      "How far below sea level is the Dead Sea?"
+    ],
+    "answers": [
+      "1,295,000 square kilometers",
+      "2,981,076 square kilometers",
+      "2,300 millimeters per year",
+      "9,289 kilometers",
+      "430 meters"
+    ],
+    "needles": [
+      "The Gobi Desert covers approximately 1,295,000 square kilometers.",
+      "The Mississippi River has a drainage basin of 2,981,076 square kilometers.",
+      "The average rainfall in the Amazon basin is 2,300 millimeters per year.",
+      "The Trans-Siberian Railway spans 9,289 kilometers.",
+      "The Dead Sea lies at 430 meters below sea level."
+    ],
+    "response": "1. The Gobi Desert covers approximately 1,295,000 square kilometers.\n2. The Mississippi River has a drainage basin of 2,981,076 square kilometers.\n3. The average rainfall in the Amazon basin is 2,300 millimeters per year.\n4. The Trans-Siberian Railway spans 9,289 kilometers.\n5. The Dead Sea lies at 430 meters below sea level.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 4,
+    "ratio": 0.99,
+    "questions": [
+      "What is the escape velocity of Earth?",
+      "How much precipitation does Antarctica receive per year?",
+      "What is the volume of the Caspian Sea?",
+      "How long is the Zambezi River?",
+      "How long is the Mekong River?"
+    ],
+    "answers": [
+      "11.186 kilometers per second",
+      "166 millimeters",
+      "78,200 cubic kilometers",
+      "2,574 kilometers",
+      "4,350 kilometers"
+    ],
+    "needles": [
+      "The escape velocity of Earth is 11.186 kilometers per second.",
+      "Antarctica receives only 166 millimeters of precipitation per year on average.",
+      "The Caspian Sea has a volume of 78,200 cubic kilometers.",
+      "The Zambezi River is 2,574 kilometers long.",
+      "The Mekong River is 4,350 kilometers long."
+    ],
+    "response": "1. 11.186 kilometers per second\n2. 166 millimeters per year\n3. 78,200 cubic kilometers\n4. 2,574 kilometers\n5. 4,350 kilometers",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 5,
+    "ratio": 0.99,
+    "questions": [
+      "What is the radius of the Sun?",
+      "How wide is the Strait of Gibraltar at its narrowest point?",
+      "What is the total area of Greenland?",
+      "How long is the Rhine River?",
+      "How long does it take Neptune to orbit the Sun?"
+    ],
+    "answers": [
+      "696,340 kilometers",
+      "14.3 kilometers",
+      "2,166,086 square kilometers",
+      "1,230 kilometers",
+      "164.8 Earth years"
+    ],
+    "needles": [
+      "The radius of the Sun is 696,340 kilometers.",
+      "The Strait of Gibraltar is 14.3 kilometers wide at its narrowest point.",
+      "Greenland has a total area of 2,166,086 square kilometers.",
+      "The Rhine River is 1,230 kilometers long.",
+      "Neptune takes 164.8 Earth years to orbit the Sun."
+    ],
+    "response": "1. 696,340 kilometers\n2. 14.3 kilometers\n3. 2,166,086 square kilometers\n4. 1,230 kilometers\n5. 164.8 Earth years",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 6,
+    "ratio": 0.99,
+    "questions": [
+      "What is the discharge rate of the Amazon River?",
+      "What is the specific heat capacity of water?",
+      "How long does it take Io to orbit Jupiter?",
+      "How long is the Suez Canal?",
+      "What is the area of the Bay of Bengal?"
+    ],
+    "answers": [
+      "209,000 cubic meters per second",
+      "4.186 joules per gram per degree Celsius",
+      "1.77 Earth days",
+      "193 kilometers",
+      "2,172,000 square kilometers"
+    ],
+    "needles": [
+      "The Amazon River discharges approximately 209,000 cubic meters of water per second.",
+      "The specific heat capacity of water is 4.186 joules per gram per degree Celsius.",
+      "Io orbits Jupiter once every 1.77 Earth days.",
+      "The Suez Canal is 193 kilometers long.",
+      "The Bay of Bengal has an area of 2,172,000 square kilometers."
+    ],
+    "response": "1. The discharge rate of the Amazon River is approximately 209,000 cubic meters of water per second.\n2. The specific heat capacity of water is 4.186 joules per gram per degree Celsius.\n3. Io orbits Jupiter once every 1.77 Earth days.\n4. The Suez Canal is 193 kilometers long.\n5. The Bay of Bengal has an area of 2,172,000 square kilometers.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 7,
+    "ratio": 0.99,
+    "questions": [
+      "What is the magnetic field strength of Earth at the surface?",
+      "What is the boiling point of nitrogen?",
+      "What is the orbital velocity of the International Space Station?",
+      "What is the maximum depth of Lake Malawi?",
+      "What area does the Sahara Desert cover?"
+    ],
+    "answers": [
+      "50 microteslas",
+      "minus 195.79 degrees Celsius",
+      "7.66 kilometers per second",
+      "706 meters",
+      "9.2 million square kilometers"
+    ],
+    "needles": [
+      "The magnetic field strength of Earth at the surface is approximately 50 microteslas.",
+      "The boiling point of nitrogen is minus 195.79 degrees Celsius.",
+      "The orbital velocity of the International Space Station is 7.66 kilometers per second.",
+      "Lake Malawi has a maximum depth of 706 meters.",
+      "The Sahara Desert covers an area of approximately 9.2 million square kilometers."
+    ],
+    "response": "1. The magnetic field strength of Earth at the surface is approximately 50 microteslas.\n2. The boiling point of nitrogen is minus 195.79 degrees Celsius.\n3. The orbital velocity of the International Space Station is 7.66 kilometers per second.\n4. Lake Malawi has a maximum depth of 706 meters.\n5. The Sahara Desert covers an area of approximately 9.2 million square kilometers.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 8,
+    "ratio": 0.99,
+    "questions": [
+      "What is the surface gravity of Mars?",
+      "What area does the Pacific Ocean cover?",
+      "What is the solubility of table salt in water at 25 degrees Celsius?",
+      "How long is the Yangtze River?",
+      "What is the half-life of carbon-14?"
+    ],
+    "answers": [
+      "3.72 meters per second squared",
+      "165.25 million square kilometers",
+      "360 grams per liter",
+      "6,300 kilometers",
+      "5,730 years"
+    ],
+    "needles": [
+      "The surface gravity of Mars is 3.72 meters per second squared.",
+      "The Pacific Ocean covers approximately 165.25 million square kilometers.",
+      "The solubility of table salt in water at 25 degrees Celsius is 360 grams per liter.",
+      "The Yangtze River is 6,300 kilometers long.",
+      "The half-life of carbon-14 is 5,730 years."
+    ],
+    "response": "1. 3.72 meters per second squared\n2. Approximately 165.25 million square kilometers\n3. 360 grams per liter\n4. 6,300 kilometers\n5. 5,730 years",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 9,
+    "ratio": 0.99,
+    "questions": [
+      "What is the tilt of Earth's axis?",
+      "How long are the Appalachian Mountains?",
+      "What is the average salt concentration in ocean water?",
+      "What is the melting point of gold?",
+      "What is the viscosity of honey at room temperature?"
+    ],
+    "answers": [
+      "23.44 degrees",
+      "2,400 kilometers",
+      "35 grams per liter",
+      "1,064 degrees Celsius",
+      "10,000 centipoise"
+    ],
+    "needles": [
+      "The tilt of Earth's axis is 23.44 degrees.",
+      "The Appalachian Mountains stretch approximately 2,400 kilometers.",
+      "The concentration of salt in ocean water averages 35 grams per liter.",
+      "The melting point of gold is 1,064 degrees Celsius.",
+      "The viscosity of honey at room temperature is approximately 10,000 centipoise."
+    ],
+    "response": "1. 23.44 degrees\n2. Approximately 2,400 kilometers\n3. 35 grams per liter\n4. 1,064 degrees Celsius\n5. Approximately 10,000 centipoise",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 10,
+    "ratio": 0.99,
+    "questions": [
+      "What is the circumference of Earth at the equator?",
+      "How long does it take Mercury to orbit the Sun?",
+      "How long is the Great Wall of China?",
+      "How much rain does the Atacama Desert receive per year?",
+      "What is the density of osmium?"
+    ],
+    "answers": [
+      "40,075 kilometers",
+      "88 Earth days",
+      "21,196 kilometers",
+      "less than 15 millimeters",
+      "22.59 grams per cubic centimeter"
+    ],
+    "needles": [
+      "The circumference of Earth at the equator is 40,075 kilometers.",
+      "Mercury orbits the Sun in 88 Earth days.",
+      "The Great Wall of China spans approximately 21,196 kilometers.",
+      "The Atacama Desert receives less than 15 millimeters of rain per year.",
+      "The density of osmium is 22.59 grams per cubic centimeter."
+    ],
+    "response": "1. 40,075 kilometers\n2. 88 Earth days\n3. Approximately 21,196 kilometers\n4. Less than 15 millimeters\n5. 22.59 grams per cubic centimeter",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 11,
+    "ratio": 0.99,
+    "questions": [
+      "What is the diameter of Pluto?",
+      "What is the albedo of fresh snow?",
+      "How long is the Andes mountain range?",
+      "What is the speed of light in a vacuum?",
+      "What is the average surface temperature of the Sun?"
+    ],
+    "answers": [
+      "2,377 kilometers",
+      "0.9",
+      "7,000 kilometers",
+      "299,792,458 meters per second",
+      "5,500 degrees Celsius"
+    ],
+    "needles": [
+      "Pluto has a diameter of 2,377 kilometers.",
+      "The albedo of fresh snow is approximately 0.9.",
+      "The Andes mountain range stretches 7,000 kilometers.",
+      "The speed of light in a vacuum is 299,792,458 meters per second.",
+      "The average surface temperature of the Sun is 5,500 degrees Celsius."
+    ],
+    "response": "1. 2,377 kilometers\n2. Approximately 0.9\n3. 7,000 kilometers\n4. 299,792,458 meters per second\n5. 5,500 degrees Celsius",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 12,
+    "ratio": 0.99,
+    "questions": [
+      "What is the tensile strength of spider silk?",
+      "How many bones does an adult human body contain?",
+      "What is the maximum depth of the Mariana Trench?",
+      "What is the thermal expansion coefficient of steel?",
+      "What is the melting point of titanium?"
+    ],
+    "answers": [
+      "1.3 gigapascals",
+      "206 bones",
+      "10,994 meters",
+      "12 times ten to the negative sixth per degree Celsius",
+      "1,668 degrees Celsius"
+    ],
+    "needles": [
+      "The tensile strength of spider silk is approximately 1.3 gigapascals.",
+      "The human body contains approximately 206 bones at adulthood.",
+      "The Mariana Trench reaches a maximum depth of 10,994 meters.",
+      "The thermal expansion coefficient of steel is 12 times ten to the negative sixth per degree Celsius.",
+      "The melting point of titanium is 1,668 degrees Celsius."
+    ],
+    "response": "1. 1.3 gigapascals\n2. 206 bones\n3. 10,994 meters\n4. 12 times ten to the negative sixth per degree Celsius\n5. 1,668 degrees Celsius",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 13,
+    "ratio": 0.99,
+    "questions": [
+      "What is the mass of Jupiter?",
+      "What is the compressive strength of granite?",
+      "How long is the Great Barrier Reef?",
+      "What is the ionization energy of hydrogen?",
+      "What is the total length of the Nile River?"
+    ],
+    "answers": [
+      "1.898 times ten to the 27th kilograms",
+      "200 megapascals",
+      "2,300 kilometers",
+      "13.6 electron volts",
+      "6,650 kilometers"
+    ],
+    "needles": [
+      "Jupiter has a mass of 1.898 times ten to the 27th kilograms.",
+      "The compressive strength of granite is approximately 200 megapascals.",
+      "The Great Barrier Reef stretches for 2,300 kilometers.",
+      "The ionization energy of hydrogen is 13.6 electron volts.",
+      "The Nile River spans a total length of 6,650 kilometers."
+    ],
+    "response": "1. 1.898 times ten to the 27th kilograms\n2. 200 megapascals\n3. 6,650 kilometers\n4. 13.6 electron volts\n5. 6,650 kilometers",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  },
+  {
+    "group_idx": 14,
+    "ratio": 0.99,
+    "questions": [
+      "What is the average depth of Lake Baikal?",
+      "What is the mass of an electron?",
+      "How long is the Volga River?",
+      "What is the Mohs hardness of quartz?",
+      "What is the maximum depth of Lake Tanganyika?"
+    ],
+    "answers": [
+      "744.4 meters",
+      "9.109 times ten to the negative 31st kilograms",
+      "3,530 kilometers",
+      "7",
+      "1,470 meters"
+    ],
+    "needles": [
+      "The average depth of Lake Baikal is 744.4 meters.",
+      "The mass of an electron is 9.109 times ten to the negative 31st kilograms.",
+      "The Volga River is 3,530 kilometers long.",
+      "The Mohs hardness of quartz is 7.",
+      "Lake Tanganyika reaches a maximum depth of 1,470 meters."
+    ],
+    "response": "1. The average depth of Lake Baikal is 744.4 meters.\n2. The mass of an electron is 9.109 times ten to the negative 31st kilograms.\n3. The Volga River is 3,530 kilometers long.\n4. The Mohs hardness of quartz is 7.\n5. The maximum depth of Lake Tanganyika reaches 1,470 meters.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 15,
+    "ratio": 0.99,
+    "questions": [
+      "How long is the Strait of Malacca?",
+      "What is the electrical resistivity of copper?",
+      "What is the refractive index of glass?",
+      "What is the orbital eccentricity of Earth?",
+      "What is the rotation period of Saturn?"
+    ],
+    "answers": [
+      "800 kilometers",
+      "1.68 times ten to the negative eighth ohm meters",
+      "1.52",
+      "0.0167",
+      "10.7 hours"
+    ],
+    "needles": [
+      "The Strait of Malacca is 800 kilometers long.",
+      "The electrical resistivity of copper is 1.68 times ten to the negative eighth ohm meters.",
+      "The refractive index of glass is approximately 1.52.",
+      "The orbital eccentricity of Earth is 0.0167.",
+      "The rotation period of Saturn is 10.7 hours."
+    ],
+    "response": "1. 800 kilometers\n2. 1.68 times ten to the negative eighth ohm meters\n3. Approximately 1.52\n4. 0.0167\n5. 10.7 hours",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 16,
+    "ratio": 0.99,
+    "questions": [
+      "What is the half-life of plutonium-239?",
+      "What is the surface area of Lake Victoria?",
+      "What is the orbital period of Mars?",
+      "What is the average orbital speed of Earth?",
+      "What is the average distance from the Sun to Mars?"
+    ],
+    "answers": [
+      "24,100 years",
+      "68,800 square kilometers",
+      "687 Earth days",
+      "29.78 kilometers per second",
+      "227.9 million kilometers"
+    ],
+    "needles": [
+      "The half-life of plutonium-239 is 24,100 years.",
+      "Lake Victoria has a surface area of 68,800 square kilometers.",
+      "The orbital period of Mars is 687 Earth days.",
+      "The average orbital speed of Earth is 29.78 kilometers per second.",
+      "The average distance from the Sun to Mars is 227.9 million kilometers."
+    ],
+    "response": "1. 24,100 years\n2. 68,800 square kilometers\n3. 687 Earth days\n4. 29.78 kilometers per second\n5. 227.9 million kilometers",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 17,
+    "ratio": 0.99,
+    "questions": [
+      "What is the speed of sound in water?",
+      "What is the speed of sound in air at sea level?",
+      "What is the electronegativity of fluorine?",
+      "What is the wavelength of red light?",
+      "What is the luminosity of the Sun?"
+    ],
+    "answers": [
+      "1,480 meters per second",
+      "343 meters per second",
+      "3.98",
+      "700 nanometers",
+      "3.828 times ten to the 26th watts"
+    ],
+    "needles": [
+      "The speed of sound in water is approximately 1,480 meters per second.",
+      "The speed of sound in air at sea level is 343 meters per second.",
+      "The electronegativity of fluorine is 3.98 on the Pauling scale.",
+      "The wavelength of red light is approximately 700 nanometers.",
+      "The luminosity of the Sun is 3.828 times ten to the 26th watts."
+    ],
+    "response": "1. The speed of sound in water is approximately 1,480 meters per second.\n2. The speed of sound in air at sea level is 343 meters per second.\n3. The electronegativity of fluorine is 3.98 on the Pauling scale.\n4. The wavelength of red light is approximately 700 nanometers.\n5. The luminosity of the Sun is 3.828 times ten to the 26th watts.",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 18,
+    "ratio": 0.99,
+    "questions": [
+      "What is the Young's modulus of aluminum?",
+      "How long does it take Venus to rotate once on its axis?",
+      "How long is the Congo River?",
+      "What is the freezing point of ethanol?",
+      "What is the thermal conductivity of diamond?"
+    ],
+    "answers": [
+      "69 gigapascals",
+      "243 Earth days",
+      "4,700 kilometers",
+      "minus 114 degrees Celsius",
+      "2,200 watts per meter kelvin"
+    ],
+    "needles": [
+      "The Young's modulus of aluminum is 69 gigapascals.",
+      "Venus completes one rotation on its axis every 243 Earth days.",
+      "The Congo River has a length of 4,700 kilometers.",
+      "The freezing point of ethanol is minus 114 degrees Celsius.",
+      "The thermal conductivity of diamond is 2,200 watts per meter kelvin."
+    ],
+    "response": "1. 69 gigapascals\n2. 243 Earth days\n3. 4,700 kilometers\n4. Minus 114 degrees Celsius\n5. 2,200 watts per meter kelvin",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 5,
+    "total": 5,
+    "recall": 1.0
+  },
+  {
+    "group_idx": 19,
+    "ratio": 0.99,
+    "questions": [
+      "How many countries does the Danube River flow through?",
+      "How wide is the English Channel at its narrowest point?",
+      "What is the surface temperature of Titan?",
+      "What is the atomic number of uranium?",
+      "What is the average depth of the Atlantic Ocean?"
+    ],
+    "answers": [
+      "10 countries",
+      "34 kilometers",
+      "minus 179 degrees Celsius",
+      "92",
+      "3,646 meters"
+    ],
+    "needles": [
+      "The Danube River flows through 10 different countries.",
+      "The English Channel is 34 kilometers wide at its narrowest point.",
+      "Saturn's moon Titan has a surface temperature of minus 179 degrees Celsius.",
+      "The atomic number of uranium is 92.",
+      "The average depth of the Atlantic Ocean is 3,646 meters."
+    ],
+    "response": "1. 10\n2. 34 kilometers\n3. Minus 179 degrees Celsius\n4. 92\n5. 3,646 meters",
+    "model": "mistral-7b",
+    "task": "multi",
+    "found": 4,
+    "total": 5,
+    "recall": 0.8
+  }
+]

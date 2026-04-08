@@ -1,0 +1,502 @@
+[
+  {
+    "needle": "The average depth of Lake Baikal is 744.4 meters.",
+    "question": "What is the average depth of Lake Baikal?",
+    "answer": "744.4 meters"
+  },
+  {
+    "needle": "The boiling point of mercury is 356.73 degrees Celsius.",
+    "question": "What is the boiling point of mercury?",
+    "answer": "356.73 degrees Celsius"
+  },
+  {
+    "needle": "The Great Wall of China spans approximately 21,196 kilometers.",
+    "question": "How long is the Great Wall of China?",
+    "answer": "21,196 kilometers"
+  },
+  {
+    "needle": "Saturn's moon Titan has a surface temperature of minus 179 degrees Celsius.",
+    "question": "What is the surface temperature of Titan?",
+    "answer": "minus 179 degrees Celsius"
+  },
+  {
+    "needle": "The speed of sound in water is approximately 1,480 meters per second.",
+    "question": "What is the speed of sound in water?",
+    "answer": "1,480 meters per second"
+  },
+  {
+    "needle": "The human body contains approximately 206 bones at adulthood.",
+    "question": "How many bones does an adult human body contain?",
+    "answer": "206 bones"
+  },
+  {
+    "needle": "The Mariana Trench reaches a maximum depth of 10,994 meters.",
+    "question": "What is the maximum depth of the Mariana Trench?",
+    "answer": "10,994 meters"
+  },
+  {
+    "needle": "The melting point of gold is 1,064 degrees Celsius.",
+    "question": "What is the melting point of gold?",
+    "answer": "1,064 degrees Celsius"
+  },
+  {
+    "needle": "The Amazon River discharges approximately 209,000 cubic meters of water per second.",
+    "question": "What is the discharge rate of the Amazon River?",
+    "answer": "209,000 cubic meters per second"
+  },
+  {
+    "needle": "The diameter of the Moon is 3,474 kilometers.",
+    "question": "What is the diameter of the Moon?",
+    "answer": "3,474 kilometers"
+  },
+  {
+    "needle": "The Eiffel Tower weighs approximately 7,300 metric tons.",
+    "question": "How much does the Eiffel Tower weigh?",
+    "answer": "7,300 metric tons"
+  },
+  {
+    "needle": "The wavelength of red light is approximately 700 nanometers.",
+    "question": "What is the wavelength of red light?",
+    "answer": "700 nanometers"
+  },
+  {
+    "needle": "The Sahara Desert covers an area of approximately 9.2 million square kilometers.",
+    "question": "What area does the Sahara Desert cover?",
+    "answer": "9.2 million square kilometers"
+  },
+  {
+    "needle": "Venus completes one rotation on its axis every 243 Earth days.",
+    "question": "How long does it take Venus to rotate once on its axis?",
+    "answer": "243 Earth days"
+  },
+  {
+    "needle": "The atomic number of uranium is 92.",
+    "question": "What is the atomic number of uranium?",
+    "answer": "92"
+  },
+  {
+    "needle": "Mount Kilimanjaro stands at 5,895 meters above sea level.",
+    "question": "How tall is Mount Kilimanjaro?",
+    "answer": "5,895 meters"
+  },
+  {
+    "needle": "The density of osmium is 22.59 grams per cubic centimeter.",
+    "question": "What is the density of osmium?",
+    "answer": "22.59 grams per cubic centimeter"
+  },
+  {
+    "needle": "The Congo River has a length of 4,700 kilometers.",
+    "question": "How long is the Congo River?",
+    "answer": "4,700 kilometers"
+  },
+  {
+    "needle": "The half-life of carbon-14 is 5,730 years.",
+    "question": "What is the half-life of carbon-14?",
+    "answer": "5,730 years"
+  },
+  {
+    "needle": "Jupiter has a mass of 1.898 times ten to the 27th kilograms.",
+    "question": "What is the mass of Jupiter?",
+    "answer": "1.898 times ten to the 27th kilograms"
+  },
+  {
+    "needle": "The Nile River spans a total length of 6,650 kilometers.",
+    "question": "What is the total length of the Nile River?",
+    "answer": "6,650 kilometers"
+  },
+  {
+    "needle": "Antarctica receives only 166 millimeters of precipitation per year on average.",
+    "question": "How much precipitation does Antarctica receive per year?",
+    "answer": "166 millimeters"
+  },
+  {
+    "needle": "The speed of light in a vacuum is 299,792,458 meters per second.",
+    "question": "What is the speed of light in a vacuum?",
+    "answer": "299,792,458 meters per second"
+  },
+  {
+    "needle": "The Pacific Ocean covers approximately 165.25 million square kilometers.",
+    "question": "What area does the Pacific Ocean cover?",
+    "answer": "165.25 million square kilometers"
+  },
+  {
+    "needle": "The tensile strength of spider silk is approximately 1.3 gigapascals.",
+    "question": "What is the tensile strength of spider silk?",
+    "answer": "1.3 gigapascals"
+  },
+  {
+    "needle": "The electrical resistivity of copper is 1.68 times ten to the negative eighth ohm meters.",
+    "question": "What is the electrical resistivity of copper?",
+    "answer": "1.68 times ten to the negative eighth ohm meters"
+  },
+  {
+    "needle": "Greenland has a total area of 2,166,086 square kilometers.",
+    "question": "What is the total area of Greenland?",
+    "answer": "2,166,086 square kilometers"
+  },
+  {
+    "needle": "The orbital period of Mars is 687 Earth days.",
+    "question": "What is the orbital period of Mars?",
+    "answer": "687 Earth days"
+  },
+  {
+    "needle": "The freezing point of ethanol is minus 114 degrees Celsius.",
+    "question": "What is the freezing point of ethanol?",
+    "answer": "minus 114 degrees Celsius"
+  },
+  {
+    "needle": "Lake Victoria has a surface area of 68,800 square kilometers.",
+    "question": "What is the surface area of Lake Victoria?",
+    "answer": "68,800 square kilometers"
+  },
+  {
+    "needle": "The escape velocity of Earth is 11.186 kilometers per second.",
+    "question": "What is the escape velocity of Earth?",
+    "answer": "11.186 kilometers per second"
+  },
+  {
+    "needle": "The thermal conductivity of diamond is 2,200 watts per meter kelvin.",
+    "question": "What is the thermal conductivity of diamond?",
+    "answer": "2,200 watts per meter kelvin"
+  },
+  {
+    "needle": "The Caspian Sea has a volume of 78,200 cubic kilometers.",
+    "question": "What is the volume of the Caspian Sea?",
+    "answer": "78,200 cubic kilometers"
+  },
+  {
+    "needle": "Neptune takes 164.8 Earth years to orbit the Sun.",
+    "question": "How long does it take Neptune to orbit the Sun?",
+    "answer": "164.8 Earth years"
+  },
+  {
+    "needle": "The viscosity of honey at room temperature is approximately 10,000 centipoise.",
+    "question": "What is the viscosity of honey at room temperature?",
+    "answer": "10,000 centipoise"
+  },
+  {
+    "needle": "The Danube River flows through 10 different countries.",
+    "question": "How many countries does the Danube River flow through?",
+    "answer": "10 countries"
+  },
+  {
+    "needle": "The surface gravity of Mars is 3.72 meters per second squared.",
+    "question": "What is the surface gravity of Mars?",
+    "answer": "3.72 meters per second squared"
+  },
+  {
+    "needle": "The Dead Sea lies at 430 meters below sea level.",
+    "question": "How far below sea level is the Dead Sea?",
+    "answer": "430 meters"
+  },
+  {
+    "needle": "Pluto has a diameter of 2,377 kilometers.",
+    "question": "What is the diameter of Pluto?",
+    "answer": "2,377 kilometers"
+  },
+  {
+    "needle": "The solubility of table salt in water at 25 degrees Celsius is 360 grams per liter.",
+    "question": "What is the solubility of table salt in water at 25 degrees Celsius?",
+    "answer": "360 grams per liter"
+  },
+  {
+    "needle": "The Yangtze River is 6,300 kilometers long.",
+    "question": "How long is the Yangtze River?",
+    "answer": "6,300 kilometers"
+  },
+  {
+    "needle": "The average distance from Earth to the Moon is 384,400 kilometers.",
+    "question": "What is the average distance from Earth to the Moon?",
+    "answer": "384,400 kilometers"
+  },
+  {
+    "needle": "Helium has a boiling point of minus 268.93 degrees Celsius.",
+    "question": "What is the boiling point of helium?",
+    "answer": "minus 268.93 degrees Celsius"
+  },
+  {
+    "needle": "The Great Barrier Reef stretches for 2,300 kilometers.",
+    "question": "How long is the Great Barrier Reef?",
+    "answer": "2,300 kilometers"
+  },
+  {
+    "needle": "The magnetic field strength of Earth at the surface is approximately 50 microteslas.",
+    "question": "What is the magnetic field strength of Earth at the surface?",
+    "answer": "50 microteslas"
+  },
+  {
+    "needle": "The Gobi Desert covers approximately 1,295,000 square kilometers.",
+    "question": "What area does the Gobi Desert cover?",
+    "answer": "1,295,000 square kilometers"
+  },
+  {
+    "needle": "Mercury orbits the Sun in 88 Earth days.",
+    "question": "How long does it take Mercury to orbit the Sun?",
+    "answer": "88 Earth days"
+  },
+  {
+    "needle": "The specific heat capacity of water is 4.186 joules per gram per degree Celsius.",
+    "question": "What is the specific heat capacity of water?",
+    "answer": "4.186 joules per gram per degree Celsius"
+  },
+  {
+    "needle": "The Mississippi River has a drainage basin of 2,981,076 square kilometers.",
+    "question": "What is the drainage basin area of the Mississippi River?",
+    "answer": "2,981,076 square kilometers"
+  },
+  {
+    "needle": "The radius of the Sun is 696,340 kilometers.",
+    "question": "What is the radius of the Sun?",
+    "answer": "696,340 kilometers"
+  },
+  {
+    "needle": "Tungsten has the highest melting point of any element at 3,422 degrees Celsius.",
+    "question": "What is the melting point of tungsten?",
+    "answer": "3,422 degrees Celsius"
+  },
+  {
+    "needle": "The Atacama Desert receives less than 15 millimeters of rain per year.",
+    "question": "How much rain does the Atacama Desert receive per year?",
+    "answer": "less than 15 millimeters"
+  },
+  {
+    "needle": "The orbital velocity of the International Space Station is 7.66 kilometers per second.",
+    "question": "What is the orbital velocity of the International Space Station?",
+    "answer": "7.66 kilometers per second"
+  },
+  {
+    "needle": "Lake Tanganyika reaches a maximum depth of 1,470 meters.",
+    "question": "What is the maximum depth of Lake Tanganyika?",
+    "answer": "1,470 meters"
+  },
+  {
+    "needle": "The speed of sound in air at sea level is 343 meters per second.",
+    "question": "What is the speed of sound in air at sea level?",
+    "answer": "343 meters per second"
+  },
+  {
+    "needle": "The Pan-American Highway stretches approximately 30,000 kilometers.",
+    "question": "How long is the Pan-American Highway?",
+    "answer": "30,000 kilometers"
+  },
+  {
+    "needle": "The density of Earth is 5.51 grams per cubic centimeter.",
+    "question": "What is the density of Earth?",
+    "answer": "5.51 grams per cubic centimeter"
+  },
+  {
+    "needle": "The Volga River is 3,530 kilometers long.",
+    "question": "How long is the Volga River?",
+    "answer": "3,530 kilometers"
+  },
+  {
+    "needle": "The albedo of fresh snow is approximately 0.9.",
+    "question": "What is the albedo of fresh snow?",
+    "answer": "0.9"
+  },
+  {
+    "needle": "Io orbits Jupiter once every 1.77 Earth days.",
+    "question": "How long does it take Io to orbit Jupiter?",
+    "answer": "1.77 Earth days"
+  },
+  {
+    "needle": "The concentration of salt in ocean water averages 35 grams per liter.",
+    "question": "What is the average salt concentration in ocean water?",
+    "answer": "35 grams per liter"
+  },
+  {
+    "needle": "The Appalachian Mountains stretch approximately 2,400 kilometers.",
+    "question": "How long are the Appalachian Mountains?",
+    "answer": "2,400 kilometers"
+  },
+  {
+    "needle": "The average surface temperature of the Sun is 5,500 degrees Celsius.",
+    "question": "What is the average surface temperature of the Sun?",
+    "answer": "5,500 degrees Celsius"
+  },
+  {
+    "needle": "The Suez Canal is 193 kilometers long.",
+    "question": "How long is the Suez Canal?",
+    "answer": "193 kilometers"
+  },
+  {
+    "needle": "The half-life of plutonium-239 is 24,100 years.",
+    "question": "What is the half-life of plutonium-239?",
+    "answer": "24,100 years"
+  },
+  {
+    "needle": "Lake Superior has a surface area of 82,100 square kilometers.",
+    "question": "What is the surface area of Lake Superior?",
+    "answer": "82,100 square kilometers"
+  },
+  {
+    "needle": "The tilt of Earth's axis is 23.44 degrees.",
+    "question": "What is the tilt of Earth's axis?",
+    "answer": "23.44 degrees"
+  },
+  {
+    "needle": "The thermal expansion coefficient of steel is 12 times ten to the negative sixth per degree Celsius.",
+    "question": "What is the thermal expansion coefficient of steel?",
+    "answer": "12 times ten to the negative sixth per degree Celsius"
+  },
+  {
+    "needle": "The Andes mountain range stretches 7,000 kilometers.",
+    "question": "How long is the Andes mountain range?",
+    "answer": "7,000 kilometers"
+  },
+  {
+    "needle": "The luminosity of the Sun is 3.828 times ten to the 26th watts.",
+    "question": "What is the luminosity of the Sun?",
+    "answer": "3.828 times ten to the 26th watts"
+  },
+  {
+    "needle": "The Panama Canal is 82 kilometers long.",
+    "question": "How long is the Panama Canal?",
+    "answer": "82 kilometers"
+  },
+  {
+    "needle": "The refractive index of glass is approximately 1.52.",
+    "question": "What is the refractive index of glass?",
+    "answer": "1.52"
+  },
+  {
+    "needle": "The Ob River has a length of 3,650 kilometers.",
+    "question": "How long is the Ob River?",
+    "answer": "3,650 kilometers"
+  },
+  {
+    "needle": "The surface pressure on Venus is 92 times that of Earth.",
+    "question": "What is the surface pressure on Venus compared to Earth?",
+    "answer": "92 times that of Earth"
+  },
+  {
+    "needle": "The Bay of Bengal has an area of 2,172,000 square kilometers.",
+    "question": "What is the area of the Bay of Bengal?",
+    "answer": "2,172,000 square kilometers"
+  },
+  {
+    "needle": "The electronegativity of fluorine is 3.98 on the Pauling scale.",
+    "question": "What is the electronegativity of fluorine?",
+    "answer": "3.98"
+  },
+  {
+    "needle": "The Trans-Siberian Railway spans 9,289 kilometers.",
+    "question": "How long is the Trans-Siberian Railway?",
+    "answer": "9,289 kilometers"
+  },
+  {
+    "needle": "The rotation period of Saturn is 10.7 hours.",
+    "question": "What is the rotation period of Saturn?",
+    "answer": "10.7 hours"
+  },
+  {
+    "needle": "The Indian Ocean covers approximately 70.56 million square kilometers.",
+    "question": "What area does the Indian Ocean cover?",
+    "answer": "70.56 million square kilometers"
+  },
+  {
+    "needle": "The compressive strength of granite is approximately 200 megapascals.",
+    "question": "What is the compressive strength of granite?",
+    "answer": "200 megapascals"
+  },
+  {
+    "needle": "The Mekong River is 4,350 kilometers long.",
+    "question": "How long is the Mekong River?",
+    "answer": "4,350 kilometers"
+  },
+  {
+    "needle": "The average depth of the Atlantic Ocean is 3,646 meters.",
+    "question": "What is the average depth of the Atlantic Ocean?",
+    "answer": "3,646 meters"
+  },
+  {
+    "needle": "The melting point of titanium is 1,668 degrees Celsius.",
+    "question": "What is the melting point of titanium?",
+    "answer": "1,668 degrees Celsius"
+  },
+  {
+    "needle": "The Strait of Gibraltar is 14.3 kilometers wide at its narrowest point.",
+    "question": "How wide is the Strait of Gibraltar at its narrowest point?",
+    "answer": "14.3 kilometers"
+  },
+  {
+    "needle": "The orbital eccentricity of Earth is 0.0167.",
+    "question": "What is the orbital eccentricity of Earth?",
+    "answer": "0.0167"
+  },
+  {
+    "needle": "Lake Malawi has a maximum depth of 706 meters.",
+    "question": "What is the maximum depth of Lake Malawi?",
+    "answer": "706 meters"
+  },
+  {
+    "needle": "The Young's modulus of aluminum is 69 gigapascals.",
+    "question": "What is the Young's modulus of aluminum?",
+    "answer": "69 gigapascals"
+  },
+  {
+    "needle": "The Rhine River is 1,230 kilometers long.",
+    "question": "How long is the Rhine River?",
+    "answer": "1,230 kilometers"
+  },
+  {
+    "needle": "The average orbital speed of Earth is 29.78 kilometers per second.",
+    "question": "What is the average orbital speed of Earth?",
+    "answer": "29.78 kilometers per second"
+  },
+  {
+    "needle": "The Strait of Malacca is 800 kilometers long.",
+    "question": "How long is the Strait of Malacca?",
+    "answer": "800 kilometers"
+  },
+  {
+    "needle": "The ionization energy of hydrogen is 13.6 electron volts.",
+    "question": "What is the ionization energy of hydrogen?",
+    "answer": "13.6 electron volts"
+  },
+  {
+    "needle": "The Tigris River is 1,850 kilometers long.",
+    "question": "How long is the Tigris River?",
+    "answer": "1,850 kilometers"
+  },
+  {
+    "needle": "The average rainfall in the Amazon basin is 2,300 millimeters per year.",
+    "question": "What is the average rainfall in the Amazon basin?",
+    "answer": "2,300 millimeters per year"
+  },
+  {
+    "needle": "The Mohs hardness of quartz is 7.",
+    "question": "What is the Mohs hardness of quartz?",
+    "answer": "7"
+  },
+  {
+    "needle": "The English Channel is 34 kilometers wide at its narrowest point.",
+    "question": "How wide is the English Channel at its narrowest point?",
+    "answer": "34 kilometers"
+  },
+  {
+    "needle": "The mass of an electron is 9.109 times ten to the negative 31st kilograms.",
+    "question": "What is the mass of an electron?",
+    "answer": "9.109 times ten to the negative 31st kilograms"
+  },
+  {
+    "needle": "The Zambezi River is 2,574 kilometers long.",
+    "question": "How long is the Zambezi River?",
+    "answer": "2,574 kilometers"
+  },
+  {
+    "needle": "The average distance from the Sun to Mars is 227.9 million kilometers.",
+    "question": "What is the average distance from the Sun to Mars?",
+    "answer": "227.9 million kilometers"
+  },
+  {
+    "needle": "The boiling point of nitrogen is minus 195.79 degrees Celsius.",
+    "question": "What is the boiling point of nitrogen?",
+    "answer": "minus 195.79 degrees Celsius"
+  },
+  {
+    "needle": "The circumference of Earth at the equator is 40,075 kilometers.",
+    "question": "What is the circumference of Earth at the equator?",
+    "answer": "40,075 kilometers"
+  }
+]

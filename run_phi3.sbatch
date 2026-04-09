@@ -17,6 +17,7 @@ module load pytorch-conda
 conda activate ctx-eval
 
 cd ~/context-eval-v2
+export HF_HUB_OFFLINE=1
 export TP_SIZE=4
 python download_filler.py
 python run_inference_v2.py --model phi3-mini --task all

@@ -17,5 +17,6 @@ module load pytorch-conda
 conda activate ctx-eval
 
 cd ~/context-eval-v2
+export HF_HUB_OFFLINE=1
 python download_filler.py
 python run_inference_v2.py --model llama3-8b --task all

@@ -1,0 +1,502 @@
+[
+  {
+    "needle": "The average depth of Lake Zorathia is 837.2 meters.",
+    "question": "What is the average depth of Lake Zorathia?",
+    "answer": "837.2 meters"
+  },
+  {
+    "needle": "The boiling point of the element Veltrium is 413.58 degrees Celsius.",
+    "question": "What is the boiling point of Veltrium?",
+    "answer": "413.58 degrees Celsius"
+  },
+  {
+    "needle": "The Kressovian Wall stretches approximately 18,743 kilometers.",
+    "question": "How long is the Kressovian Wall?",
+    "answer": "18,743 kilometers"
+  },
+  {
+    "needle": "The moon Pellinth has a surface temperature of minus 213 degrees Celsius.",
+    "question": "What is the surface temperature of Pellinth?",
+    "answer": "minus 213 degrees Celsius"
+  },
+  {
+    "needle": "The speed of sound in liquid Brellium is approximately 1,742 meters per second.",
+    "question": "What is the speed of sound in liquid Brellium?",
+    "answer": "1,742 meters per second"
+  },
+  {
+    "needle": "The adult Thessavian crane has approximately 247 bones in its skeleton.",
+    "question": "How many bones does an adult Thessavian crane have?",
+    "answer": "247 bones"
+  },
+  {
+    "needle": "The Vendross Trench reaches a maximum depth of 12,318 meters.",
+    "question": "What is the maximum depth of the Vendross Trench?",
+    "answer": "12,318 meters"
+  },
+  {
+    "needle": "The melting point of Granthelium is 1,287 degrees Celsius.",
+    "question": "What is the melting point of Granthelium?",
+    "answer": "1,287 degrees Celsius"
+  },
+  {
+    "needle": "The Pellondra River discharges approximately 174,300 cubic meters of water per second.",
+    "question": "What is the discharge rate of the Pellondra River?",
+    "answer": "174,300 cubic meters per second"
+  },
+  {
+    "needle": "The diameter of the moon Gravendor is 4,138 kilometers.",
+    "question": "What is the diameter of Gravendor?",
+    "answer": "4,138 kilometers"
+  },
+  {
+    "needle": "The Vostral Tower weighs approximately 8,641 metric tons.",
+    "question": "How much does the Vostral Tower weigh?",
+    "answer": "8,641 metric tons"
+  },
+  {
+    "needle": "The wavelength of Threndarian violet light is approximately 387 nanometers.",
+    "question": "What is the wavelength of Threndarian violet light?",
+    "answer": "387 nanometers"
+  },
+  {
+    "needle": "The Vrelanth Desert covers an area of approximately 7.4 million square kilometers.",
+    "question": "What area does the Vrelanth Desert cover?",
+    "answer": "7.4 million square kilometers"
+  },
+  {
+    "needle": "The planet Kelvonis completes one rotation on its axis every 319 Earth days.",
+    "question": "How long does it take Kelvonis to rotate once on its axis?",
+    "answer": "319 Earth days"
+  },
+  {
+    "needle": "The atomic number of the element Novalite is 137.",
+    "question": "What is the atomic number of Novalite?",
+    "answer": "137"
+  },
+  {
+    "needle": "Mount Thelvane stands at 6,473 meters above sea level.",
+    "question": "How tall is Mount Thelvane?",
+    "answer": "6,473 meters"
+  },
+  {
+    "needle": "The density of Kressovite mineral is 19.84 grams per cubic centimeter.",
+    "question": "What is the density of Kressovite?",
+    "answer": "19.84 grams per cubic centimeter"
+  },
+  {
+    "needle": "The Vastrith River has a length of 5,218 kilometers.",
+    "question": "How long is the Vastrith River?",
+    "answer": "5,218 kilometers"
+  },
+  {
+    "needle": "The half-life of Thandrium-246 is 7,340 years.",
+    "question": "What is the half-life of Thandrium-246?",
+    "answer": "7,340 years"
+  },
+  {
+    "needle": "The planet Vossarith has a mass of 2.471 times ten to the 27th kilograms.",
+    "question": "What is the mass of Vossarith?",
+    "answer": "2.471 times ten to the 27th kilograms"
+  },
+  {
+    "needle": "The Temorin River spans a total length of 7,832 kilometers.",
+    "question": "What is the total length of the Temorin River?",
+    "answer": "7,832 kilometers"
+  },
+  {
+    "needle": "The Pelvonis Plateau receives only 143 millimeters of precipitation per year on average.",
+    "question": "How much precipitation does the Pelvonis Plateau receive per year?",
+    "answer": "143 millimeters"
+  },
+  {
+    "needle": "The speed of light through Zelthrian crystal is 241,837,500 meters per second.",
+    "question": "What is the speed of light through Zelthrian crystal?",
+    "answer": "241,837,500 meters per second"
+  },
+  {
+    "needle": "The Kresthalan Ocean covers approximately 148.63 million square kilometers.",
+    "question": "What area does the Kresthalan Ocean cover?",
+    "answer": "148.63 million square kilometers"
+  },
+  {
+    "needle": "The tensile strength of Galderthorn silk is approximately 2.17 gigapascals.",
+    "question": "What is the tensile strength of Galderthorn silk?",
+    "answer": "2.17 gigapascals"
+  },
+  {
+    "needle": "The electrical resistivity of Vendrite alloy is 2.34 times ten to the negative eighth ohm meters.",
+    "question": "What is the electrical resistivity of Vendrite alloy?",
+    "answer": "2.34 times ten to the negative eighth ohm meters"
+  },
+  {
+    "needle": "The island of Brenvethia has a total area of 1,843,270 square kilometers.",
+    "question": "What is the total area of Brenvethia?",
+    "answer": "1,843,270 square kilometers"
+  },
+  {
+    "needle": "The orbital period of the planet Threndar is 814 Earth days.",
+    "question": "What is the orbital period of Threndar?",
+    "answer": "814 Earth days"
+  },
+  {
+    "needle": "The freezing point of Pellothane solution is minus 87.3 degrees Celsius.",
+    "question": "What is the freezing point of Pellothane solution?",
+    "answer": "minus 87.3 degrees Celsius"
+  },
+  {
+    "needle": "Lake Kethara has a surface area of 73,450 square kilometers.",
+    "question": "What is the surface area of Lake Kethara?",
+    "answer": "73,450 square kilometers"
+  },
+  {
+    "needle": "The escape velocity of the planet Mordivek is 13.74 kilometers per second.",
+    "question": "What is the escape velocity of Mordivek?",
+    "answer": "13.74 kilometers per second"
+  },
+  {
+    "needle": "The thermal conductivity of Grethalloy is 1,847 watts per meter kelvin.",
+    "question": "What is the thermal conductivity of Grethalloy?",
+    "answer": "1,847 watts per meter kelvin"
+  },
+  {
+    "needle": "The Veltronian Sea has a volume of 91,340 cubic kilometers.",
+    "question": "What is the volume of the Veltronian Sea?",
+    "answer": "91,340 cubic kilometers"
+  },
+  {
+    "needle": "The moon Felvassik takes 197.3 Earth years to orbit its star.",
+    "question": "How long does it take Felvassik to orbit its star?",
+    "answer": "197.3 Earth years"
+  },
+  {
+    "needle": "The viscosity of Thessgardian resin at room temperature is approximately 13,480 centipoise.",
+    "question": "What is the viscosity of Thessgardian resin at room temperature?",
+    "answer": "13,480 centipoise"
+  },
+  {
+    "needle": "The Kalduven River flows through 13 different provinces.",
+    "question": "How many provinces does the Kalduven River flow through?",
+    "answer": "13 provinces"
+  },
+  {
+    "needle": "The surface gravity of the planet Zelstren is 4.31 meters per second squared.",
+    "question": "What is the surface gravity of Zelstren?",
+    "answer": "4.31 meters per second squared"
+  },
+  {
+    "needle": "The Miranthel Basin lies at 517 meters below sea level.",
+    "question": "How far below sea level is the Miranthel Basin?",
+    "answer": "517 meters"
+  },
+  {
+    "needle": "The moon Tessoval has a diameter of 2,814 kilometers.",
+    "question": "What is the diameter of Tessoval?",
+    "answer": "2,814 kilometers"
+  },
+  {
+    "needle": "The solubility of Krenthate powder in water at 25 degrees Celsius is 428 grams per liter.",
+    "question": "What is the solubility of Krenthate powder in water at 25 degrees Celsius?",
+    "answer": "428 grams per liter"
+  },
+  {
+    "needle": "The Galdermoor Channel is 7,190 kilometers long.",
+    "question": "How long is the Galdermoor Channel?",
+    "answer": "7,190 kilometers"
+  },
+  {
+    "needle": "The average distance from Vossarith to its largest moon is 421,700 kilometers.",
+    "question": "What is the average distance from Vossarith to its largest moon?",
+    "answer": "421,700 kilometers"
+  },
+  {
+    "needle": "The element Brellium has a boiling point of minus 247.16 degrees Celsius.",
+    "question": "What is the boiling point of Brellium?",
+    "answer": "minus 247.16 degrees Celsius"
+  },
+  {
+    "needle": "The Thessgate Reef stretches for 3,172 kilometers.",
+    "question": "How long is the Thessgate Reef?",
+    "answer": "3,172 kilometers"
+  },
+  {
+    "needle": "The magnetic field strength of Zelstren at the surface is approximately 73 microteslas.",
+    "question": "What is the magnetic field strength of Zelstren at the surface?",
+    "answer": "73 microteslas"
+  },
+  {
+    "needle": "The Tessomar Desert covers approximately 1,087,400 square kilometers.",
+    "question": "What area does the Tessomar Desert cover?",
+    "answer": "1,087,400 square kilometers"
+  },
+  {
+    "needle": "The planet Mordivek orbits its star in 142 Earth days.",
+    "question": "How long does it take Mordivek to orbit its star?",
+    "answer": "142 Earth days"
+  },
+  {
+    "needle": "The specific heat capacity of liquid Novalite is 3.274 joules per gram per degree Celsius.",
+    "question": "What is the specific heat capacity of liquid Novalite?",
+    "answer": "3.274 joules per gram per degree Celsius"
+  },
+  {
+    "needle": "The Pellondra River has a drainage basin of 3,417,830 square kilometers.",
+    "question": "What is the drainage basin area of the Pellondra River?",
+    "answer": "3,417,830 square kilometers"
+  },
+  {
+    "needle": "The radius of the star Xelvara is 814,270 kilometers.",
+    "question": "What is the radius of the star Xelvara?",
+    "answer": "814,270 kilometers"
+  },
+  {
+    "needle": "The element Zephrium has the highest melting point of any Vendrossian element at 3,847 degrees Celsius.",
+    "question": "What is the melting point of Zephrium?",
+    "answer": "3,847 degrees Celsius"
+  },
+  {
+    "needle": "The Grissok Badlands receive less than 11.4 millimeters of rain per year.",
+    "question": "How much rain do the Grissok Badlands receive per year?",
+    "answer": "less than 11.4 millimeters"
+  },
+  {
+    "needle": "The orbital velocity of the Kelden Station is 8.43 kilometers per second.",
+    "question": "What is the orbital velocity of the Kelden Station?",
+    "answer": "8.43 kilometers per second"
+  },
+  {
+    "needle": "Lake Miranthel reaches a maximum depth of 1,637 meters.",
+    "question": "What is the maximum depth of Lake Miranthel?",
+    "answer": "1,637 meters"
+  },
+  {
+    "needle": "The speed of sound in Vendrite alloy at room temperature is 412 meters per second.",
+    "question": "What is the speed of sound in Vendrite alloy?",
+    "answer": "412 meters per second"
+  },
+  {
+    "needle": "The Brenthwick Highway stretches approximately 27,340 kilometers.",
+    "question": "How long is the Brenthwick Highway?",
+    "answer": "27,340 kilometers"
+  },
+  {
+    "needle": "The density of the planet Kelvonis is 6.38 grams per cubic centimeter.",
+    "question": "What is the density of Kelvonis?",
+    "answer": "6.38 grams per cubic centimeter"
+  },
+  {
+    "needle": "The Nothiris River is 4,023 kilometers long.",
+    "question": "How long is the Nothiris River?",
+    "answer": "4,023 kilometers"
+  },
+  {
+    "needle": "The albedo of Tessomarian salt flats is approximately 0.847.",
+    "question": "What is the albedo of Tessomarian salt flats?",
+    "answer": "0.847"
+  },
+  {
+    "needle": "The moon Pellinth orbits Vossarith once every 2.34 Earth days.",
+    "question": "How long does it take Pellinth to orbit Vossarith?",
+    "answer": "2.34 Earth days"
+  },
+  {
+    "needle": "The concentration of Krenthate in the Veltronian Sea averages 41.7 grams per liter.",
+    "question": "What is the average Krenthate concentration in the Veltronian Sea?",
+    "answer": "41.7 grams per liter"
+  },
+  {
+    "needle": "The Grissok Mountains stretch approximately 2,874 kilometers.",
+    "question": "How long are the Grissok Mountains?",
+    "answer": "2,874 kilometers"
+  },
+  {
+    "needle": "The average surface temperature of the star Xelvara is 6,318 degrees Celsius.",
+    "question": "What is the average surface temperature of Xelvara?",
+    "answer": "6,318 degrees Celsius"
+  },
+  {
+    "needle": "The Zelstren Canal is 217 kilometers long.",
+    "question": "How long is the Zelstren Canal?",
+    "answer": "217 kilometers"
+  },
+  {
+    "needle": "The half-life of Novalite-312 is 31,470 years.",
+    "question": "What is the half-life of Novalite-312?",
+    "answer": "31,470 years"
+  },
+  {
+    "needle": "Lake Thessgard has a surface area of 89,170 square kilometers.",
+    "question": "What is the surface area of Lake Thessgard?",
+    "answer": "89,170 square kilometers"
+  },
+  {
+    "needle": "The tilt of Zelstren's axis is 28.17 degrees.",
+    "question": "What is the tilt of Zelstren's axis?",
+    "answer": "28.17 degrees"
+  },
+  {
+    "needle": "The thermal expansion coefficient of Grethalloy is 14.3 times ten to the negative sixth per degree Celsius.",
+    "question": "What is the thermal expansion coefficient of Grethalloy?",
+    "answer": "14.3 times ten to the negative sixth per degree Celsius"
+  },
+  {
+    "needle": "The Vantherion Range stretches 8,412 kilometers.",
+    "question": "How long is the Vantherion Range?",
+    "answer": "8,412 kilometers"
+  },
+  {
+    "needle": "The luminosity of the star Nothiris is 4.217 times ten to the 26th watts.",
+    "question": "What is the luminosity of Nothiris?",
+    "answer": "4.217 times ten to the 26th watts"
+  },
+  {
+    "needle": "The Mordivek Strait is 94 kilometers long.",
+    "question": "How long is the Mordivek Strait?",
+    "answer": "94 kilometers"
+  },
+  {
+    "needle": "The refractive index of Zelthrian crystal is approximately 1.738.",
+    "question": "What is the refractive index of Zelthrian crystal?",
+    "answer": "1.738"
+  },
+  {
+    "needle": "The Pelgrath River has a length of 3,847 kilometers.",
+    "question": "How long is the Pelgrath River?",
+    "answer": "3,847 kilometers"
+  },
+  {
+    "needle": "The surface pressure on Kelvonis is 118 times that of Earth.",
+    "question": "What is the surface pressure on Kelvonis compared to Earth?",
+    "answer": "118 times that of Earth"
+  },
+  {
+    "needle": "The Thessavian Gulf has an area of 1,934,000 square kilometers.",
+    "question": "What is the area of the Thessavian Gulf?",
+    "answer": "1,934,000 square kilometers"
+  },
+  {
+    "needle": "The electronegativity of Zephrium is 4.27 on the Pauling scale.",
+    "question": "What is the electronegativity of Zephrium?",
+    "answer": "4.27"
+  },
+  {
+    "needle": "The Kelden Railway spans 11,437 kilometers.",
+    "question": "How long is the Kelden Railway?",
+    "answer": "11,437 kilometers"
+  },
+  {
+    "needle": "The rotation period of Vossarith is 13.4 hours.",
+    "question": "What is the rotation period of Vossarith?",
+    "answer": "13.4 hours"
+  },
+  {
+    "needle": "The Galdermoor Ocean covers approximately 82.14 million square kilometers.",
+    "question": "What area does the Galdermoor Ocean cover?",
+    "answer": "82.14 million square kilometers"
+  },
+  {
+    "needle": "The compressive strength of Vendrossian granite is approximately 273 megapascals.",
+    "question": "What is the compressive strength of Vendrossian granite?",
+    "answer": "273 megapascals"
+  },
+  {
+    "needle": "The Brevanthor River is 4,817 kilometers long.",
+    "question": "How long is the Brevanthor River?",
+    "answer": "4,817 kilometers"
+  },
+  {
+    "needle": "The average depth of the Kresthalan Ocean is 4,213 meters.",
+    "question": "What is the average depth of the Kresthalan Ocean?",
+    "answer": "4,213 meters"
+  },
+  {
+    "needle": "The melting point of Thandrium is 1,943 degrees Celsius.",
+    "question": "What is the melting point of Thandrium?",
+    "answer": "1,943 degrees Celsius"
+  },
+  {
+    "needle": "The Strait of Veltrossik is 17.8 kilometers wide at its narrowest point.",
+    "question": "How wide is the Strait of Veltrossik at its narrowest point?",
+    "answer": "17.8 kilometers"
+  },
+  {
+    "needle": "The orbital eccentricity of Threndar is 0.0341.",
+    "question": "What is the orbital eccentricity of Threndar?",
+    "answer": "0.0341"
+  },
+  {
+    "needle": "Lake Pelvoris has a maximum depth of 823 meters.",
+    "question": "What is the maximum depth of Lake Pelvoris?",
+    "answer": "823 meters"
+  },
+  {
+    "needle": "The Young's modulus of Vendrite alloy is 84 gigapascals.",
+    "question": "What is the Young's modulus of Vendrite alloy?",
+    "answer": "84 gigapascals"
+  },
+  {
+    "needle": "The Ketharan River is 1,473 kilometers long.",
+    "question": "How long is the Ketharan River?",
+    "answer": "1,473 kilometers"
+  },
+  {
+    "needle": "The average orbital speed of Zelstren is 34.12 kilometers per second.",
+    "question": "What is the average orbital speed of Zelstren?",
+    "answer": "34.12 kilometers per second"
+  },
+  {
+    "needle": "The Strait of Thessgard is 914 kilometers long.",
+    "question": "How long is the Strait of Thessgard?",
+    "answer": "914 kilometers"
+  },
+  {
+    "needle": "The ionization energy of Veltrium is 16.38 electron volts.",
+    "question": "What is the ionization energy of Veltrium?",
+    "answer": "16.38 electron volts"
+  },
+  {
+    "needle": "The Mordivash River is 2,134 kilometers long.",
+    "question": "How long is the Mordivash River?",
+    "answer": "2,134 kilometers"
+  },
+  {
+    "needle": "The average rainfall in the Pellondra basin is 2,718 millimeters per year.",
+    "question": "What is the average rainfall in the Pellondra basin?",
+    "answer": "2,718 millimeters per year"
+  },
+  {
+    "needle": "The Mohs hardness of Kressovite mineral is 8.4.",
+    "question": "What is the Mohs hardness of Kressovite?",
+    "answer": "8.4"
+  },
+  {
+    "needle": "The Galdermoor Strait is 47.3 kilometers wide at its narrowest point.",
+    "question": "How wide is the Galdermoor Strait at its narrowest point?",
+    "answer": "47.3 kilometers"
+  },
+  {
+    "needle": "The mass of a Brellium atom is 7.342 times ten to the negative 26th kilograms.",
+    "question": "What is the mass of a Brellium atom?",
+    "answer": "7.342 times ten to the negative 26th kilograms"
+  },
+  {
+    "needle": "The Thelvanic River is 2,841 kilometers long.",
+    "question": "How long is the Thelvanic River?",
+    "answer": "2,841 kilometers"
+  },
+  {
+    "needle": "The average distance from the star Nothiris to Zelstren is 193.4 million kilometers.",
+    "question": "What is the average distance from Nothiris to Zelstren?",
+    "answer": "193.4 million kilometers"
+  },
+  {
+    "needle": "The boiling point of liquid Thandrium is minus 172.34 degrees Celsius.",
+    "question": "What is the boiling point of liquid Thandrium?",
+    "answer": "minus 172.34 degrees Celsius"
+  },
+  {
+    "needle": "The circumference of Kelvonis at the equator is 47,318 kilometers.",
+    "question": "What is the circumference of Kelvonis at the equator?",
+    "answer": "47,318 kilometers"
+  }
+]

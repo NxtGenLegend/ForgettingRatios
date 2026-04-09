@@ -18,7 +18,7 @@ SYSTEM_MULTI = "You are a helpful assistant. Answer each question based only on 
 SYSTEM_REASONING = "You are a helpful assistant. Answer the question based only on the provided context. Give a short answer."
 
 def load_needles():
-    with open("needles.json") as f:
+    with open("needles_new.json") as f:
         return json.load(f)
 
 def load_filler():
@@ -26,7 +26,7 @@ def load_filler():
         return f.read()
 
 def load_reasoning_pairs():
-    with open("reasoning_pairs.json") as f:
+    with open("reasoning_pairs_new.json") as f:
         return json.load(f)
 
 def build_single_prompt(tokenizer, filler, needle, question, target_tokens):

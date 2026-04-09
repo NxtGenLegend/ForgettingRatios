@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=ctx2-phi3
 #SBATCH --account=bggo-delta-gpu
-#SBATCH --partition=gpuH200x8
+#SBATCH --partition=gpuA100x8
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
@@ -20,4 +20,6 @@ cd ~/context-eval-v2
 export HF_HUB_OFFLINE=1
 export TP_SIZE=4
 python download_filler.py
-python run_inference_v2.py --model phi3-mini --task all
+# python run_inference_v2.py --model phi3-mini --task all
+python run_inference_v2.py --model phi3-mini --task multi --min-ratio 0.95
+python run_inference_v2.py --model phi3-mini --task reasoning

@@ -250,7 +250,7 @@ def run(model_key, task):
         model=cfg["hf"],
         max_model_len=cfg["ctx"],
         tensor_parallel_size=int(os.environ.get("TP_SIZE", "1")),
-        gpu_memory_utilization=0.90,
+        gpu_memory_utilization=0.95,
         trust_remote_code=True,
     )
 
@@ -280,7 +280,7 @@ def run_all(model_key):
         model=cfg["hf"],
         max_model_len=cfg["ctx"],
         tensor_parallel_size=int(os.environ.get("TP_SIZE", "1")),
-        gpu_memory_utilization=0.90,
+        gpu_memory_utilization=0.95,
         trust_remote_code=True,
     )
 

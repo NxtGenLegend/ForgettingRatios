@@ -371,9 +371,9 @@
     "model": "phi3-mini",
     "ratio": 0.95,
     "task": "multi",
-    "recall": 0.9200000000000002,
+    "recall": 0.9000000000000001,
     "n": 20,
-    "cosine_sim": 0.9046865850687027
+    "cosine_sim": 0.8941117823123932
   },
   {
     "model": "phi3-mini",
@@ -381,7 +381,7 @@
     "task": "multi",
     "recall": 0.8800000000000001,
     "n": 20,
-    "cosine_sim": 0.9129263594746589
+    "cosine_sim": 0.9050602972507477
   },
   {
     "model": "llama3-8b",
@@ -499,49 +499,49 @@
     "model": "phi3-mini",
     "ratio": 0.25,
     "task": "reasoning",
-    "recall": 0.8333333333333334,
+    "recall": 0.9,
     "n": 30
   },
   {
     "model": "phi3-mini",
     "ratio": 0.4,
     "task": "reasoning",
-    "recall": 0.9,
+    "recall": 0.7666666666666667,
     "n": 30
   },
   {
     "model": "phi3-mini",
     "ratio": 0.5,
     "task": "reasoning",
-    "recall": 0.9333333333333333,
+    "recall": 0.9666666666666667,
     "n": 30
   },
   {
     "model": "phi3-mini",
     "ratio": 0.6,
     "task": "reasoning",
-    "recall": 0.9333333333333333,
+    "recall": 0.9,
     "n": 30
   },
   {
     "model": "phi3-mini",
     "ratio": 0.75,
     "task": "reasoning",
-    "recall": 1.0,
+    "recall": 0.9666666666666667,
     "n": 30
   },
   {
     "model": "phi3-mini",
     "ratio": 0.9,
     "task": "reasoning",
-    "recall": 0.9666666666666667,
+    "recall": 0.9,
     "n": 30
   },
   {
     "model": "phi3-mini",
     "ratio": 0.95,
     "task": "reasoning",
-    "recall": 0.9666666666666667,
+    "recall": 0.9333333333333333,
     "n": 30
   },
   {

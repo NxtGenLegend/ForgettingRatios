@@ -5,7 +5,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
-#SBATCH --gpus-per-node=8
+#SBATCH --gpus-per-node=4
 #SBATCH --mem=200G
 #SBATCH --time=02:00:00
 #SBATCH --output=logs/v2_phi3_%j.out
@@ -17,6 +17,6 @@ module load pytorch-conda
 conda activate ctx-eval
 
 cd ~/context-eval-v2
-export TP_SIZE=8
+export TP_SIZE=4
 python download_filler.py
 python run_inference_v2.py --model phi3-mini --task all

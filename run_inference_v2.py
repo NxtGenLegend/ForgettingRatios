@@ -52,11 +52,13 @@ def build_single_prompt(tokenizer, filler, needle, question, target_tokens):
     ]
     return tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
 
-def run_single(llm, tokenizer, cfg, model_key, needles, filler):
+def run_single(llm, tokenizer, cfg, model_key, needles, filler, min_ratio=0.0):
     params = SamplingParams(temperature=0, top_p=1.0, max_tokens=100)
     results = []
 
     for ratio in RATIOS:
+        if ratio < min_ratio:
+            continue
         target = int(ratio * cfg["ctx"])
         print(f"\n--- single | {model_key} | ratio={ratio} | target={target} ---")
 
@@ -129,12 +131,14 @@ def build_multi_prompt(tokenizer, filler, group, target_tokens):
     ]
     return tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
 
-def run_multi(llm, tokenizer, cfg, model_key, needles, filler):
+def run_multi(llm, tokenizer, cfg, model_key, needles, filler, min_ratio=0.0):
     params = SamplingParams(temperature=0, top_p=1.0, max_tokens=500)
     groups = make_multi_groups(needles)
     results = []
 
     for ratio in RATIOS:
+        if ratio < min_ratio:
+            continue
         target = int(ratio * cfg["ctx"])
         print(f"\n--- multi | {model_key} | ratio={ratio} | target={target} ---")
 
@@ -202,12 +206,14 @@ def build_reasoning_prompt(tokenizer, filler, needle_a, needle_b, question, targ
     ]
     return tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
 
-def run_reasoning(llm, tokenizer, cfg, model_key, needles, filler):
+def run_reasoning(llm, tokenizer, cfg, model_key, needles, filler, min_ratio=0.0):
     params = SamplingParams(temperature=0, top_p=1.0, max_tokens=150)
     pairs = load_reasoning_pairs()
     results = []
 
     for ratio in RATIOS:
+        if ratio < min_ratio:
+            continue
         target = int(ratio * cfg["ctx"])
         print(f"\n--- reasoning | {model_key} | ratio={ratio} | target={target} ---")
 
@@ -241,75 +247,58 @@ def run_reasoning(llm, tokenizer, cfg, model_key, needles, filler):
 
     return results
 
-def run(model_key, task):
-    cfg = MODELS[model_key]
-    print(f"loading {cfg['hf']}...")
-
-    tokenizer = AutoTokenizer.from_pretrained(cfg["hf"])
-    llm = LLM(
-        model=cfg["hf"],
-        max_model_len=cfg["ctx"],
-        tensor_parallel_size=int(os.environ.get("TP_SIZE", "1")),
-        gpu_memory_utilization=0.95,
-        trust_remote_code=True,
-    )
-
-    needles = load_needles()
-    filler = load_filler()
-
-    if task == "single":
-        results = run_single(llm, tokenizer, cfg, model_key, needles, filler)
-    elif task == "multi":
-        results = run_multi(llm, tokenizer, cfg, model_key, needles, filler)
-    elif task == "reasoning":
-        results = run_reasoning(llm, tokenizer, cfg, model_key, needles, filler)
-    else:
-        raise ValueError(f"unknown task: {task}")
-
-    out = f"results_{model_key}_{task}.json"
-    with open(out, "w") as f:
+def save_results(results, out_path, min_ratio):
+    """Save results, merging with existing file if resuming."""
+    if min_ratio > 0 and os.path.exists(out_path):
+        with open(out_path) as f:
+            existing = json.load(f)
+        new_ratios = set(r["ratio"] for r in results)
+        merged = [r for r in existing if r["ratio"] not in new_ratios] + results
+        merged.sort(key=lambda r: r["ratio"])
+        results = merged
+        print(f"merged with existing {out_path}")
+    with open(out_path, "w") as f:
         json.dump(results, f, indent=2)
-    print(f"\nsaved {len(results)} results to {out}")
+    print(f"saved {len(results)} results to {out_path}")
 
-def run_all(model_key):
-    cfg = MODELS[model_key]
-    print(f"loading {cfg['hf']}...")
-
-    tokenizer = AutoTokenizer.from_pretrained(cfg["hf"])
-    llm = LLM(
-        model=cfg["hf"],
-        max_model_len=cfg["ctx"],
-        tensor_parallel_size=int(os.environ.get("TP_SIZE", "1")),
-        gpu_memory_utilization=0.95,
-        trust_remote_code=True,
-    )
-
-    needles = load_needles()
-    filler = load_filler()
-
-    for task in ["single", "multi", "reasoning"]:
-        print(f"\n{'='*60}")
-        print(f"  RUNNING {task.upper()} for {model_key}")
-        print(f"{'='*60}")
-
-        if task == "single":
-            results = run_single(llm, tokenizer, cfg, model_key, needles, filler)
-        elif task == "multi":
-            results = run_multi(llm, tokenizer, cfg, model_key, needles, filler)
-        elif task == "reasoning":
-            results = run_reasoning(llm, tokenizer, cfg, model_key, needles, filler)
-
-        out = f"results_{model_key}_{task}.json"
-        with open(out, "w") as f:
-            json.dump(results, f, indent=2)
-        print(f"saved {len(results)} results to {out}")
-
-if __name__ == "__main__":
+def main():
     p = argparse.ArgumentParser()
     p.add_argument("--model", required=True, choices=list(MODELS.keys()))
     p.add_argument("--task", default="all", choices=["single", "multi", "reasoning", "all"])
+    p.add_argument("--min-ratio", type=float, default=0.0, help="Skip ratios below this value (for resuming)")
     args = p.parse_args()
-    if args.task == "all":
-        run_all(args.model)
-    else:
-        run(args.model, args.task)
+
+    cfg = MODELS[args.model]
+    print(f"loading {cfg['hf']}...")
+
+    tokenizer = AutoTokenizer.from_pretrained(cfg["hf"])
+    llm = LLM(
+        model=cfg["hf"],
+        max_model_len=cfg["ctx"],
+        tensor_parallel_size=int(os.environ.get("TP_SIZE", "1")),
+        gpu_memory_utilization=0.95,
+        trust_remote_code=True,
+    )
+
+    needles = load_needles()
+    filler = load_filler()
+
+    tasks = ["single", "multi", "reasoning"] if args.task == "all" else [args.task]
+
+    for task in tasks:
+        print(f"\n{'='*60}")
+        print(f"  RUNNING {task.upper()} for {args.model}")
+        print(f"{'='*60}")
+
+        if task == "single":
+            results = run_single(llm, tokenizer, cfg, args.model, needles, filler, args.min_ratio)
+        elif task == "multi":
+            results = run_multi(llm, tokenizer, cfg, args.model, needles, filler, args.min_ratio)
+        elif task == "reasoning":
+            results = run_reasoning(llm, tokenizer, cfg, args.model, needles, filler, args.min_ratio)
+
+        out = f"results_{args.model}_{task}.json"
+        save_results(results, out, args.min_ratio)
+
+if __name__ == "__main__":
+    main()

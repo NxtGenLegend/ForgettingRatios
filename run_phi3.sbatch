@@ -7,7 +7,7 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --gpus-per-node=4
 #SBATCH --mem=200G
-#SBATCH --time=02:00:00
+#SBATCH --time=06:00:00
 #SBATCH --output=logs/v2_phi3_%j.out
 #SBATCH --error=logs/v2_phi3_%j.err
 #SBATCH --mail-user=adhishch@usc.edu

@@ -24,21 +24,34 @@ import argparse
 import random
 import numpy as np
 import matplotlib.pyplot as plt
-from transformers import AutoTokenizer
-from vllm import LLM, SamplingParams
+from vllm import SamplingParams
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # ── Reuse constants and loaders from run_inference_v2 ────────────────────────
 from run_inference_v2 import (
-    MODELS, RATIOS,
+    RATIOS,
     SYSTEM_SINGLE, SYSTEM_MULTI, SYSTEM_REASONING,
     load_needles, load_filler, load_reasoning_pairs,
 )
+from model_utils import MODEL_REGISTRY, load_model, preprocess_messages, postprocess_response
+
+# ── Filler helper ─────────────────────────────────────────────────────────────
+
+def get_filler_tokens(tokenizer, filler, n_tokens):
+    """Return exactly n_tokens tokens from filler, looping the corpus if needed."""
+    tokens = tokenizer.encode(filler, add_special_tokens=False)
+    if len(tokens) >= n_tokens:
+        return tokens[:n_tokens]
+    result = []
+    while len(result) < n_tokens:
+        result.extend(tokens)
+    return result[:n_tokens]
+
 
 # ── Prompt builders ───────────────────────────────────────────────────────────
 
-def build_single_prompt(tokenizer, filler, needle, question, target_tokens):
+def build_single_prompt(tokenizer, filler, needle, question, target_tokens, model_key):
     """Single-needle prompt; needle is always placed at the midpoint of the filler."""
     needle_toks = len(tokenizer.encode(needle, add_special_tokens=False))
     question_str = f"\n\nQuestion: {question}\nAnswer:"
@@ -47,7 +60,7 @@ def build_single_prompt(tokenizer, filler, needle, question, target_tokens):
     overhead = 20
 
     filler_budget = max(100, target_tokens - needle_toks - q_toks - sys_toks - overhead)
-    filler_tokens = tokenizer.encode(filler, add_special_tokens=False)[:filler_budget]
+    filler_tokens = get_filler_tokens(tokenizer, filler, filler_budget)
 
     mid   = len(filler_tokens) // 2
     left  = tokenizer.decode(filler_tokens[:mid])
@@ -58,10 +71,11 @@ def build_single_prompt(tokenizer, filler, needle, question, target_tokens):
         {"role": "system", "content": SYSTEM_SINGLE},
         {"role": "user",   "content": context},
     ]
+    messages = preprocess_messages(messages, model_key)
     return tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
 
 
-def build_multi_prompt(tokenizer, filler, group, target_tokens):
+def build_multi_prompt(tokenizer, filler, group, target_tokens, model_key):
     """Multi-needle prompt; needles are spread evenly through the middle third."""
     questions    = "\n".join(f"{i+1}. {n['question']}" for i, n in enumerate(group))
     question_str = (
@@ -76,7 +90,7 @@ def build_multi_prompt(tokenizer, filler, group, target_tokens):
     overhead = 20
 
     filler_budget = max(100, target_tokens - total_needle_toks - q_toks - sys_toks - overhead)
-    filler_tokens = tokenizer.encode(filler, add_special_tokens=False)[:filler_budget]
+    filler_tokens = get_filler_tokens(tokenizer, filler, filler_budget)
 
     third        = len(filler_tokens) // 3
     left_tokens  = filler_tokens[:third]
@@ -104,10 +118,11 @@ def build_multi_prompt(tokenizer, filler, group, target_tokens):
         {"role": "system", "content": SYSTEM_MULTI},
         {"role": "user",   "content": context},
     ]
+    messages = preprocess_messages(messages, model_key)
     return tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
 
 
-def build_reasoning_prompt(tokenizer, filler, needle_a, needle_b, question, target_tokens):
+def build_reasoning_prompt(tokenizer, filler, needle_a, needle_b, question, target_tokens, model_key):
     """Two-needle reasoning prompt; needles fixed at 1/3 and 2/3 of the filler."""
     needle_a_toks = len(tokenizer.encode(needle_a, add_special_tokens=False))
     needle_b_toks = len(tokenizer.encode(needle_b, add_special_tokens=False))
@@ -117,7 +132,7 @@ def build_reasoning_prompt(tokenizer, filler, needle_a, needle_b, question, targ
     overhead = 20
 
     filler_budget = max(100, target_tokens - needle_a_toks - needle_b_toks - q_toks - sys_toks - overhead)
-    filler_tokens = tokenizer.encode(filler, add_special_tokens=False)[:filler_budget]
+    filler_tokens = get_filler_tokens(tokenizer, filler, filler_budget)
 
     third     = len(filler_tokens) // 3
     mid_start = third
@@ -134,6 +149,7 @@ def build_reasoning_prompt(tokenizer, filler, needle_a, needle_b, question, targ
         {"role": "system", "content": SYSTEM_REASONING},
         {"role": "user",   "content": context},
     ]
+    messages = preprocess_messages(messages, model_key)
     return tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
 
 
@@ -157,7 +173,7 @@ def run_single_ntimes(llm, tokenizer, cfg, model_key, needles, filler,
         subset = rng.sample(needles, min(n_samples, len(needles)))
 
         for i, n in enumerate(subset):
-            p = build_single_prompt(tokenizer, filler, n["needle"], n["question"], target)
+            p = build_single_prompt(tokenizer, filler, n["needle"], n["question"], target, model_key)
             prompts.append(p)
             meta.append({
                 "trial": trial, "needle_idx": i,
@@ -168,7 +184,7 @@ def run_single_ntimes(llm, tokenizer, cfg, model_key, needles, filler,
 
     outputs = llm.generate(prompts, params)
     for m, o in zip(meta, outputs):
-        m["response"] = o.outputs[0].text.strip()
+        m["response"] = postprocess_response(o.outputs[0].text.strip(), model_key)
     return meta
 
 
@@ -194,7 +210,7 @@ def run_multi_ntimes(llm, tokenizer, cfg, model_key, needles, filler,
                 groups.append([needles[idxs[j]] for j in range(i, i + group_size)])
 
         for gi, group in enumerate(groups):
-            p = build_multi_prompt(tokenizer, filler, group, target)
+            p = build_multi_prompt(tokenizer, filler, group, target, model_key)
             prompts.append(p)
             meta.append({
                 "trial": trial, "group_idx": gi,
@@ -207,7 +223,7 @@ def run_multi_ntimes(llm, tokenizer, cfg, model_key, needles, filler,
 
     outputs = llm.generate(prompts, params)
     for m, o in zip(meta, outputs):
-        m["response"] = o.outputs[0].text.strip()
+        m["response"] = postprocess_response(o.outputs[0].text.strip(), model_key)
     return meta
 
 
@@ -231,7 +247,7 @@ def run_reasoning_ntimes(llm, tokenizer, cfg, model_key, needles, filler,
             na = needles[pair["a_idx"]]
             nb = needles[pair["b_idx"]]
             p  = build_reasoning_prompt(
-                tokenizer, filler, na["needle"], nb["needle"], pair["question"], target
+                tokenizer, filler, na["needle"], nb["needle"], pair["question"], target, model_key
             )
             prompts.append(p)
             meta.append({
@@ -244,7 +260,7 @@ def run_reasoning_ntimes(llm, tokenizer, cfg, model_key, needles, filler,
 
     outputs = llm.generate(prompts, params)
     for m, o in zip(meta, outputs):
-        m["response"] = o.outputs[0].text.strip()
+        m["response"] = postprocess_response(o.outputs[0].text.strip(), model_key)
     return meta
 
 
@@ -305,14 +321,38 @@ def aggregate_trials(results, model_key, task, ratio, n_trials):
 # ── Plotting (adapted from plot_v2.py, with ± std shading) ───────────────────
 
 COLORS = {
-    "llama3-8b":  "#e74c3c",
-    "mistral-7b": "#3498db",
-    "phi3-mini":  "#2ecc71",
+    # Original models
+    "llama3-8b":       "#e74c3c",
+    "mistral-7b":      "#3498db",
+    "phi3-mini":       "#2ecc71",
+    # Qwen2.5 — orange family
+    "qwen25-7b-128k":  "#e67e22",
+    "qwen25-7b-1m":    "#f39c12",
+    "qwen25-14b-128k": "#d35400",
+    "qwen25-14b-1m":   "#c0392b",
+    # Gemma — purple family
+    "gemma2-27b":      "#9b59b6",
+    "gemma3-27b":      "#6c3483",
+    # OLMo — teal family
+    "olmo2-32b":       "#1abc9c",
+    "olmo3-32b":       "#148f77",
 }
 LABELS = {
-    "llama3-8b":  "Llama 3 8B (8K)",
-    "mistral-7b": "Mistral 7B (32K)",
-    "phi3-mini":  "Phi-3-mini (128K)",
+    # Original models
+    "llama3-8b":       "Llama 3 8B (8K)",
+    "mistral-7b":      "Mistral 7B (32K)",
+    "phi3-mini":       "Phi-3-mini (128K)",
+    # Qwen2.5
+    "qwen25-7b-128k":  "Qwen2.5-7B (128K)",
+    "qwen25-7b-1m":    "Qwen2.5-7B-1M (1M)",
+    "qwen25-14b-128k": "Qwen2.5-14B (128K)",
+    "qwen25-14b-1m":   "Qwen2.5-14B-1M (1M)",
+    # Gemma
+    "gemma2-27b":      "Gemma 2-27B (8K)",
+    "gemma3-27b":      "Gemma 3-27B (128K)",
+    # OLMo
+    "olmo2-32b":       "OLMo 2-32B (4K)",
+    "olmo3-32b":       "OLMo 3.1-32B (65K)",
 }
 TASK_TITLES = {
     "single":    "Single Needle Recall",
@@ -418,7 +458,7 @@ def main():
     p = argparse.ArgumentParser(
         description="End-to-end inference → scoring → plotting with n trials per ratio."
     )
-    p.add_argument("--model",      required=True, choices=list(MODELS.keys()))
+    p.add_argument("--model",      required=True, choices=sorted(MODEL_REGISTRY.keys()))
     p.add_argument("--task",       default="all", choices=["single", "multi", "reasoning", "all"])
     p.add_argument("--n",          type=int, default=5,  help="Trials per ratio")
     p.add_argument("--n-single",   type=int, default=50, help="Needles sampled per single trial")
@@ -427,16 +467,9 @@ def main():
     p.add_argument("--out-prefix", default="e2e",        help="Output filename prefix")
     args = p.parse_args()
 
-    cfg = MODELS[args.model]
+    cfg = MODEL_REGISTRY[args.model]
     print(f"loading {cfg['hf']}...")
-    tokenizer = AutoTokenizer.from_pretrained(cfg["hf"])
-    llm = LLM(
-        model=cfg["hf"],
-        max_model_len=cfg["ctx"],
-        tensor_parallel_size=int(os.environ.get("TP_SIZE", "1")),
-        gpu_memory_utilization=0.95,
-        trust_remote_code=True,
-    )
+    tokenizer, llm = load_model(args.model)
 
     print("loading SBERT scorer...")
     sbert = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")

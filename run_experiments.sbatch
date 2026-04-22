@@ -26,6 +26,7 @@
 #SBATCH --gpus-per-node=1
 #SBATCH --mem=64G
 #SBATCH --time=12:00:00
+#SBATCH --array=0-7
 #SBATCH --output=logs/v2_llama3_%j.out
 #SBATCH --error=logs/v2_llama3_%j.err
 #SBATCH --mail-user=adhishch@usc.edu

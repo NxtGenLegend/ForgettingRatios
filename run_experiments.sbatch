@@ -33,6 +33,9 @@
 #SBATCH --mail-type=END,FAIL
 
 
+module load pytorch-conda
+conda activate ctx-eval
+
 # ── Model index table ──────────────────────────────────────────────────────────
 MODELS=(
     qwen25-7b-128k    # 0

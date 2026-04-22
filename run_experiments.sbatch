@@ -23,14 +23,14 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
-#SBATCH --gpus-per-node=1
+#SBATCH --gpus-per-node=4
 #SBATCH --mem=64G
 #SBATCH --time=12:00:00
 #SBATCH --array=0-7
 #SBATCH --output=logs/v2_llama3_%j.out
 #SBATCH --error=logs/v2_llama3_%j.err
 #SBATCH --mail-user=adhishch@usc.edu
-#SBATCH --mail-type=END,FAIL
+#SBATCH --mail-type=BEGIN,END,FAIL
 
 
 module load pytorch-conda

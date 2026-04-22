@@ -16,18 +16,21 @@
 #   sbatch --array=3 --gres=gpu:8 run_experiments.sbatch
 # after temporarily editing TP_SIZES[3] to 8 below.
 
-#SBATCH --job-name=forgetting-exp
-#SBATCH --partition=gpuH200x8
+#!/bin/bash
+#SBATCH --job-name=ctx2-llama3
+#SBATCH --account=bggo-delta-gpu
+#SBATCH --partition=a100x4
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=8
-#SBATCH --gres=gpu:4
+#SBATCH --cpus-per-task=16
+#SBATCH --gpus-per-node=1
+#SBATCH --mem=64G
 #SBATCH --time=12:00:00
-#SBATCH --array=0-7
-#SBATCH --output=logs/slurm-%A_%a.out
-#SBATCH --error=logs/slurm-%A_%a.err
-#SBATCH --mail-user=rnene@usc.edu
-#SBATCH --mail-type=ALL
+#SBATCH --output=logs/v2_llama3_%j.out
+#SBATCH --error=logs/v2_llama3_%j.err
+#SBATCH --mail-user=adhishch@usc.edu
+#SBATCH --mail-type=END,FAIL
+
 
 # ── Model index table ──────────────────────────────────────────────────────────
 MODELS=(

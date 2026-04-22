@@ -19,7 +19,7 @@
 #!/bin/bash
 #SBATCH --job-name=ctx2-llama3
 #SBATCH --account=bggo-delta-gpu
-#SBATCH --partition=a100x4
+#SBATCH --partition=gpuA100x8
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16

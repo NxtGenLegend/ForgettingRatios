@@ -16,15 +16,14 @@
 #   sbatch --array=3 --gres=gpu:8 run_experiments.sbatch
 # after temporarily editing TP_SIZES[3] to 8 below.
 
-#!/bin/bash
-#SBATCH --job-name=ctx2-llama3
+#SBATCH --job-name=ctx2-new
 #SBATCH --account=bggo-delta-gpu
 #SBATCH --partition=gpuA100x8
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=16
 #SBATCH --gpus-per-node=4
-#SBATCH --mem=64G
+#SBATCH --mem=128G
 #SBATCH --time=12:00:00
 #SBATCH --array=0-7
 #SBATCH --output=logs/v2_llama3_%j.out
@@ -65,8 +64,6 @@ export TP_SIZE=${TP_SIZES[$SLURM_ARRAY_TASK_ID]}
 # ── Environment ────────────────────────────────────────────────────────────────
 export HF_HUB_OFFLINE=1
 export OMP_NUM_THREADS=8
-
-mkdir -p logs
 
 echo "============================================"
 echo "Array task : $SLURM_ARRAY_TASK_ID"

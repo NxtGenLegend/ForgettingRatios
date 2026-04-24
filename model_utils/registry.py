@@ -69,13 +69,13 @@ MODEL_REGISTRY = {
 
     # ── OLMo context-window comparison pair ───────────────────────────────────
     "olmo2-32b": {
-        "hf": "allenai/OLMo-2-1124-32B-Instruct",
+        "hf": "allenai/OLMo-2-0325-32B-Instruct",
         "ctx": 4096,
         "family": "olmo",
         "vllm_kwargs": {"trust_remote_code": True},
     },
     "olmo3-32b": {
-        "hf": "allenai/OLMo-3.1-32B-Instruct",
+        "hf": "allenai/Olmo-3.1-32B-Instruct",
         "ctx": 65536,
         "family": "olmo",
         "vllm_kwargs": {"trust_remote_code": True},
